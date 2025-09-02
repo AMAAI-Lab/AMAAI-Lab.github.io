@@ -1,0 +1,23 @@
+- name: Geeta Puri
+  photo: geeta.png
+  bio: "Geeta is a PhD student at the Singapore University of Technology and Design (SUTD), and is mentored by Assistant Professor Dorien Herremans. Geeta has more than two decades of professional experience across diverse technological domains such as Telco, IoT, and EdTech. Prior to joining SUTD as a full time PhD graduate student, Geeta served as a Business Developer and General Manager at an EdTech firm in Singapore. She also founded two innovative startups in technology. Collaborating closely with engineering teams, Geeta spearheaded platform and app development initiatives while actively shaping go-to-market strategies, and brings invaluable insights and experiences from her entrepreneurship journey to the PhD program. Geeta's research focus lies in the dynamic realm of artificial intelligence, particularly its applications in education. She envisions boundless potential in leveraging AI to empower both students and educators with tailored learning tools and methodologies. Presently, she is engaged in a research endeavour at GameLab @SUTD aimed at optimising student engagement with learning apps to enhance learning outcomes."
+
+- name: Tongyu Lu
+  photo: tongyu.png
+  bio: "Tongyu Lu is a Ph.D student at Singapore University of Technology and Design. His current Ph.D research topic mainly covers text-to-audio generative models, audio codecs (encoder-decoders), symbolic music processing and generation, and music information retrieval tasks like automatic music transcription. He is also an amateur composer mainly producing jazz and chamber music"
+  
+- name: Sithumi Wickramasinghe
+  photo: sithumi.png
+  bio: "I’m a PhD student at the Singapore University of Technology and Design (SUTD) since September 2024. I received my Bachelor of Science Honours degree in Industrial Statistics from University of Colombo, Sri Lanka. Before joining as a PhD student at SUTD, I worked as a Machine Learning engineer in Sri Lanka. My research interest lies in the field of Machine learning, Optimizations and Fintech."
+
+- name: Jan Melechovsky
+  photo: jan.png
+  bio: "Jan is a PhD student in Singapore University of Technology and Design (SUTD), under the supervision of Assistant Professor Dorien Herremans. He received both his Bachelor of Science and Master of Science in Electronics and Communications programme with focus on Multimedia and Signal Processing from the Czech Technical University in Prague. Jan's research interest is in speech processing, specifically in dysarthric and accented speech."
+
+- name: Kyra Wang
+  photo: council.png
+  bio: "Kyra is a PhD student in Singapore University of Technology and Design (SUTD), under the supervision of Assistant Professor Dorien Herremans. She received her Bachelor of Engineering (Artificial Intelligence Specialization Track) from SUTD. Kyra's research interests focus around affective computing, neurotechnology and human-computer interaction. She believes that there is an ethical need to challenge the idea that the human condition is fundamentally unalterable, and that through the liberation and empowerment of marginalized groups using technology, we can create not only a more equal world, but a more equitable one."
+
+- name: Perry Lam Wee Hian
+  photo: perry.png
+  bio: "Perry is a PhD student at SUTD who returned after graduating with a BSc in 2015. He is interested in psychology and linguistics, but still being funded to do AI and machine learning. This is why he is researching ways to reduce model training for speech synthesis and prosody variation, which lets him pretend to be a (non-qualified) linguist in the process."
