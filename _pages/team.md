@@ -10,8 +10,7 @@ permalink: /team/
 
  **We are looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows](#postdoctoral-fellows), [PhD students](#phd-students), [MSc students](#msc-students), [Research Assistants](#research-assistants).
 
 ## Principal Investigator
 {% assign number_printed = 0 %}
@@ -28,42 +27,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <p>{{ member.bio }}</p>
-
-  <!--
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-  -->
   
 </div>
 
@@ -89,6 +52,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 ## Graduated Masters in Engineering students
 ## Former interns / visiting PhD students
 ## Selected SUTD UROP student collaborators
+
+
+
 
 ## Master and Bachelor Students
 {% assign number_printed = 0 %}
