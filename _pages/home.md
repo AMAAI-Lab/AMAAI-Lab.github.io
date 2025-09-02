@@ -20,6 +20,20 @@ We are a dynamic research group at the [Singapore University of Technology and D
   
 </div>
 
+Our PhD students and PostDoc researchers work on projects that explore areas such as:
+<ul>
+    <li>Generative Music AI: We investigate the design of intelligent systems such as Mustango text-to-music. </li>
+    <li>Music Information Retrieval: We design algorithms capable of navigating vast music libraries based on complex criteria such as mood, genre, or even specific emotions conveyed by the music. </li>
+    <li>AI Music Production: We explore the creation of AI assistants that can produce professional-quality music arrangements or remixes tailored to an individual's preferences. </li>
+    <li>Affective Computing for Music. </li>
+</ul>
+
+ **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+
+
+
+<!--
+
 To this end, we develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the  scientific questions we deem most important (see [Research](research)).
 
 We are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). We exchange ideas and work with our neighbors from [Quantum Matter & Optics](http://www.physics.leidenuniv.nl/qo-home), as well as with the colleagues from our [world-class theory section](https://www.lorentz.leidenuniv.nl).
@@ -36,7 +50,7 @@ We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi tal
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
 
-
+-->
 
 
 
