@@ -45,7 +45,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 ## Postdoctoral fellows
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.team_postdoc %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -56,7 +56,6 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
   <p>{{ member.bio }}</p>
   
 </div>
