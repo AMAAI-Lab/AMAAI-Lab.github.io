@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "AMAAI Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "AMAAI Lab at Singapore University of Technology and Design."
 sitemap: false
 permalink: /
 ---
