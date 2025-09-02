@@ -13,7 +13,7 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
 
-## Staff
+## Principal Investigator
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -75,8 +75,15 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 </div>
 {% endif %}
 
-
-
+## Postdoctoral fellows
+## PhD students
+## MSc students
+## Research Assistants
+## Former members (research staff)
+## Graduated PhD students
+## Graduated Masters in Engineering students
+## Former interns / visiting PhD students
+## Selected SUTD UROP student collaborators
 
 ## Master and Bachelor Students
 {% assign number_printed = 0 %}
