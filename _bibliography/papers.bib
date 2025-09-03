@@ -1,0 +1,1329 @@
+@article {2024,
+	title = {Are we there yet? A brief survey of Music Emotion Prediction Datasets, Models and Outstanding Challenges},
+	journal = {IEEE Transactions on Affective Computing},
+	year = {2025},
+	abstract = {Deep learning models for music have advanced drastically in the last few years. But how good are machine learning models at capturing emotion these days and what challenges are researchers facing? In this paper, we provide a comprehensive overview of the available music-emotion datasets and discuss evaluation standards as well as competitions in the field. We also provide a brief overview of various types of music emotion prediction models that have been built over the years, offering insights into the diverse approaches within the field. Through this examination, we highlight the challenges that persist in accurately capturing emotion in music. Recognizing the dynamic nature of this field, we have complemented our findings with an accompanying GitHub repository. This repository contains a comprehensive list of music emotion datasets and recent predictive models.},
+	url = {https://arxiv.org/abs/2406.08809},
+	author = {J. Kang and D. Herremans}
+}
+@conference {2025,
+	title = {Coarse-to-Fine Text-to-Music Latent Diffusion},
+	booktitle = {Proceedings of ICASSP},
+	year = {2025},
+	publisher = {IEEE},
+	organization = {IEEE},
+	abstract = {We introduce DiscoDiff, a text-to-music generative model that utilizes two latent diffusion models to produce high-fidelity 44.1kHz music hierarchically. Our approach significantly enhances audio quality through a coarse-to-fine generation strategy, leveraging residual vector quantization from the Descript Audio Codec. We consolidate this coarse-to-fine design through an important observation that the audio latent representation of can be split into primary and secondary part, controlling music contents and details accordingly. We validate the effectiveness of our approach and text-audio alignment through various objective metrics. Furthermore, we provide access to high-quality synthetic captions for the MTG-Jamendo and FMA datasets, as well as open-sourcing DiscoDiff{\textquoteright}s codebase and model checkpoints.},
+	url = {https://openreview.net/pdf/b3dcd6d5d6c26679621a2e6c176455d59658c0a8.pdf},
+	author = {L.A. Lanzend{\"o}rfer and T. Lu and N. Perraudin and D. Herremans and R. Wattenhofer}
+}
+@conference {2025,
+	title = {End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation},
+	booktitle = {Proceedings of IJCNN, Rome, Italy},
+	year = {2025},
+	author = {A. Tripathi and V. Patle and A. Jain and A. Pundir and S. Menon and A. Kumar Singh and D. Herremans}
+}
+@article {2025,
+	title = {An exploration of controllability in symbolic music infilling},
+	journal = {IEEE Access},
+	year = {2025},
+	doi = {0.1109/ACCESS.2025.3554648},
+	url = {https://ieeexplore.ieee.org/document/10938538},
+	author = {Rui Guo and D. Herremans}
+}
+@article {2022,
+	title = {Forecasting Bitcoin Volatility Spikes from Whale Transactions and Cryptoquant Data Using Synthesizer Transformer Models},
+	journal = {IEEE Access},
+	volume = {13},
+	year = {2025},
+	pages = {117788-117807},
+	abstract = {The cryptocurrency market is highly volatile compared to traditional financial markets. Hence, forecasting its volatility is crucial for risk management. In this paper, we investigate CryptoQuant data (e.g. on-chain analytics, exchange and miner data) and whale-alert tweets, and explore their relationship to Bitcoin{\textquoteright}s next-day volatility, with a focus on extreme volatility spikes. We propose a deep learning Synthesizer Transformer model for forecasting volatility. Our results show that the model outperforms existing state-of-the-art models when forecasting extreme volatility spikes for Bitcoin using CryptoQuant data as well as whale-alert tweets. We analysed our model with the Captum XAI library to investigate which features are most important. We also backtested our prediction results with different baseline trading strategies and the results show that we are able to minimize drawdown while keeping steady profits. Our findings underscore that the proposed method is a useful tool for forecasting extreme volatility movements in the Bitcoin market.},
+	issn = {2169-3536},
+	doi = {10.1109/ACCESS.2025.3584243},
+	url = {https://ieeexplore.ieee.org/document/11058926},
+	author = {D. Herremans and K.W. Low}
+}
+@conference {2025,
+	title = {ImprovNet: Generating Controllable Musical Improvisations with Iterative Corruption Refinement},
+	booktitle = {Proceedings of IJCNN, Rome, Italy},
+	year = {2025},
+	abstract = {Deep learning has enabled remarkable advances in style transfer across various domains, offering new possibilities for creative content generation. However, in the realm of symbolic music, generating controllable and expressive performance-level style transfers for complete musical works remains challenging due to limited datasets, especially for genres such as jazz, and the lack of unified models that can handle multiple music generation tasks. This paper presents ImprovNet, a transformer-based architecture that generates expressive and controllable musical improvisations through a self-supervised corruption-refinement training strategy. ImprovNet unifies multiple capabilities within a single model: it can perform cross-genre and intra-genre improvisations, harmonize melodies with genre-specific styles, and execute short prompt continuation and infilling tasks. The model{\textquoteright}s iterative generation framework allows users to control the degree of style transfer and structural similarity to the original composition. Objective and subjective evaluations demonstrate ImprovNet{\textquoteright}s effectiveness in generating musically coherent improvisations while maintaining structural relationships with the original pieces. The model outperforms Anticipatory Music Transformer in short continuation and infilling tasks and successfully achieves recognizable genre conversion, with 79\% of participants correctly identifying jazz-style improvisations. Our code and demo page can be found at this https URL (https://github.com/keshavbhandari/improvnet).},
+	url = {https://arxiv.org/abs/2502.04522},
+	author = {K. Bhandari and S. Chang and T. Lu and F. R. Enus and L. B. Bradshaw and D. Herremans and S. Colton}
+}
+@conference {2025,
+	title = {JamendoMaxCaps: A Large Scale Music-caption Dataset with Imputed Metadata},
+	booktitle = {Proceedings of IJCNN, Rome, Italy},
+	year = {2025},
+	abstract = {We introduce JamendoMaxCaps, a large-scale music-caption dataset featuring over 200,000 freely licensed instrumental tracks from the renowned Jamendo platform. The dataset includes captions generated by a state-of-the-art captioning model, enhanced with imputed metadata. We also introduce a retrieval system that leverages both musical features and metadata to identify similar songs, which are then used to fill in missing metadata using a local large language model (LLLM). This approach allows us to provide a more comprehensive and informative dataset for researchers working on music-language understanding tasks. We validate this approach quantitatively with five different measurements. By making the JamendoMaxCaps dataset publicly available, we provide a high-quality resource to advance research in music-language understanding tasks such as music retrieval, multimodal representation learning, and generative music models.},
+	url = {https://arxiv.org/abs/2502.07461},
+	author = {A. Roy and R. Liu and T. Lu and D. Herremans}
+}
+@conference {2025,
+	title = {Leveraging LLM Embeddings for Cross Dataset Label Alignment and Zero Shot Music Emotion Prediction},
+	year = {2025},
+	abstract = {In this work, we present a novel method for music emotion recognition that leverages Large Language Model (LLM) embeddings for label alignment across multiple datasets and zero-shot prediction on novel categories. First, we compute LLM embeddings for emotion labels and apply non-parametric clustering to group similar labels, across multiple datasets containing disjoint labels. We use these cluster centers to map music features (MERT) to the LLM embedding space. To further enhance the model, we introduce an alignment regularization that enables dissociation of MERT embeddings from different clusters. This further enhances the model{\textquoteright}s ability to better adaptation to unseen datasets. We demonstrate the effectiveness of our approach by performing zero-shot inference on a new dataset, showcasing its ability to generalize to unseen labels without additional training.},
+	url = {https://arxiv.org/abs/2410.11522},
+	author = {R. Liu and A. Roy and D. Herremans}
+}
+@article {2025,
+	title = {LLMs Can{\textquoteright}t Handle Peer Pressure: Crumbling under Multi-Agent Social Interactions},
+	journal = {arXiv:2508.18321},
+	year = {2025},
+	abstract = {Large language models (LLMs) are increasingly deployed in multi-agent systems (MAS) as components of collaborative intelligence, where peer interactions dynamically shape individual decision-making. Although prior work has focused on conformity bias, we extend the analysis to examine how LLMs form trust from previous impressions, resist misinformation, and integrate peer input during interaction, key factors for achieving collective intelligence under complex social dynamics. We present KAIROS, a benchmark simulating quiz contests with peer agents of varying reliability, offering fine-grained control over conditions such as expert-novice roles, noisy crowds, and adversarial peers. LLMs receive both historical interactions and current peer responses, allowing systematic investigation into how trust, peer action, and self-confidence influence decisions. As for mitigation strategies, we evaluate prompting, supervised fine-tuning, and reinforcement learning, Group Relative Policy Optimisation (GRPO), across multiple models. Our results reveal that GRPO with multi-agent context combined with outcome-based rewards and unconstrained reasoning achieves the best overall performance, but also decreases the robustness to social influence compared to Base models. The code and datasets are available at: https://github.com/declare-lab/KAIROS},
+	url = {https://arxiv.org/abs/2508.18321},
+	author = {M. Song and T. D. Pala and W. Jin and A. Zadeh and C. Li and D. Herremans and S. Poria}
+}
+@article {2025,
+	title = {MelodySim: Measuring Melody-aware Music Similarity for Plagiarism Detection},
+	journal = {arXiv:2505.20979},
+	year = {2025},
+	abstract = {We propose MelodySim, a melody-aware music similarity model and dataset for plagiarism detection. First, we introduce a novel method to construct a dataset with focus on melodic similarity. By augmenting Slakh2100; an existing MIDI dataset, we generate variations of each piece while preserving the melody through modifications such as note splitting, arpeggiation, minor track dropout (excluding bass), and re-instrumentation. A user study confirms that positive pairs indeed contain similar melodies, with other musical tracks significantly changed. Second, we develop a segment-wise melodic-similarity detection model that uses a MERT encoder and applies a triplet neural network to capture melodic similarity. The resultant decision matrix highlights where plagiarism might occur. Our model achieves high accuracy on the MelodySim test set.},
+	url = {https://arxiv.org/abs/2505.20979},
+	author = {T. Lu and Geist, C-M and J. Melechovsky and A. Roy and D. Herremans}
+}
+@article {2024,
+	title = {Natural Language Processing Methods for Symbolic Music Generation and Information Retrieval: a Survey},
+	journal = {ACM Computing Surveys},
+	year = {2025},
+	abstract = {Several adaptations of Transformers models have been developed in various domains since its breakthrough in Natural Language Processing (NLP). This trend has spread into the field of Music Information Retrieval (MIR), including studies processing music data. However, the practice of leveraging NLP tools for symbolic music data is not novel in MIR. Music has been frequently compared to language, as they share several similarities, including sequential representations of text and music. These analogies are also reflected through similar tasks in MIR and NLP. This survey reviews NLP methods applied to symbolic music generation and information retrieval studies following two axes. We first propose an overview of representations of symbolic music adapted from natural language sequential representations. Such representations are designed by considering the specificities of symbolic music. These representations are then processed by models. Such models, possibly originally developed for text and adapted for symbolic music, are trained on various tasks. We describe these models, in particular deep learning models, through different prisms, highlighting music-specialized mechanisms. We finally present a discussion surrounding the effective use of NLP tools for symbolic music data. This includes technical issues regarding NLP methods and fundamental differences between text and music, which may open several doors for further research into more effectively adapting NLP tools to symbolic MIR.},
+	doi = {https://arxiv.org/abs/2402.17467},
+	url = {https://arxiv.org/abs/2402.17467},
+	author = {Dinh-Viet-Toan Le and L. Bigo and M. Keller and D. Herremans}
+}
+@article {2025,
+	title = {PRESENT: Zero-Shot Text-to-Prosody Control},
+	journal = {IEEE Signal Processing Letters},
+	year = {2025},
+	abstract = {Current strategies for achieving fine-grained prosody control in speech synthesis entail extracting additional style embeddings or adopting more complex architectures. To enable zero-shot application of pretrained text-to-speech (TTS) models, we present PRESENT (PRosody Editing without Style Embeddings or New Training), which exploits explicit prosody prediction in FastSpeech2-based models by modifying the inference process directly. We apply our text-to-prosody framework to zero-shot language transfer using a JETS model exclusively trained on English LJSpeech data. We obtain character error rates (CER) of 12.8\%, 18.7\% and 5.9\% for German, Hungarian and Spanish respectively, beating the previous state-of-the-art CER by over 2x for all three languages. Furthermore, we allow subphoneme-level control, a first in this field. To evaluate its effectiveness, we show that PRESENT can improve the prosody of questions, and use it to generate Mandarin, a tonal language where vowel pitch varies at subphoneme level. We attain 25.3\% hanzi CER and 13.0\% pinyin CER with the JETS model. All our code and audio samples are available online.},
+	doi = {10.1109/LSP.2025.3528359},
+	url = {https://ieeexplore.ieee.org/document/10838710},
+	author = {P. Lam and H. Zhang and N. F. Chen and B. Sisman and D. Herremans}
+}
+@conference {2025,
+	title = {Prevailing Research Areas for Music AI in the Era of Foundation Models},
+	year = {2025},
+	abstract = {In tandem with the recent advancements in foundation model research, there has been a surge of generative music AI applications within the past few years. As the idea of AI-generated or AI-augmented music becomes more mainstream, many researchers in the music AI community may be wondering what avenues of research are left. With regards to music generative models, we outline the current areas of research with significant room for exploration. Firstly, we pose the question of foundational representation of these generative models and investigate approaches towards explainability. Next, we discuss the current state of music datasets and their limitations. We then overview different generative models, forms of evaluating these models, and their computational constraints/limitations. Subsequently, we highlight applications of these generative models towards extensions to multiple modalities and integration with artists{\textquoteright} workflow as well as music education systems. Finally, we survey the potential copyright implications of generative music and discuss strategies for protecting the rights of musicians. While it is not meant to be exhaustive, our survey calls to attention a variety of research directions enabled by music foundation models.},
+	url = {https://arxiv.org/abs/2409.09378},
+	author = {M. Wei and M. Modrzejewski and A. Sivaraman and D. Herremans}
+}
+@article {2025,
+	title = { Royalties in the age of AI: paying artists for AI-generated songs},
+	year = {2025},
+	abstract = {The AI music industry is growing, raising questions around how to protect and pay artists whose work is used to train generative AI models. Are the answers in the models themselves?},
+	url = {https://www.wipo.int/web/wipo-magazine/articles/royalties-in-the-age-of-ai-paying-artists-for-ai-generated-songs-73739},
+	author = {D. Herremans}
+}
+@article {2025,
+	title = {SonicMaster: Towards Controllable All-in-One Music Restoration and Mastering},
+	journal = {arXiv:2508.03448},
+	year = {2025},
+	abstract = {usic recordings often suffer from audio quality issues such as excessive reverberation, distortion, clipping, tonal imbalances, and a narrowed stereo image, especially when created in non-professional settings without specialized equipment or expertise. These problems are typically corrected using separate specialized tools and manual adjustments. In this paper, we introduce SonicMaster, the first unified generative model for music restoration and mastering that addresses a broad spectrum of audio artifacts with text-based control. SonicMaster is conditioned on natural language instructions to apply targeted enhancements, or can operate in an automatic mode for general restoration. To train this model, we construct the SonicMaster dataset, a large dataset of paired degraded and high-quality tracks by simulating common degradation types with nineteen degradation functions belonging to five enhancements groups: equalization, dynamics, reverb, amplitude, and stereo. Our approach leverages a flow-matching generative training paradigm to learn an audio transformation that maps degraded inputs to their cleaned, mastered versions guided by text prompts. Objective audio quality metrics demonstrate that SonicMaster significantly improves sound quality across all artifact categories. Furthermore, subjective listening tests confirm that listeners prefer SonicMaster{\textquoteright}s enhanced outputs over the original degraded audio, highlighting the effectiveness of our unified approach.},
+	url = {https://arxiv.org/abs/2508.03448},
+	author = {J. Melechovsky and A. Mehrish and D. Herremans}
+}
+@conference {2025,
+	title = {SonicVerse: Multi-Task Learning for Music Feature-Informed Captioning},
+	booktitle = {Proceedings of the 6th Conference on AI Music Creativity (AIMC 2025), Brussels, Belgium, September 10th - 12th, 2025},
+	year = {2025},
+	abstract = {Detailed captions that accurately reflect the characteristics of a music piece can enrich music databases and drive forward research in music AI. This paper introduces a multi-task music captioning model, SonicVerse, that integrates caption generation with auxiliary music feature detection tasks such as key detection, vocals detection, and more, so as to directly capture both low-level acoustic details as well as high-level musical attributes. The key contribution is a projection-based architecture that transforms audio input into language tokens, while simultaneously detecting music features through dedicated auxiliary heads. The outputs of these heads are also projected into language tokens, to enhance the captioning input. This framework not only produces rich, descriptive captions for short music fragments but also directly enables the generation of detailed time-informed descriptions for longer music pieces, by chaining the outputs using a large-language model. To train the model, we extended the MusicBench dataset by annotating it with music features using MIRFLEX, a modular music feature extractor, resulting in paired audio, captions and music feature data. Experimental results show that incorporating features in this way improves the quality and detail of the generated captions.},
+	keywords = {captioning, music, nlp},
+	url = {https://arxiv.org/abs/2506.15154},
+	author = {A. Chopra and A. Roy and D. Herremans}
+}
+@article {2025,
+	title = {Text2midi: Generating Symbolic Music from Captions},
+	journal = {Proceedings of AAAI, Philadelphia},
+	year = {2025},
+	abstract = {This paper introduces text2midi, an end-to-end model to generate MIDI files from textual descriptions. Leveraging the growing popularity of multimodal generative approaches, text2midi capitalizes on the extensive availability of textual data and the success of large language models (LLMs). Our end-to-end system harnesses the power of LLMs to generate symbolic music in the form of MIDI files. Specifically, we utilize a pretrained LLM encoder to process captions, which then condition an autoregressive transformer decoder to produce MIDI sequences that accurately reflect the provided descriptions. This intuitive and user-friendly method significantly streamlines the music creation process by allowing users to generate music pieces using text prompts. We conduct comprehensive empirical evaluations, incorporating both automated and human studies, that show our model generates MIDI files of high quality that are indeed controllable by text captions that may include music theory terms such as chords, keys, and tempo. We release the code and music samples on our demo page (this https URL) for users to interact with text2midi.},
+	url = {https://www.arxiv.org/abs/2412.16526},
+	author = {K. Bhandari and A. Roy and K. Wang and G. Puri and S. Colton and D. Herremans}
+}
+@article {2025,
+	title = {Text2midi-InferAlign: Improving Symbolic Music Generation with Inference-Time Alignment},
+	journal = {arXiv:2505.12669},
+	year = {2025},
+	abstract = {We present Text2midi-InferAlign, a novel technique for improving symbolic music generation at inference time. Our method leverages text-to-audio alignment and music structural alignment rewards during inference to encourage the generated music to be consistent with the input caption. Specifically, we introduce two objectives scores: a text-audio consistency score that measures rhythmic alignment between the generated music and the original text caption, and a harmonic consistency score that penalizes generated music containing notes inconsistent with the key. By optimizing these alignment-based objectives during the generation process, our model produces symbolic music that is more closely tied to the input captions, thereby improving the overall quality and coherence of the generated compositions. Our approach can extend any existing autoregressive model without requiring further training or fine-tuning. We evaluate our work on top of Text2midi - an existing text-to-midi generation model, demonstrating significant improvements in both objective and subjective evaluation metrics.},
+	url = {https://arxiv.org/abs/2505.12669},
+	author = {A. Roy and G. Puri and D. Herremans}
+}
+@article {2025,
+	title = {Towards the future of education: cyber-physical learning},
+	journal = {Discover Education},
+	volume = {4},
+	year = {2025},
+	pages = {1{\textendash}16},
+	abstract = {Singapore University of Technology and Design (SUTD) is embarking on an educational innovation program called SUTD campusX to support its future of education. SUTD campusX aims to innovate new educational models, technology tools, and pedagogies for a new form of learning called {\textquotedblleft}Cyber-Physical Learning{\textquotedblright}, where the concept is that both remote cyber students and face-to-face physical students can learn and interact effectively, seamlessly, and synchronously in the same class. SUTD campusX focuses on various streams of emerging technologies such as learning analytics, immersive technologies (e.g., AR/VR/MR, metaverse learning, gamification), telepresence robotics, and personalized learning. SUTD campusX supports and innovates the signature interdisciplinary, student-centric, and team-based problem-solving active learning model of SUTD to transform it for the cyber-physical learning environment. The various innovation streams of campusX not only generate insightful learning data to create new educational frameworks and practices but also enable a learning analytics and AI-assisted platform to deliver personalized adaptive learning. In this perspective article, we describe and reflect on the forward-looking nature of the various innovation themes and how these innovations act as the front-facing technologies to collect and generate learning insights to power an AI-driven cyber-physical learning platform to realize the future of Cyber-Physical Learning at SUTD.},
+	doi = {https://doi.org/10.1007/s44217-025-00474-x},
+	url = {https://link.springer.com/article/10.1007/s44217-025-00474-x},
+	author = {Sockalingam, N. and Lo, K. and Teo, Ju. and Wei, C.C. and Chow, D. and Herremans, D. and Jun, M.L.M. and Kurniawan, O. and Wang, Y. and Leong, P. K.}
+}
+@conference {2025,
+	title = {Towards Unified Music Emotion Recognition across Dimensional and Categorical Models},
+	year = {2025},
+	url = {https://arxiv.org/abs/2502.03979},
+	author = {J. Kang and D. Herremans}
+}
+@conference {2024,
+	title = {Accent Conversion in Text-To-Speech Using Multi-Level VAE and Adversarial Training},
+	booktitle = {Proc. of IEEE Tencon, Singapore},
+	year = {2024},
+	abstract = {With rapid globalization, the need to build inclusive and representative speech technology cannot be overstated. Accent is an important aspect of speech that needs to be taken into consideration while building inclusive speech synthesizers. Inclusive speech technology aims to erase any biases towards specific groups, such as people of certain accent. We note that state-of-the-art Text-to-Speech (TTS) systems may currently not be suitable for all people, regardless of their background, as they are designed to generate high-quality voices without focusing on accent. In this paper, we propose a TTS model that utilizes a Multi-Level Variational Autoencoder with adversarial learning to address accented speech synthesis and conversion in TTS, with a vision for more inclusive systems in the future. We evaluate the performance through both objective metrics and subjective listening tests. The results show an improvement in accent conversion ability compared to the baseline.},
+	url = {https://arxiv.org/abs/2406.01018},
+	author = {J. Melechovsky and A. Mehrish and B. Sisman and D. Herremans}
+}
+@conference {2022,
+	title = {Accented Text-to-Speech Synthesis with a Conditional Variational Autoencoder},
+	booktitle = {Proc. of IEEE Tencon, Singapore},
+	year = {2024},
+	abstract = {Accent plays a significant role in speech communication, influencing understanding capabilities and also conveying a person{\textquoteright}s identity. This paper introduces a novel and efficient framework for accented Text-to-Speech (TTS) synthesis based on a Conditional Variational Autoencoder. It has the ability to synthesize a selected speaker{\textquoteright}s speech that is converted to any desired target accent. Our thorough experiments validate the effectiveness of our proposed framework using both objective and subjective evaluations. The results also show remarkable performance in terms of the ability to manipulate accents in the synthesized speech and provide a promising avenue for future accented TTS research.},
+	url = {https://arxiv.org/abs/2211.03316},
+	author = {J. Melechovsky and A. Mehrish and B. Sisman and D. Herremans}
+}
+@article {2024,
+	title = {BandControlNet: Parallel Transformers-based Steerable Popular Music Generation with Fine-Grained Spatiotemporal Features},
+	journal = {arXiv:2407.10462},
+	year = {2024},
+	abstract = {Controllable music generation promotes the interaction between humans and composition systems by projecting the users{\textquoteright} intent on their desired music. The challenge of introducing controllability is an increasingly important issue in the symbolic music generation field. When building controllable generative popular multi-instrument music systems, two main challenges typically present themselves, namely weak controllability and poor music quality. To address these issues, we first propose spatiotemporal features as powerful and fine-grained controls to enhance the controllability of the generative model. In addition, an efficient music representation called REMI_Track is designed to convert multitrack music into multiple parallel music sequences and shorten the sequence length of each track with Byte Pair Encoding (BPE) techniques. Subsequently, we release BandControlNet, a conditional model based on parallel Transformers, to tackle the multiple music sequences and generate high-quality music samples that are conditioned to the given spatiotemporal control features. More concretely, the two specially designed modules of BandControlNet, namely structure-enhanced self-attention (SE-SA) and Cross-Track Transformer (CTT), are utilized to strengthen the resulting musical structure and inter-track harmony modeling respectively. Experimental results tested on two popular music datasets of different lengths demonstrate that the proposed BandControlNet outperforms other conditional music generation models on most objective metrics in terms of fidelity and inference speed and shows great robustness in generating long music samples. The subjective evaluations show BandControlNet trained on short datasets can generate music with comparable quality to state-of-the-art models, while outperforming them significantly using longer datasets.},
+	url = {https://arxiv.org/abs/2407.10462},
+	author = {J. Luo and X. Yang and D. Herremans}
+}
+@conference {2024,
+	title = {Coarse-to-Fine Text-to-Music Latent Diffusion},
+	booktitle = {Audio Imagination: NeurIPS 2024 Workshop},
+	year = {2024},
+	address = {Vancouver},
+	abstract = {We introduce DiscoDiff, a text-to-music generative model that utilizes two latent diffusion models to produce high-fidelity 44.1kHz music hierarchically. Our approach significantly enhances audio quality through a coarse-to-fine generation strategy, leveraging residual vector quantization from the Descript Audio Codec.  We consolidate this coarse-to-fine design through an important observation that the audio latent representation of can be split into primary and secondary part, controlling music contents and details accordingly. We validate the effectiveness of our approach and text-audio alignment through various objective metrics. Furthermore, we provide access to high-quality synthetic captions for the MTG-Jamendo and FMA datasets, as well as open-sourcing DiscoDiff{\textquoteright}s codebase and model checkpoints.},
+	author = {L.A. Lanzend{\"o}rfer and T. Lu and N. Perraudin and D. Herremans and R. Wattenhofer}
+}
+@conference {2024,
+	title = {DART: Disentanglement of Accent and Speaker Representation in Multispeaker Text-to-Speech},
+	booktitle = {Audio Imagination: NeurIPS 2024 Workshop},
+	year = {2024},
+	address = {Vancouver},
+	abstract = {Recent advancements in Text-to-Speech (TTS) systems have enabled the generation of natural and expressive speech from textual input. Accented TTS aims to enhance user experience by making the synthesized speech more relatable to minority group listeners, and useful across various applications and context. 
+Speech synthesis can further be made more flexible by allowing users to choose any combination of speaker identity and accent, resulting in a wide range of personalized speech outputs.
+Current models struggle to disentangle speaker and accent representation, making it difficult to accurately imitate different accents while maintaining the same speaker characteristics. We propose a novel approach to disentangle speaker and accent representations using multi-level variational autoencoders (ML-VAE) and vector quantization (VQ) to improve flexibility and enhance personalization in speech synthesis.
+Our proposed method addresses the challenge of effectively separating speaker and accent characteristics, enabling more fine-grained control over the synthesized speech.
+Code and speech samples are publicly available (https://hoglord.github.io/DART/). },
+	url = {https://arxiv.org/abs/2410.13342},
+	author = {J. Melechovsky and A. Mehrish and B. Sisman and D. Herremans}
+}
+@article {2024,
+	title = {DeepUnifiedMom: Unified Time-series Momentum Portfolio Construction via Multi-Task Learning with Multi-Gate Mixture of Experts},
+	journal = {arXiv:2406.08742},
+	year = {2024},
+	abstract = {This paper introduces DeepUnifiedMom, a deep learning framework that enhances portfolio management through a multi-task learning approach and a multi-gate mixture of experts. The essence of DeepUnifiedMom lies in its ability to create unified momentum portfolios that incorporate the dynamics of time series momentum across a spectrum of time frames, a feature often missing in traditional momentum strategies. Our comprehensive backtesting, encompassing diverse asset classes such as equity indexes, fixed income, foreign exchange, and commodities, demonstrates that DeepUnifiedMom consistently outperforms benchmark models, even after factoring in transaction costs. This superior performance underscores DeepUnifiedMom{\textquoteright}s capability to capture the full spectrum of momentum opportunities within financial markets. The findings highlight DeepUnifiedMom as an effective tool for practitioners looking to exploit the entire range of momentum opportunities. It offers a compelling solution for improving risk-adjusted returns and is a valuable strategy for navigating the complexities of portfolio management.},
+	url = {https://arxiv.org/abs/2406.08742},
+	author = {J. Ong and D. Herremans}
+}
+@conference {2024,
+	title = {DisfluencySpeech -- Single-Speaker Conversational Speech Dataset with Paralanguage},
+	booktitle = {Proc. of IEEE Tencon, Singapore},
+	year = {2024},
+	abstract = {Laughing, sighing, stuttering, and other forms of paralanguage do not contribute any direct lexical meaning to speech, but they provide crucial propositional context that aids semantic and pragmatic processes such as irony. It is thus important for artificial social agents to both understand and be able to generate speech with semantically-important paralanguage. Most speech datasets do not include transcribed non-lexical speech sounds and disfluencies, while those that do are typically multi-speaker datasets where each speaker provides relatively little audio. This makes it challenging to train conversational Text-to-Speech (TTS) synthesis models that include such paralinguistic components.
+We thus present DisfluencySpeech, a studio-quality labeled English speech dataset with paralanguage. A single speaker recreates nearly 10 hours of expressive utterances from the Switchboard-1 Telephone Speech Corpus (Switchboard), simulating realistic informal conversations. To aid the development of a TTS model that is able to predictively synthesise paralanguage from text without such components, we provide three different transcripts at different levels of information removal (removal of non-speech events, removal of non-sentence elements, and removal of false starts), as well as benchmark TTS models trained on each of these levels.},
+	url = {https://arxiv.org/abs/2406.08820},
+	author = {K. Wang and D. Herremans}
+}
+@article {2024,
+	title = {Gamification and skills tree},
+	year = {2024},
+	url = {https://sutd.edu.sg/SUTD/media/SUTD/SUTD-campusX_CPL-Foresight-Report.pdf},
+	author = {D. Chow and D. Herremans}
+}
+@conference {2024,
+	title = {MidiCaps {\textemdash} A large-scale MIDI dataset with text captions},
+	booktitle = {ISMIR},
+	year = {2024},
+	address = {San Francisco},
+	abstract = {Generative models guided by text prompts are increasingly becoming more popular. However, no text-to-MIDI models currently exist, mostly due to the lack of a captioned MIDI dataset. This work aims to enable research that combines LLMs with symbolic music by presenting the first large-scale MIDI dataset with text captions that is openly available: MidiCaps. MIDI (Musical Instrument Digital Interface) files are a widely used format for encoding musical information. Their structured format captures the nuances of musical composition and has practical applications by music producers, composers, musicologists, as well as performers. Inspired by recent advancements in captioning techniques applied to various domains, we present a large-scale curated dataset of over 168k MIDI files accompanied by textual descriptions. Each MIDI caption succinctly describes the musical content, encompassing tempo, chord progression, time signature, instruments present, genre and mood; thereby facilitating multi-modal exploration and analysis. The dataset contains a mix of various genres, styles, and complexities, offering a rich source for training and evaluating models for tasks such as music information retrieval, music understanding and cross-modal translation. We provide detailed statistics about the dataset and have assessed the quality of the captions in an extensive listening study. We anticipate that this resource will stimulate further research in the intersection of music and natural language processing, fostering advancements in both fields.},
+	url = {https://arxiv.org/abs/2406.02255},
+	author = {J. Melechovsky and A. Roy and D. Herremans}
+}
+@conference {2024,
+	title = {MIRFLEX: Music Information Retrieval Feature Library for Extraction},
+	booktitle = {ISMIR, Late Breaking Demos},
+	year = {2024},
+	address = {San Francisco},
+	abstract = {This paper introduces an extendable modular system that compiles a range of music feature extraction models to aid music information retrieval research. The features include musical elements like key, downbeats, and genre, as well as audio characteristics like instrument recognition, vocals/instrumental classification, and vocals gender detection. The integrated models are state-of-the-art or latest open-source. The features can be extracted as latent or post-processed labels, enabling integration into music applications such as generative music, recommendation, and playlist generation. The modular design allows easy integration of newly developed systems, making it a good benchmarking and comparison tool. This versatile toolkit supports the research community in developing innovative solutions by providing concrete musical features.
+},
+	url = {https://arxiv.org/abs/2411.00469},
+	author = {A. Chopra and A. Roy and D. Herremans}
+}
+@mastersthesis {2024,
+	title = {Modern Portfolio Construction with Advanced Deep Learning Models},
+	volume = {PhD},
+	year = {2024},
+	abstract = {This thesis explores the modern application of deep learning techniques in portfo- lio construction, presenting innovative methodologies that significantly enhance traditional investment strategies. Central to this research are three advanced frameworks that leverage deep learning to optimize financial portfolios.
+The first framework introduces a diversified risk-adjusted TSMOM strategy utilizing multi-task learning. This approach simultaneously optimizes portfolio construction and volatility forecasting, resulting in improved portfolio performance by learn- ing both momentum signals and volatility estimators. Experimental results involving a diversified portfolio of continuous futures contracts demonstrate that this method outperforms existing TSMOM strategies.
+The second framework employs a multi-task learning model with a multi-gate mixture of experts to optimize momentum portfolios across multiple timeframes. This model excels over benchmarks across various asset classes, effectively capturing com- plex momentum dynamics in equity indexes, fixed income, foreign exchange, and commodities. Extensive backtesting highlights its capacity to enhance risk-adjusted returns, underscoring its practical utility for portfolio management.
+The third framework presents an adaptive sparse Transformer model designed for index tracking. By combining sparse modeling with deep learning, this framework optimizes passive investment strategies. Backtesting spanning from 2005 to 2024 re- veals that it delivers higher excess returns and lower tracking errors compared to ex- isting models, showcasing the effectiveness of this approach in refining index tracking methodologies.
+Lastly, we introduce the CurveMMOE model, a deep-learning framework for trad- ing commodity futures curves. This model integrates multi-task learning with a Mixture of Expert architecture, outperforming traditional methods on risk-adjusted re- turns. These frameworks contribute significantly to portfolio construction by harness- ing the power of deep learning techniques. They provide investment practitioners with innovative approaches to improve financial performance, particularly in challeng- ing market environments. This research advances our understanding of deep learning in finance and offers practical strategies for real-world investment scenarios.},
+	author = {J. Ong}
+}
+@conference {2023,
+	title = {Mustango: Toward Controllable Text-to-Music Generation},
+	booktitle = {Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). pages 8293{\textendash}8316},
+	year = {2024},
+	publisher = {ACM},
+	organization = {ACM},
+	address = {Mexico City, Mexico},
+	abstract = {With recent advancements in text-to-audio and text-to-music based on latent diffusion models, the quality of generated content has been reaching new heights. The controllability of musical aspects, however, has not been explicitly explored in text-to-music systems yet. In this paper, we present Mustango, a music-domain-knowledge-inspired text-to-music system based on diffusion, that expands the Tango text-to-audio model. Mustango aims to control the generated music, not only with general text captions, but from more rich captions that could include specific instructions related to chords, beats, tempo, and key. As part of Mustango, we propose MuNet, a Music-Domain-Knowledge-Informed UNet sub-module to integrate these music-specific features, which we predict from the text prompt, as well as the general text embedding, into the diffusion denoising process. To overcome the limited availability of open datasets of music with text captions, we propose a novel data augmentation method that includes altering the harmonic, rhythmic, and dynamic aspects of music audio and using state-of-the-art Music Information Retrieval methods to extract the music features which will then be appended to the existing descriptions in text format. We release the resulting MusicBench dataset which contains over 52K instances and includes music-theory-based descriptions in the caption text. Through extensive experiments, we show that the quality of the music generated by Mustango is state-of-the-art, and the controllability through music-specific text prompts greatly outperforms other models in terms of desired chords, beat, key, and tempo, on multiple datasets.},
+	keywords = {genAI, music generation, text-to-music},
+	doi = {https://aclanthology.org/2024.naacl-long.pdf},
+	url = {https://arxiv.org/abs/2311.08355},
+	author = {Jan Melechovsky and Zixun Guo and Deepanway Ghosal and Navonil Majumder and Dorien Herremans and Soujanya Poria}
+}
+@conference {2022,
+	title = {SNIPER Training: Variable Sparsity Rate Training For Text-To-Speech},
+	booktitle = {Proc. of IEEE Tencon, Singapore},
+	year = {2024},
+	abstract = {Text-to-speech (TTS) models have achieved remarkable naturalness in recent years, yet like most deep neural models, they have more parameters than necessary. Sparse TTS models can improve on dense models via pruning and extra retraining, or converge faster than dense models with some performance loss. Inspired by these results, we propose training TTS models using a decaying sparsity rate, i.e. a high initial sparsity to accelerate training first, followed by a progressive rate reduction to obtain better eventual performance. This decremental approach differs from current methods of incrementing sparsity to a desired target, which costs significantly more time than dense training. We call our method SNIPER training: Single-shot Initialization Pruning Evolving-Rate training. Our experiments on FastSpeech2 show that although we were only able to obtain better losses in the first few epochs before being overtaken by the baseline, the final SNIPER-trained models beat constant-sparsity models and pip dense models in performance.},
+	url = {https://arxiv.org/abs/2211.07283},
+	author = {P. Lam and H. Zhang and N. F. Chen and B. Sisman and D. Herremans}
+}
+@article {2023,
+	title = {Video2Music: Suitable Music Generation from Videos using an Affective Multimodal Transformer model},
+	journal = {Expert Systems with Applications},
+	year = {2024},
+	doi = {https://doi.org/10.1016/j.eswa.2024.123640},
+	url = {https://arxiv.org/abs/2311.00968},
+	author = {Kang, Jaeyong and Poria, Soujanya and Herremans, D.}
+}
+@article {2013,
+	title = {Constructing Time-Series Momentum Portfolios with Deep Multi-Task Learning},
+	journal = {Expert Systems with Applications},
+	volume = {230},
+	year = {2023},
+	month = {In Press},
+	abstract = {A diversified risk-adjusted time-series momentum (TSMOM) portfolio can deliver substantial abnormal returns and offer some degree of tail risk protection during extreme market events. The performance of existing TSMOM strategies, however, relies not only on the quality of the momentum signal but also on the efficacy of the volatility estimator. Yet many of the existing studies have always considered these two factors to be independent. Inspired by recent progress in Multi-Task Learning (MTL), we present a new approach using MTL in a deep neural network architecture that jointly learns portfolio construction and various auxiliary tasks, such as forecasting realized volatility. Through backtesting from January 2000 to December 2020 on a diversified portfolio of continuous futures contracts, we demonstrate that even after accounting for transaction costs of up to 3 basis points, our approach outperforms existing TSMOM strategies. Moreover, experiments confirm that adding auxiliary tasks indeed boosts the portfolio{\textquoteright}s performance. These findings demonstrate that MTL can be a powerful tool in finance.},
+	doi = {10.1016/j.eswa.2023.120587},
+	url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4288770},
+	author = {J. Ong and D. Herremans}
+}
+@conference {2022,
+	title = {DiffRoll: Diffusion-based Generative Music Transcription with Unsupervised Pretraining Capability},
+	booktitle = {ICASSP},
+	year = {2023},
+	abstract = {In this paper we propose a novel generative approach, DiffRoll, to tackle automatic music transcription (AMT). Instead of treating AMT as a discriminative task in which the model is trained to convert spectrograms into piano rolls, we think of it as a conditional generative task where we train our model to generate realistic looking piano rolls from pure Gaussian noise conditioned on spectrograms. This new AMT formulation enables DiffRoll to transcribe, generate and even inpaint music. Due to the classifier-free nature, DiffRoll is also able to be trained on unpaired datasets where only piano rolls are available. Our experiments show that DiffRoll outperforms its discriminative counterpart by 19 percentage points (ppt.) and our ablation studies also indicate that it outperforms similar existing methods by 4.8 ppt.
+Source code and demonstration are available <a href="https://sony.github.io/DiffRoll/">here</a>.},
+	author = {K.W. Cheuk and Sawata, Ryosuke and Uesaka, Toshimitsu and Murata, Naoki and Takahashi, Naoya and Takahashi, Shusuke and D. Herremans and Mitsufuji, Yuki}
+}
+@conference {2023,
+	title = {A Domain-Knowledge-Inspired Music Embedding Space and a Novel Attention Mechanism for Symbolic Music Modeling},
+	booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence},
+	year = {2023},
+	publisher = {AAAI},
+	organization = {AAAI},
+	address = {Washington DC},
+	abstract = {Following the success of the transformer architecture in the natural language domain, transformer-like architectures have been widely applied to the domain of symbolic music recently. Symbolic music and text, however, are two different modalities. Symbolic music contains multiple attributes, both absolute attributes (e.g., pitch) and relative attributes (e.g., pitch interval). These relative attributes shape human perception of musical motifs. These important relative attributes, however, are mostly ignored in existing symbolic music modeling methods with the main reason being the lack of a musically-meaningful embedding space where both the absolute and relative embeddings of the symbolic music tokens can be efficiently represented. In this paper, we propose the Fundamental Music Embedding (FME) for symbolic music based on a bias-adjusted sinusoidal encoding within which both the absolute and the relative attributes can be embedded and the fundamental musical properties (e.g., translational invariance) are explicitly preserved. Taking advantage of the proposed FME, we further propose a novel attention mechanism based on the relative index, pitch and onset embeddings (RIPO attention) such that the musical domain knowledge can be fully utilized for symbolic music modeling. Experiment results show that our proposed model: RIPO transformer which utilizes FME and RIPO attention outperforms the state-of-the-art transformers (i.e., music transformer, linear transformer) in a melody completion task. Moreover, using the RIPO transformer in a downstream music generation task, we notice that the notorious degeneration phenomenon no longer exists and the music generated by the RIPO transformer outperforms the music generated by state-of-the-art transformer models in both subjective and objective evaluations. The code of the proposed method is available online. },
+	author = {Zixun Guo and J. Kang and D. Herremans}
+}
+@conference {2023,
+	title = {Learning accent representation with multi-level VAE towards controllable speech synthesis},
+	booktitle = { IEEE Spoken Language Technology (SLT) Workshop},
+	year = {2023},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Doha, Quatar},
+	abstract = {Accent is a crucial aspect of speech that helps define one{\textquoteright}s identity. We note that the state-of-the-art Text-to-Speech (TTS) systems can achieve high-quality generated voice, but still lack in terms of versatility and customizability. Moreover, they generally do not take into account accent, which is an important feature of speaking style. In this work, we utilize the concept of Multi-level VAE (ML-VAE) to build a control mechanism that aims to disentangle accent from a reference accented speaker; and to synthesize voices in different accents such as English, American, Irish, and Scottish. The proposed framework can also achieve high-quality accented voice generation for multi-speaker setup, which we believe is remarkable. We investigate the performance through objective metrics and conduct listening experiments for a subjective performance assessment. We showed that the proposed method achieves good performance for naturalness, speaker similarity, and accent similarity.},
+	author = {J. Melechovsky and A. Mehrish and D. Herremans and B. Sisman}
+}
+@article {2022,
+	title = {MERP: A Music Dataset with Emotion Ratings and Raters{\textquoteright} Profile Information},
+	journal = {Sensors - Intelligent Sensors},
+	volume = {23},
+	year = {2023},
+	month = {01/2023},
+	chapter = {382},
+	abstract = {Music is capable of conveying many emotions. The level and type of emotion of the music perceived by a listener, however, is highly subjective. In this study, we present the Music Emotion Recognition with Profile information dataset (MERP). This database was collected through Amazon Mechanical Turk (MTurk) and features dynamical valence and arousal ratings of 54 selected full-length songs. The dataset contains music features, as well as user profile information of the annotators. The songs were selected from the Free Music Archive using an innovative method (a Triple Neural Network with the OpenSmile toolkit) to identify 50 songs with the most distinctive emotions. Specifically, the songs were chosen to fully cover the four quadrants of the valence arousal space. Four additional songs were selected from DEAM to act as a benchmark in this study and filter out low quality ratings. A total of 277 participants participated in annotating the dataset, and their demographic information, listening preferences, and musical background were recorded. We offer an extensive analysis of the resulting dataset, together with a baseline emotion prediction model based on a fully connected model and an LSTM model, for our newly proposed MERP dataset.},
+	doi = {10.3390/s23010382},
+	url = {https://www.mdpi.com/1424-8220/23/1/382},
+	author = {E. Koh and K.W. Cheuk and K.Y. Heung and K. Agres and D. Herremans}
+}
+@article {2022,
+	title = {A Multimodal Model with Twitter Finbert Embeddings for Extreme Price Movement Prediction of Bitcoin},
+	journal = {Expert Systems with Applications},
+	year = {2023},
+	abstract = {Bitcoin, with its ever-growing popularity, has demonstrated extreme price volatility since its origin. This volatility, together with its decentralised nature, make Bitcoin highly subjective to speculative trading as compared to more traditional assets. In this paper, we propose a multimodal model for predicting extreme price fluctuations. This model takes as input a variety of correlated assets, technical indicators, as well as Twitter content. In an in-depth study, we explore whether social media discussions from the general public on Bitcoin have predictive power for extreme price movements. A dataset of 5,000 tweets per day containing the keyword {\textquoteleft}Bitcoin{\textquoteright} was collected from 2015 to 2021. This dataset, called PreBit, is made available online. In our hybrid model, we use sentence-level FinBERT embeddings, pretrained on financial lexicons, so as to capture the full contents of the tweets and feed it to the model in an understandable way. By combining these embeddings with a Convolutional Neural Network, we built a predictive model for significant market movements. The final multimodal ensemble model includes this NLP model together with a model based on candlestick data, technical indicators and correlated asset prices. In an ablation study, we explore the contribution of the individual modalities. Finally, we propose and backtest a trading strategy based on the predictions of our models with varying prediction threshold and show that it can used to build a profitable trading strategy with a reduced risk over a {\textquoteleft}hold{\textquoteright} or moving average strategy.},
+	doi = {https://doi.org/10.1016/j.eswa.2023.120838},
+	url = {https://doi.org/10.1016/j.eswa.2023.120838},
+	author = {Y. Zou and D. Herremans}
+}
+@conference {2022,
+	title = {Computationally Efficient Physics Approximating Neural Networks for Highly Nonlinear Maps},
+	booktitle = {2022 International Conference on Research in Adaptive and Convergent Systems},
+	year = {2022},
+	publisher = {2022},
+	organization = {2022},
+	address = {Virtual},
+	doi = {10.1145/3538641.3561501},
+	url = {https://dl.acm.org/doi/abs/10.1145/3538641.3561501},
+	author = {C.J. Clarke and J. Chowdhury and Balamurali BT and P. Priyadarshinee and C.M. Ying Lim and I. Fu Xing Tan and D. Herremans and J.M. Chen}
+}
+@conference {2022,
+	title = {Conditional Drums Generation using Compound Word Representations},
+	booktitle = {EvoMUSART (EVO*) - Lecture Notes in Computer Science},
+	year = {2022},
+	publisher = {Springer},
+	organization = {Springer},
+	abstract = {The field of automatic music composition has seen great progress in recent years, specifically with the invention of transformer-based architectures. When using any deep learning model which considers music as a sequence of events with multiple complex dependencies, the selection of a proper data representation is crucial. In this paper, we tackle the task of conditional drums generation using a novel data encoding scheme inspired by the Compound Word representation, a tokenization process of sequential data. Therefore, we present a sequence-to-sequence architecture where a Bidirectional Long short-term memory (BiLSTM) Encoder receives information about the conditioning parameters (i.e., accompanying tracks and musical attributes), while a Transformer-based Decoder with relative global attention produces the generated drum sequences. We conducted experiments to thoroughly compare the effectiveness of our method to several baselines. Quantitative evaluation shows that our model is able to generate drums sequences that have similar statistical distributions and characteristics to the training corpus. These features include syncopation, compression ratio, and symmetry among others. We also verified, through a listening test, that generated drum sequences sound pleasant, natural and coherent while they {\textquoteleft}{\textquoteleft}groove{\textquoteright}{\textquoteright} with the given accompaniment.},
+	author = {D. Makris and Zixun Guo and N. Kaliakatsos-Papakostas and D. Herremans}
+}
+@article {2022,
+	title = {Downscaling using Deep Convolutional Autoencoders, a case study for South East Asia},
+	journal = {Egusphere preprint},
+	year = {2022},
+	abstract = {Inspired by recent advancements in the field of computer vision, specifically models for generating higher-resolution images from low-resolution images, we investigate the utility of a deep convolutional autoencoder for downscaling and bias correcting climate projections for South East Asia (SEA). Downscaled projections of 2 m surface temperature are generated, using autoencoders trained with data from the Coupled Model Intercomparison Project Phase 5 (CMIP5) and data from the fifth generation ECMWF atmospheric reanalysis (ERA5) project. Using CMIP5 projections as an input, three sets of downscaled data are generated using three methods of autoencoder training, which allow us to determine how autoencoder downscaling and bias correction modify temperature values. Where possible, the downscaled outputs are compared against the Southeast Asia Regional Climate Downscaling/Coordinated Regional Climate Downscaling Experiment{\textendash}Southeast Asia (SEACLID/CORDEX{\textendash}SEA) project and outputs from available CMIP6 experiments, to evaluate performance. The autoencoders are found to excel at the rapid generation of highly spatially-resolved climate projections for surface temperature. Realistic spatial features due to coastal and topographic variation are generated by the autoencoder, which are not present in the CMIP5 projections. Additionally, the autoencoders are capable of generating forecast data with regional temperature profiles exceeding that of those appearing in the training set (out-of-sample extrapolation). Seasonal temperature cycles are retained after downscaling throughout the region, despite the absence of temporal information provided to the model. However, autoencoders trained to carry out bias correction display a tendency to smooth daily average temperatures and reduce daily highs and lows beyond that which can be expected to be realistic. Without bias correction, downscaled outputs have a reduced improvement in spatial resolution but the daily temperature profiles of the CMIP5 input forecasts are maintained. Autoencoders rely on the presence of structural features in the datasets to carry out downscaling, and so performance over the oceans is reduced as strong temperature gradients are absent. For this reason, ocean warming is not well represented, an artefact which is not immediately clear in the downscaled outputs. This study demonstrates the importance of rigorous analysis of {\textquoteright}black-box{\textquoteright} methods, which can generate non-obvious artefacts that could potentially create misleading results. Despite these limitations, Autoencoders are clearly capable of generating much needed high-resolution climate projections, and strategies to improve upon shortcomings are numerous and well established. },
+	doi = {https://doi.org/10.5194/egusphere-2022-234},
+	url = {https://egusphere.copernicus.org/preprints/2022/egusphere-2022-234/},
+	author = {O. D. Levers and D. Herremans and A. Dipankar and L. Blessing}
+}
+@article {2022,
+	title = {EmoMV: Affective Music-Video Correspondence Learning Datasets for Classification and Retrieval},
+	journal = {Information Fusion},
+	year = {2022},
+	abstract = {Studies in affective audio-visual correspondence learning require ground-truth data to train, validate, and test models. The number of available datasets together with benchmarks, however, is still limited. In this paper, we create a collection of three datasets (called EmoMV) for affective correspondence learning between music and video modalities. The first two datasets (called EmoMVA, and EmoMV-B, respectively) are constructed by making use of music video segments from other available datasets. The third one called EmoMV-C is created from music videos that we self-collected from YouTube. The music-video pairs in our datasets are annotated as matched or mismatched in terms of the emotions they are conveying. The emotions are annotated by humans in the EmoMV-A dataset, while in the EmoMV-B and EmoMV-C datasets they are predicted using a pretrained deep neural network. A user study is carried out to evaluate the accuracy of the {\textquotedblleft}matched{\textquotedblright} and {\textquotedblleft}mismatched{\textquotedblright} labels offered in the EmoMV dataset collection. In addition to creating three new datasets, a benchmark deep neural network model for binary affective music-video correspondence classification is also proposed. This proposed benchmark model is then modified to adapt to affective music-video retrieval. Extensive experiments are carried out on all three datasets of the EmoMV collection. Experimental results demonstrate that our proposed model outperforms state-of-the-art approaches on both the binary classification and retrieval tasks. We envision that our newly created dataset collection together with the proposed benchmark models will facilitate advances in affective computing research.
+
+Dataset available at: https://zenodo.org/record/7011072$\#$.YzpFoqTmgzZ},
+	doi = {https://doi.org/10.1016/j.inffus.2022.10.002},
+	url = {https://www.sciencedirect.com/science/article/abs/pii/S1566253522001725},
+	author = {Quang-Hieu Pham and D. Herremans and G. Roig}
+}
+@conference {2022,
+	title = {A Gaussian mixture classifier model to differentiate respiratory symptoms using phonated /ɑ:/ sounds},
+	booktitle = {The 18th Australasian International Conference on Speech Science and Technology (SST)},
+	year = {2022},
+	month = {12/2022},
+	publisher = {ASSTA},
+	organization = {ASSTA},
+	address = {Canberra, Australia},
+	abstract = {An audio-based classification model that differentiates between healthy vs pathological respiratory symptoms using acoustic features extracted from phonated /ɑ:/ sounds is presented. For this, a new dataset of phonated /ɑ:/ sounds, together with a clinician{\textquoteright}s diagnosis, was compiled and a Gaussian Mixture Model (GMM) using Mel-Frequency Cepstral Coefficients (MFCCs) classifier was used. Despite no significant differences in mean values of the fundamental and formant frequency (F0, F1, F2, and F3) distribution for /ɑ:/ sounds retrieved from healthy vs pathological populations, our /ɑ:/ sound model trained using MFCCs resulted in an accuracy of 81.92\% when compared against clinician{\textquoteright}s diagnosis.},
+	url = {https://sst2022.com/a-gaussian-mixture-classifier-model-to-differentiate-respiratory-symptoms-using-phonated-a\%cb\%90-sounds/},
+	author = {Balamurali BT and H.I. Hee and C. Ming and Y. Lin and P. Priyadarshinee and C.J. Clarke and D. Herremans and J.M. Chen}
+}
+@conference {2022,
+	title = {HEAR 2021: Holistic Evaluation of Audio Representations},
+	booktitle = {Proceedings of Machine Learning Research (PMLR): NeurIPS 2021 Competition Track},
+	year = {2022},
+	abstract = {What audio embedding approach generalizes best to a wide range of downstream tasks across a variety of everyday domains without fine-tuning? The aim of the HEAR 2021 NeurIPS challenge is to develop a general-purpose audio representation that provides a strong basis for learning in a wide variety of tasks and scenarios. HEAR 2021 evaluates audio representations using a benchmark suite across a variety of domains, including speech, environmental sound, and music. In the spirit of shared exchange, each participant submitted an audio embedding model following a common API that is general-purpose, open-source, and freely available to use. Twenty-nine models by thirteen external teams were evaluated on nineteen diverse downstream tasks derived from sixteen datasets. Open evaluation code, submitted models and datasets are key contributions, enabling comprehensive and reproducible evaluation, as well as previously impossible longitudinal studies. It still remains an open question whether one single general-purpose audio representation can perform as holistically as the human ear.},
+	url = {https://arxiv.org/abs/2203.03022},
+	author = {Joseph Turian and Jordie Shier and Humair Raj Khan and Bhiksha Raj and Bj{\"o}rn W. Schuller and Christian J. Steinmetz and Colin Malloy and George Tzanetakis and Gissel Velarde and Kirk McNally and Max Henry and Nicolas Pinto and Camille Noufi and Christian Clough and D. Herremans and Eduardo Fonseca and Jesse Engel and Justin Salamon and Philippe Esling and Pranay Manocha and Shinji Watanabe and Zeyu Jin and Yonatan Bisk}
+}
+@conference {2022,
+	title = {Jointist: Joint Learning for Multi-instrument Transcription and Its Applications},
+	year = {2022},
+	publisher = {Arxiv},
+	organization = {Arxiv},
+	abstract = {In this paper, we introduce Jointist, an instrument-aware multi-instrument framework that is capable of transcribing, recognizing, and separating multiple musical instruments from an audio clip. Jointist consists of the instrument recognition module that conditions the other modules: the transcription module that outputs instrument-specific piano rolls, and the source separation module that utilizes instrument information and transcription results.
+The instrument conditioning is designed for an explicit multi-instrument functionality while the connection between the transcription and source separation modules is for better transcription performance. Our challenging problem formulation makes the model highly useful in the real world given that modern popular music typically consists of multiple instruments. However, its novelty necessitates a new perspective on how to evaluate such a model. During the experiment, we assess the model from various aspects, providing a new evaluation perspective for multi-instrument transcription. We also argue that transcription models can be utilized as a preprocessing module for other music analysis tasks. In the experiment on several downstream tasks, the symbolic representation provided by our transcription model turned out to be helpful to spectrograms in solving downbeat detection, chord recognition, and key estimation.},
+	doi = { https://doi.org/10.48550/arXiv.2206.10805},
+	url = {https://arxiv.org/abs/2206.10805},
+	author = {K.W. Cheuk and K. Choi and Q. Kong and B. Li and M. Won and A. Hung and J.-C. Wang and D. Herremans}
+}
+@conference {2022,
+	title = {A Machine Learning Approach for MIDI to Guitar Tablature Conversion},
+	booktitle = {Sound and Music Computing Conference (SMC)},
+	year = {2022},
+	author = {N. Kaliakatsos-Papakostas and G. Bastas and D. Makris and D. Herremans and V. Katsouros and P. Maragos}
+}
+@conference {2022,
+	title = {MusIAC: An extensible generative framework for Music Infilling Application with multi-level Control},
+	booktitle = {EvoMUSART},
+	year = {2022},
+	url = {https://arxiv.org/abs/2202.05528},
+	author = {Rui Guo and I. Simpton and C. Kiefer and Thor Magnusson and D. Herremans}
+}
+@article {2022,
+	title = {Predicting emotion from music videos: exploring the relative contribution of visual and auditory information to affective responses},
+	journal = {Arxiv preprint},
+	year = {2022},
+	abstract = {Although media content is increasingly produced, distributed, and consumed in multiple combinations of modalities, how individual modalities contribute to the perceived emotion of a media item remains poorly understood. In this paper we present MusicVideos (MuVi), a novel dataset for affective multimedia content analysis to study how the auditory and visual modalities contribute to the perceived emotion of media. The data were collected by presenting music videos to participants in three conditions: music, visual, and audiovisual. Participants annotated the music videos for valence and arousal over time, as well as the overall emotion conveyed. We present detailed descriptive statistics for key measures in the dataset and the results of feature importance analyses for each condition. Finally, we propose a novel transfer learning architecture to train Predictive models Augmented with Isolated modality Ratings (PAIR) and demonstrate the potential of isolated modality ratings for enhancing multimodal emotion recognition. Our results suggest that perceptions of arousal are influenced primarily by auditory information, while perceptions of valence are more subjective and can be influenced by both visual and auditory information. The dataset is made publicly available.},
+	url = {https://arxiv.org/abs/2202.10453},
+	author = {P. Chua and D. Makris and K. Agres and G. Roig and D. Herremans}
+}
+@article {2022,
+	title = {Single Image Video Prediction with Auto-Regressive GANs},
+	journal = {Sensors},
+	volume = {22},
+	year = {2022},
+	pages = {3533},
+	abstract = {In this paper, we introduce an approach for future frames prediction based on a single input image. Our method is able to generate an entire video sequence based on the information contained in the input frame. We adopt an autoregressive approach in our generation process, i.e., the output from each time step is fed as the input to the next step. Unlike other video prediction methods that use \&ldquo;one shot\&rdquo; generation, our method is able to preserve much more details from the input image, while also capturing the critical pixel-level changes between the frames. We overcome the problem of generation quality degradation by introducing a \&ldquo;complementary mask\&rdquo; module in our architecture, and we show that this allows the model to only focus on the generation of the pixels that need to be changed, and to reuse those that should remain static from its previous frame. We empirically validate our methods against various video prediction models on the UT Dallas Dataset, and show that our approach is able to generate high quality realistic video sequences from one static input image. In addition, we also validate the robustness of our method by testing a pre-trained model on the unseen ADFES facial expression dataset. We also provide qualitative results of our model tested on a human action dataset: The Weizmann Action database.},
+	issn = {1424-8220},
+	doi = {10.3390/s22093533},
+	url = {https://www.mdpi.com/1424-8220/22/9/3533},
+	author = {Huang, Jiahui and Chia, Yew Ken and Yu, Samson and Yee, Kevin and K{\"u}ster, Dennis and Krumhuber, Eva G. and Herremans, D and Roig, G.}
+}
+@conference {2022,
+	title = {Understanding Audio Features via Trainable Basis Functions},
+	booktitle = {Arxiv preprint},
+	year = {2022},
+	abstract = {In this paper we explore the possibility of maximizing the information represented in spectrograms by making the spectrogram basis functions trainable. We experiment with two different tasks, namely keyword spotting (KWS) and automatic speech recognition (ASR). For most neural network models, the architecture and hyperparameters are typically fine-tuned and optimized in experiments. Input features, however, are often treated as fixed. In the case of audio, signals can be mainly expressed in two main ways: raw waveforms (time-domain) or spectrograms (time-frequency-domain). In addition, different spectrogram types are often used and tailored to fit different applications. In our experiments, we allow for this tailoring directly as part of the network.
+Our experimental results show that using trainable basis functions can boost the accuracy of Keyword Spotting (KWS) by 14.2 percentage points, and lower the Phone Error Rate (PER) by 9.5 percentage points. Although models using trainable basis functions become less effective as the model complexity increases, the trained filter shapes could still provide us with insights on which frequency bins are important for that specific task. From our experiments, we can conclude that trainable basis functions are a useful tool to boost the performance when the model complexity is limited.},
+	url = {https://arxiv.org/abs/2204.11437},
+	author = {Y.H. Kwan and K.W. Cheuk and D. Herremans}
+}
+@article {2022,
+	title = {A white paper on cyberphysical learning},
+	journal = {White paper, Singapore University of Technology and Design},
+	year = {2022},
+	url = {https://www.sutd.edu.sg/SUTD/media/SUTD/LSL_WhitePaper_Cyber-physical-Campus-Higher-Education.pdf},
+	author = {N. Sockalingam and K. Lo and KurniawaO. n and D. Herremans and N. Raghunath and H. G.C. Cancion and H. Kejun and H. Leong and J. Tan and K. Nizharzharudin and K.L. Pey}
+}
+@article {2021,
+	title = {aiSTROM - A roadmap for developing a successful AI strategy},
+	journal = {IEEE Access},
+	year = {2021},
+	abstract = { A total of 34\% of AI research and development projects fail or are abandoned, according to a recent survey by Rackspace Technology of 1,870 companies. In this perspective paper, a new STrategic ROadMap, aiSTROM, is presented that empowers managers to create an AI strategy. A comprehensive approach is provided that guides managers and lead developers through the various challenges in the implementation process. In the aiSTROM framework, the top $n$ potential projects (typically 3-5) are first identified. For each of those, seven areas of focus are thoroughly analysed. These areas include creating a data strategy that takes into account unique cross-departmental machine learning data requirements, security, and legal requirements. aiSTROM then guides managers to think about how to put together an interdisciplinary artificial intelligence (AI) implementation team given the scarcity of AI talent. Once an AI team strategy has been established, it needs to be positioned within the organization, either cross-departmental or as a separate division. Other considerations include AI as a service (AIaas) and outsourcing development. Looking at new technologies, one has to consider challenges such as bias, the legality of black-box models, and keeping humans in the loop. Next, like any project, value-based key performance indicators (KPIs) need to be defined to track and validate the progress. Depending on the company{\textquoteright}s risk strategy, a SWOT analysis (strengths, weaknesses, opportunities, and threats) can help further classify the shortlisted projects. Finally, one should make sure that the strategy includes continuous education of employees to enable a culture of adoption. This unique and comprehensive framework offers a practical tool for managers and lead developers.},
+	doi = {10.1109/ACCESS.2021.3127548},
+	url = {https://arxiv.org/abs/2107.06071},
+	author = {Herremans, D}
+}
+@article {2021,
+	title = {AttendAffectNet {\textendash} Emotion Prediction of Movie Viewers Using Multimodal Fusion with Self-attention},
+	journal = {Sensors. Special issue on Intelligent Sensors: Sensor Based Multi-Modal Emotion Recognition},
+	year = {2021},
+	abstract = {In this paper, we tackle the problem of predicting the affective responses of movie viewers, based on the content of the movies. Current studies on this topic focus on video representation learning and fusion techniques to combine the extracted features for predicting affect. Yet, those typically , while ignoring the correlation between multiple modality inputs nor the correlation between temporal inputs (i.e., sequential features). To explore these correlations, a neural network architecture namely AttendAffectNet (AAN), which uses the self-attention mechanism for predicting emotions of movie viewers from different input modalities. Particularly, visual, audio, and text features are taken into account for predicting emotions (expressed in terms of valence and arousal). We analyze three variants of our proposed AAN: Feature AAN, Temporal AAN, and Mixed AAN. The Feature AAN applies the self-attention mechanism in an innovative way on the features extracted from the different modalities (including video, audio, and movie subtitles) of a whole movie excerpt, so as to capture the relationship between them. The Temporal AAN takes the time domain of the movies and the sequential dependency of affective responses into account. In the Temporal AAN, the self-attention is applied on the concatenated (multimodal) feature vectors representing different subsequent movie segments. In the Mixed AAN, we combine the strong points of the Feature AAN and the Temporal AAN, by applying the self-attention first on vectors of features obtained from different modalities in each movie segment, and then on the feature representations of all subsequent (temporal) movie segments. We extensively train and validate our proposed AAN on both the MediaEval 2016 dataset for the Emotional Impact of Movies Task and the extended COGNIMUSE dataset. Our experiments demonstrate that audio features play a more influential role than those extracted from video and movie subtitles when predicting emotions of movie viewers on these datasets. The models that use all visual, audio, and text features simultaneously as their inputs perform better than those using features extracted from each modality separately. In addition, the Feature AAN outperforms other AAN variants on the above-mentioned datasets, highlighting the importance of taking different features as context to one another when fusing them. The Feature AAN also performs better than the baseline models when predicting the valence dimension.},
+	doi = {10.3390/s21248356},
+	url = {https://www.mdpi.com/1424-8220/21/24/8356},
+	author = {T. Ha Thi Phuong and Balamurali BT and G. Roig and D. Herremans}
+}
+@conference {2021,
+	title = {AttendAffectNet: Self-Attention based Networks for Predicting Affective Responses from Movies},
+	booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR2020)},
+	year = {2021},
+	month = {01/2021},
+	address = {Milano, Italy (virtual)},
+	author = {T. Ha Thi Phuong and Balamurali BT and D. Herremans and G. Roig}
+}
+@article {2021,
+	title = {Deep Neural Network Based Respiratory Pathology Classification Using Cough Sounds},
+	journal = {Sensors},
+	volume = {21},
+	year = {2021},
+	pages = {5555},
+	abstract = {Intelligent systems are transforming the world, as well as our healthcare system. We propose a deep learning-based cough sound classification model that can distinguish between children with healthy versus pathological coughs such as asthma, upper respiratory tract infection (URTI), and lower respiratory tract infection (LRTI). In order to train a deep neural network model, we collected a new dataset of cough sounds, labelled with clinician{\textquoteright}s diagnosis. The chosen model is a bidirectional long-short term memory network (BiLSTM) based on Mel Frequency Cepstral Coefficients (MFCCs) features. The resulting trained model when trained for classifying two classes of coughs -- healthy or pathology (in general or belonging to a specific respiratory pathology), reaches accuracy exceeding 84\% when classifying cough to the label provided by the physicians{\textquoteright} diagnosis. In order to classify subject{\textquoteright}s respiratory pathology condition, results of multiple cough epochs per subject were combined. The resulting prediction accuracy exceeds 91\% for all three respiratory pathologies. However, when the model is trained to classify and discriminate among the four classes of coughs, overall accuracy dropped: one class of pathological coughs are often misclassified as other. However, if one consider the healthy cough classified as healthy and pathological cough classified to have some kind of pathologies, then the overall accuracy of four class model is above 84\%. A longitudinal study of MFCC feature space when comparing pathological and recovered coughs collected from the same subjects revealed the fact that pathological cough irrespective of the underlying conditions occupy the same feature space making it harder to differentiate only using MFCC features.},
+	doi = {10.3390/s21165555},
+	url = {https://www.mdpi.com/1424-8220/21/16/5555/htm},
+	author = {Balamurali B T and Hwan Ing Hee and Saumitra Kapoor and Oon Hoe Teoh and Sung Shin Teng and Khai Pin Lee and Dorien Herremans and Jer Ming Chen}
+}
+@conference {2020,
+	title = {The Effect of Spectrogram Reconstructions on Automatic Music Transcription:An Alternative Approach to Improve Transcription Accuracy},
+	booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR2020)},
+	year = {2021},
+	month = {01/2021},
+	address = {Milano, Italy (virtual)},
+	author = {K.W. Cheuk and Y.J. Luo and E. Benetos and D. Herremans}
+}
+@article {2021,
+	title = {Evaluating the Effectiveness of an Augmented Reality Game Promoting Environmental Action},
+	journal = {Sustainability},
+	volume = {13},
+	year = {2021},
+	pages = {13912},
+	abstract = {While public awareness of climate change has grown over the years, many people still have misconceptions regarding effective individual environmental action. In this paper, we present a serious game called PEAR, developed using elements of geolocation and augmented reality (AR), aimed at increasing players{\textquoteright} awareness of climate change issues and propensity for effective sustainable behaviours. We conducted a study with participants who played the game, gauging their knowledge of and attitudes towards climate change issues before and after playing the game. Our results show that the game significantly improved participants{\textquoteright} knowledge on sustainability and climate-change-related issues, and that it also significantly improved their attitudes towards these topics, thus proving that serious games have the potential to impart knowledge and promote sustainable behaviours. Additionally, our results address the lack of empirical studies on the knowledge base of serious sustainability games by introducing methods of quantitatively analysing the effects of serious sustainability games while additionally providing more knowledge about the effectiveness of the specific design elements of our game.},
+	doi = {10.3390/su132413912},
+	url = {https://www.mdpi.com/2071-1050/13/24/13912},
+	author = {K. Wang and Z. Tekler and L. Cheah and D. Herremans and L. Blessing}
+}
+@conference {2021,
+	title = {Generating Lead Sheets with Affect: A Novel Conditional seq2seq Framework},
+	booktitle = {Proceedings of the International Joint Conference on Neural Networks (IJCNN)},
+	year = {2021},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Virtual},
+	url = {https://arxiv.org/abs/2104.13056},
+	author = {D. Makris and K. Agres and D. Herremans}
+}
+@conference {2021,
+	title = {Hierarchical Recurrent Neural Networks for Conditional Melody Generation with Long-term Structure},
+	booktitle = {Proceedings of the International Joint Conference on Neural Networks (IJCNN)},
+	year = {2021},
+	publisher = {Proceedings of IJCNN},
+	organization = {Proceedings of IJCNN},
+	address = {Online},
+	abstract = {The rise of deep learning technologies has quickly advanced many fields, including that of generative music systems. There exist a number of systems that allow for the generation of good sounding short snippets, yet, these generated snippets often lack an overarching, longer-term structure. In this work, we propose CM-HRNN: a conditional melody generation model based on a hierarchical recurrent neural network. This model allows us to generate melodies with long-term structures based on given chord accompaniments. We also propose a novel, concise event-based representation to encode musical lead sheets while retaining the notes{\textquoteright} relative position within the bar with respect to the musical meter. With this new data representation, the proposed architecture can simultaneously model the rhythmic, as well as the pitch structures in an effective way. Melodies generated by the proposed model were extensively evaluated in quantitative experiments as well as a user study to ensure the musical quality of the output as well as to evaluate if they contain repeating patterns. We also compared the system with the state-of-the-art AttentionRNN. This comparison shows that melodies generated by CM-HRNN contain more repeated patterns (i.e., higher compression ratio) and a lower tonal tension (i.e., more tonally concise). Results from our listening test indicate that CM-HRNN outperforms AttentionRNN in terms of long-term structure and overall rating.},
+	url = {https://arxiv.org/abs/2102.09794},
+	author = {Zixun Guo and D. Makris and D. Herremans}
+}
+@article {2021,
+	title = {Music, Computing, and Health: A roadmap for the current and future roles of music technology for healthcare and well-being},
+	journal = {Music \& Science},
+	year = {2021},
+	abstract = {The fields of music, health, and technology have seen significant interactions in recent years in developing music technology for health care and well-being. In an effort to strengthen the collaboration between the involved disciplines, the workshop {\textquotedblleft}Music, Computing, and Health{\textquotedblright} was held to discuss best practices and state-of-the-art at the intersection of these areas with researchers from music psychology and neuroscience, music therapy, music information retrieval, music technology, medical technology (medtech), and robotics. Following the discussions at the workshop, this article provides an overview of the different methods of the involved disciplines and their potential contributions to developing music technology for health and well-being. Furthermore, the article summarizes the state of the art in music technology that can be applied in various health scenarios and provides a perspective on challenges and opportunities for developing music technology that (1) supports person-centered care and evidence-based treatments, and (2) contributes to developing standardized, large-scale research on music-based interventions in an interdisciplinary manner. The article provides a resource for those seeking to engage in interdisciplinary research using music-based computational methods to develop technology for health care, and aims to inspire future research directions by evaluating the state of the art with respect to the challenges facing each field.},
+	doi = {https://doi.org/10.1177/205920432199770},
+	url = {https://journals.sagepub.com/doi/full/10.1177/2059204321997709},
+	author = {K. Agres and Schaefer, Rebecca and Volk, Anja and Van Hooren, Susan and Holzapfel, Andr{\'e} and Dalla Bella, Simone and M{\"u}ller, Meinard and de Witte, Martina and D. Herremans and Ramirez Melendez, Rafael and Neerincx, Mark and Ruiz, Sebastian and Meredith, David and Dimitriadis, Theo and Magee, Wendy}
+}
+@inbook {2021,
+	title = {Musical stylometry: Characterisation of music},
+	booktitle = {Multivariate Humanities},
+	year = {2021},
+	publisher = {Springer},
+	organization = {Springer},
+	isbn = {978-3-030-69150-9},
+	issn = {978-3-030-69149-3},
+	doi = {10.1007/978-3-030-69150-9},
+	url = {https://www.springer.com/gp/book/9783030691493$\#$aboutBook},
+	author = {P. Kroonenberg and D. Herremans}
+}
+@conference {2021,
+	title = {ReconVAT: A Semi-Supervised Automatic Music Transcription Framework for Low-Resource Real-World Data},
+	booktitle = {ACM Multimedia},
+	year = {2021},
+	publisher = {ACM},
+	organization = {ACM},
+	abstract = {Most of the current supervised automatic music transcription (AMT) models lack the ability to generalize. This means that they have trouble transcribing real-world music recordings from diverse musical genres which are not presented in the labelled training data. In this paper, we propose a semi-supervised framework, ReconVAT, which solves this issue by leveraging the huge amount of available unlabelled music recordings. The proposed ReconVAT uses reconstruction loss and virtual adversarial training. When combined with existing U-net models for AMT, ReconVAT shows competitive performance on the common benchmark datasets such as MAPS and MusicNet. For example, in the few-shot setting for the string part version of MusicNet, ReconVAT achieves F1-scores of 61.0\% and 41.6\% for the note-wise and note-with-offset-wise metrics respectively, which translate to improvements of 22.2\% and 62.5\% over the supervised baseline model. Our proposed framework also demonstrates the potential of continuous learning on new data, which could be used in real-world applications such as online training and transcribing instrumental covers of pop music.},
+	url = {https://dl.acm.org/doi/10.1145/3474085.3475405},
+	author = {K.W. Cheuk and L. Su and D. Herremans}
+}
+@conference {2021,
+	title = {Revisiting the Onsets and Frames Model with Additive Attention},
+	booktitle = {Proceedings of the International Joint Conference on Neural Networks (IJCNN)},
+	year = {2021},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Virtual},
+	author = {K.W. Cheuk and Y.J. Luo and E. Benetos and D. Herremans}
+}
+@article {2021,
+	title = {Underwater Acoustic Communication Receiver Using Deep Belief Network},
+	journal = {IEEE Transactions on Communications},
+	year = {2021},
+	pages = {1-1},
+	abstract = {Underwater environments create a challenging channel for communications. In this paper, we design a novel receiver system by exploring the machine learning technique{\textendash}Deep Belief Network (DBN){\textendash} to combat the signal distortion caused by the Doppler effect and multi-path propagation. We evaluate the performance of the proposed receiver system in both simulation experiments and sea trials. Our proposed receiver system comprises of DBN based de-noising and classification of the received signal. First, the received signal is segmented into frames before the each of these frames is individually pre-processed using a novel pixelization algorithm. Then, using the DBN based de-noising algorithm, features are extracted from these frames and used to reconstruct the received signal. Finally, DBN based classification of the reconstructed signal occurs. Our proposed DBN based receiver system does show better performance in channels influenced by the Doppler effect and multi-path propagation with a performance improvement of 13.2dB at 10-3 Bit Error Rate (BER).},
+	doi = {10.1109/TCOMM.2021.3063353},
+	url = {https://ieeexplore.ieee.org/document/9367188},
+	author = {A. Lee-Leon and C. Yuen and D. Herremans}
+}
+@conference {2020,
+	title = {Acoustic prediction of flowrate: varying liquid jet stream onto a free surface},
+	booktitle = {IEEE International Conference on Signal Processing and Communications (SPCOM)},
+	year = {2020},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Blangladesh, India},
+	abstract = {Information on liquid jet stream flow is crucial in many real world applications. In a large number of cases, these flows fall directly onto free surfaces (e.g. pools), creating a splash with accompanying splashing sounds. The sound produced is supplied by energy interactions between the liquid jet stream and the passive free surface. In this investigation, we collect the sound of a water jet of varying flowrate falling into a pool of water, and use this sound to predict the flowrate and flowrate trajectory involved. Two approaches are employed: one uses machine-learning models trained using audio features extracted from the collected sound to predict the flowrate (and subsequently the flowrate trajectory). In contrast, the second method directly uses acoustic parameters related to the spectral energy of the liquid-liquid interaction to estimate the flowrate trajectory. The actual flowrate, however, is determined directly using a gravimetric method: tracking the change in mass of the pooling liquid over time. We show here that the two methods agree well with the actual flowrate and offer comparable performance in accurately predicting the flowrate trajectory, and accordingly offer insights for potential real-life applications using sound.},
+	author = {Balamurali BT and E. J. Aslim and Yun Shu Lynn Ng and Tricia Li Chuen Kuo and Jacob Shihang Chen and D. Herremans and Lay Guat Ng and J.M. Chen}
+}
+@article {2020,
+	title = {Asthmatic versus healthy child classification based on cough and vocalised /a:/ sounds},
+	journal = {The Journal of the Acoustical Society of America (JASA)},
+	volume = {148, EL253},
+	year = {2020},
+	month = {09/2020},
+	type = {Jasa Express Letters},
+	abstract = {Cough is a common symptom presenting in asthmatic children. In this investigation, an audio-based classification model is presented that can differentiate between healthy and asthmatic children, based on the combination of cough and vocalised /ɑ:/ sounds. A Gaussian mixture model using mel-frequency cepstral coefficients and constant-Q cepstral coefficients was trained. When comparing the predicted labels with the clinician{\textquoteright}s diagnosis, this cough sound model reaches an overall accuracy of 95.3\%. The vocalised /ɑ:/ model reaches an accuracy of 72.2\%, which is still significant because the dataset contains only 333 /ɑ:/ sounds versus 2029 cough sounds.
+},
+	doi = {10.1121/10.0001933},
+	url = {https://asa.scitation.org/doi/10.1121/10.0001933},
+	author = {Balamurali BT and H.I. Hee and O.H. Teoh and K.P. Lee and S. Kapoor and D. Herremans and J.M. Chen}
+}
+@mastersthesis {2020,
+	title = {Data-driven 3D Scene Understanding},
+	volume = {PhD},
+	year = {2020},
+	school = {SUTD},
+	address = {Singapore},
+	abstract = {Among all digital representations we have for real physical objects, 3D is arguably the most expressive encoding. 3D representations allow storage and manipulation of high-level information as well as low-level features. However, it is still not clear how humans perceive 3D data innately. Replicating these capabilities in a vision-based agent is a challenging problem that can make an impact in several applications such as autonomous driving, robotics, and augmented/virtual reality. Scene understanding, which can be understood as the act of analyzing a scene by considering its geometric and semantic properties, is a long standing problem in computer vision. Recently, with the rise of big data and deep learning, this problem has gained a lot of attention over the past few years. The main issue lies in how to collect and annotate 3D data effectively, while making use of these data to learn a good representation of the world.
+
+In this thesis, a series of topics on data-driven 3D scene understanding is discussed. Under the guiding principle of leveraging large-scale data for scene understanding, my efforts have led to several state-of-the-art algorithms, and the creation of multiple large-scale datasets. First, we describe the process of collecting and annotating an indoor scene dataset. Next, we discuss a method to learn local cross-domain features, which can be applied to several low-level scene understanding tasks. We then take a look at the problem of progressive semantic segmentation and joint semantic-instance segmentation for indoor scenes. Finally, we dabble into the field of outdoor scene understanding by showing the creation of an autonomous driving dataset.},
+	author = {Quang-Hieu Pham}
+}
+@conference {2020,
+	title = {A dataset and classification model for Malay, Hindi, Tamil and Chinese music},
+	booktitle = {13th Workshop on music and machine learning (MML) as part of ECML/PKDD},
+	year = {2020},
+	month = {08/2020},
+	abstract = {In this paper we present a new dataset, with musical excepts from the three main ethnic groups in Singapore: Chinese, Malay and Indian (both Hindi and Tamil). We use this new dataset to train different classification models to distinguish the origin of the music in terms of these ethnic groups. The classification models were optimized by exploring the use of different musical features as the input. Both high level features, i.e., musically meaningful features, as well as low level features, i.e., spectrogram based features, were extracted from the audio files so as to optimize the performance of the different classification models.},
+	author = {F. Nahar and K. Agres and Balamurali BT and D. Herremans}
+}
+@proceedings {2020,
+	title = {Generative Modelling for Controllable Audio Synthesis of Expressive Piano Performance},
+	year = {2020},
+	month = {07/2020},
+	publisher = {arXiv:2006.09833},
+	abstract = {We present a controllable neural audio synthesizer based on Gaussian Mixture Variational Autoencoders (GM-VAE), which can generate realistic piano performances in the audio domain that closely follows temporal conditions of two essential style features for piano performances: articulation and dynamics. We demonstrate how the model is able to apply fine-grained style morphing over the course of synthesizing the audio. This is based on conditions which are latent variables that can be sampled from the prior or inferred from other pieces. One of the envisioned use cases is to inspire creative and brand new interpretations for existing pieces of piano music.},
+	url = {https://arxiv.org/abs/2006.09833},
+	author = {Hao Hao Tan and Y.J. Luo and D. Herremans}
+}
+@conference {2020,
+	title = {The impact of Audio input representations on neural network based music transcription},
+	booktitle = {Proceedings of the International Joint Conference on Neural Networks (IJCNN)},
+	year = {2020},
+	month = {07/2020},
+	address = {Glasgow},
+	abstract = {This paper thoroughly analyses the effect of different input representations on polyphonic multi-instrument music transcription. We use our own GPU based spectrogram extraction tool, nnAudio, to investigate the influence of using a linear-frequency spectrogram, log-frequency spectrogram, Mel spectrogram, and constant-Q transform (CQT). Our results show that a 8.33\% increase in transcription accuracy and a 9.39\% reduction in error can be obtained by choosing the appropriate input representation (log-frequency spectrogram with STFT window length 4,096 and 2,048 frequency bins in the spectrogram) without changing the neural network design (single layer fully connected). Our experiments also show that Mel spectrogram is a compact representation for which we can reduce the number of frequency bins to only 512 while still keeping a relatively high music transcription accuracy.},
+	url = {https://arxiv.org/abs/2001.09989},
+	author = {K.W. Cheuk and K. Agres and D. Herremans}
+}
+@conference {2020,
+	title = {Music FaderNets: Controllable Music Generation Based On High-Level Features via Low-Level Feature Modelling},
+	booktitle = {ISMIR},
+	year = {2020},
+	abstract = {High-level musical qualities (such as emotion) are often abstract, subjective, and hard to quantify. Given these difficulties, it is not easy to learn good feature representations with supervised learning techniques, either because of the insufficiency of labels, or the subjectiveness (and hence large variance) in human-annotated labels. In this paper, we present a framework that can learn high-level feature representations with a limited amount of data, by first modelling their corresponding quantifiable low-level attributes. We refer to our proposed framework as Music FaderNets, which is inspired by the fact that low-level attributes can be continuously manipulated by separate {\textquoteleft}{\textquoteleft}sliding faders{\textquoteright}{\textquoteright} through feature disentanglement and latent regularization techniques. High-level features are then inferred from the low-level representations through semi-supervised clustering using Gaussian Mixture Variational Autoencoders (GM-VAEs). Using arousal as an example of a high-level feature, we show that the {\textquoteleft}{\textquoteleft}faders{\textquoteright}{\textquoteright} of our model are disentangled and change linearly w.r.t. the modelled low-level attributes of the generated output music. Furthermore, we demonstrate that the model successfully learns the intrinsic relationship between arousal and its corresponding low-level attributes (rhythm and note density), with only (1\%) of the training set being labelled. Finally, using the learnt high-level feature representations, we explore the application of our framework in style transfer tasks across different arousal states. The effectiveness of this approach is verified through a subjective listening test. },
+	author = {H.H. Tan and D. Herremans}
+}
+@article {2019,
+	title = {nnAudio: An on-the-fly GPU Audio to Spectrogram Conversion Toolbox Using 1D Convolution Neural Networks},
+	journal = {IEEE Access},
+	year = {2020},
+	abstract = {Converting time domain waveforms to frequency domain spectrograms is typically considered to be a prepossessing step done before model training. This approach, however, has several drawbacks. First, it takes a lot of hard disk space to store different frequency domain representations. This is especially true during the model development and tuning process, when exploring various types of spectrograms for optimal performance. Second, if another dataset is used, one must process all the audio clips again before the network can be retrained. In this paper, we integrate the time domain to frequency domain conversion as part of the model structure, and propose a neural network based toolbox, nnAudio, which leverages 1D convolutional neural networks to perform time domain to frequency domain conversion during feed-forward. It allows on-the-fly spectrogram generation without the need to store any spectrograms on the disk. This approach also allows back-propagation on the waveforms-to-spectrograms transformation layer, which implies that this transformation process can be made trainable, and hence further optimized by gradient descent. nnAudio reduces the waveforms-to-spectrograms conversion time for 1,770 waveforms (from the MAPS dataset) from 10.64 seconds with librosa to only 0.001 seconds for Short-Time Fourier Transform (STFT), 18.3 seconds to 0.015 seconds for Mel spectrogram, 103.4 seconds to 0.258 for constant-Q transform (CQT), when using GPU on our DGX work station with CPU: Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz Tesla v100 32Gb GPUs. (Only 1 GPU is being used for all the experiments.) We also further optimize the existing CQT algorithm, so that the CQT spectrogram can be obtained without aliasing in a much faster computation time (from 0.258 seconds to only 0.001 seconds).},
+	doi = {10.1109/ACCESS.2020.3019084},
+	url = {https://ieeexplore.ieee.org/document/9174990},
+	author = {K.W. Cheuk and H. Anderson and K. Agres and D. Herremans}
+}
+@conference {2020,
+	title = {PerceptionGAN: Real-world image construction from provided text through perceptual understanding},
+	booktitle = {4th Int. Conf. on Imaging, Vision and Pattern Recognition (IVPR), and 9th Int. Conf. on Informatics, Electronics \& Vision (ICIEV)},
+	year = {2020},
+	month = {08/2020},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Kitakyushu, Japan},
+	abstract = {Generating an image from a provided descriptive text is quite a challenging task because of the difficulty in incorporating perceptual information (object shapes, colors, and their interactions) along with providing high relevancy related to the provided text. Current methods first generate an initial low-resolution image, which typically has irregular object shapes, colors, and interaction between objects. This initial image is then improved by conditioning on the text. However, these methods mainly address the problem of using text representation efficiently in the refinement of the initially generated image, while the success of this refinement process depends heavily on the quality of the initially generated image, as pointed out in the Dynamic Memory Generative Adversarial Network (DM-GAN) paper. Hence, we propose a method to provide good initialized images by incorporating perceptual understanding in the discriminator module. We improve the perceptual information at the first stage itself, which results in significant improvement in the final generated image. In this paper, we have applied our approach to the novel StackGAN architecture. We then show that the perceptual information included in the initial image is improved while modeling image distribution at multiple stages. Finally, we generated realistic multi-colored images conditioned by text. These images have good quality along with containing improved basic perceptual information. More importantly, the proposed method can be integrated into the pipeline of other state-of-the-art text-based-image-generation models such as DM-GAN and AttnGAN to generate initial low-resolution images. We also worked on improving the refinement process in StackGAN by augmenting the third stage of the generator-discriminator pair in the StackGAN architecture. Our experimental analysis and comparison with the state-of-the-art on a large but sparse dataset MS COCO further validate the usefulness of our proposed approach.},
+	author = {K. Garg and A. Singh and D. Herremans and B. Lall}
+}
+@conference {2020,
+	title = {Regression-based music emotion prediction using triplet neural networks},
+	booktitle = {Proceedings of the International Joint Conference on Neural Networks (IJCNN)},
+	year = {2020},
+	month = {07/2020},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Glasgow},
+	abstract = {In this paper, we adapt triplet neural networks (TNNs) to a regression task, music emotion prediction. Since TNNs were initially introduced for classification, and not for regression, we propose a mechanism that allows them to provide meaningful low dimensional representations for regression tasks. We then use these new representations as the input for regression algorithms such as support vector machines and gradient boosting machines. To demonstrate the TNNs{\textquoteright} effectiveness at creating meaningful representations, we compare them to different dimensionality reduction methods on music emotion prediction, i.e., predicting valence and arousal values from musical audio signals. Our results on the DEAM dataset show that by using TNNs we achieve 90\% feature dimensionality reduction with a 9\% improvement in valence prediction and 4\% improvement in arousal prediction with respect to our baseline models (without TNN). Our TNN method outperforms other dimensionality reduction methods such as principal component analysis (PCA) and autoencoders (AE). This shows that, in addition to providing a compact latent space representation of audio features, the proposed approach has a relatively high performance over the baseline models.},
+	url = {https://arxiv.org/abs/2001.09988},
+	author = {K.W. Cheuk and Y.J. Luo and Balamurali BT and G. Roig and D. Herremans}
+}
+@conference {2019,
+	title = {Singing voice conversion with disentangled representations of singer and vocal technique using variational autoencoders},
+	booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+	year = {2020},
+	month = {05/2020},
+	address = {Barcelona, Spain},
+	url = {https://arxiv.org/abs/1912.02613},
+	author = {Y.J. Luo and C.-C. Hsu and K. Agres and D. Herremans}
+}
+@conference {2020,
+	title = {Unsupervised disentanglement of pitch and timbre for isolated musical instrument sounds},
+	booktitle = {Proceedings of the International Society of Music Information Retrieval (ISMIR)},
+	year = {2020},
+	month = {10/2020},
+	abstract = {Disentangling factors of variation aims to uncover latent variables that underlie the process of data generation. In this paper, we propose a framework that achieves unsupervised pitch and timbre disentanglement for isolated musical instrument sounds without relying on data annotations or pre-trained neural networks. Our framework, based on variational auto-encoders, takes as input a spectral frame, and encodes pitch and timbre as categorical and continuous variables, respectively. The input is then reconstructed by combining those variables. Under an unsupervised training setting, a major challenge is that encoders are tasked to capture factors of interest with distinct latent representations, without access to the corresponding ground-truth labels. We therefore introduce auxiliary tasks and objectives which leverage pitch shifting as a strategy to create surrogate labels, thereby encouraging the disentanglement of pitch and timbre. Through an ablation study we analyze the impact of the proposed objectives. The evaluation shows the efficacy of the proposed framework for learning disentangled representations, and verifies its applicability to unsupervised pitch classification and conditional spectral synthesis.},
+	url = {https://arxiv.org/abs/1906.08152},
+	author = {Y.J. Luo and K.W. Cheuk and T. Nakano and M. Goto and D. Herremans}
+}
+@conference {2020,
+	title = {A variational autoencoder for music generation controlled by tonal tension},
+	booktitle = {Joint Conference on AI Music Creativity (CSMC + MuMe)},
+	year = {2020},
+	month = {11/2020},
+	url = {https://arxiv.org/abs/2010.06230},
+	author = {Rui Guo and Ivor Simpson and Thor Magnusson and C. Kiefer and D. Herremans}
+}
+@article {9998,
+	title = {Development of Machine Learning for asthmatic and healthy voluntary  cough - a proof of concept study},
+	journal = {Applied Sciences},
+	volume = {9},
+	year = {2019},
+	month = {07/2019},
+	chapter = {2833},
+	abstract = {(1) Background: Cough is a major presentation in childhood asthma. Here, we aim to develop a machine-learning based cough sound classifier for asthmatic and healthy children. (2) Methods: Children less than 16 years old were randomly recruited in a Children{\textquoteright}s Hospital, from February 2017 to April 2018, and were divided into 2 cohorts{\textemdash}healthy children and children with acute asthma presenting with cough. Children with other concurrent respiratory conditions were excluded in the asthmatic cohort. Demographic data, duration of cough, and history of respiratory status were obtained. Children were instructed to produce voluntary cough sounds. These clinically labeled cough sounds were randomly divided into training and testing sets. Audio features such as Mel-Frequency Cepstral Coefficients and Constant-Q Cepstral Coefficients were extracted. Using a training set, a classification model was developed with Gaussian Mixture Model{\textendash}Universal Background Model (GMM-UBM). Its predictive performance was tested using the test set against the physicians{\textquoteright} labels. (3) Results: Asthmatic cough sounds from 89 children (totaling 1192 cough sounds) and healthy coughs from 89 children (totaling 1140 cough sounds) were analyzed. The sensitivity and specificity of the audio-based classification model was 82.81\% and 84.76\%, respectively, when differentiating coughs from asthmatic children versus coughs from {\textquoteleft}healthy{\textquoteright} children. (4) Conclusion: Audio-based classification using machine learning is a potentially useful technique in assisting the differentiation of asthmatic cough sounds from healthy voluntary cough sounds in children.},
+	doi = {10.3390/app9142833},
+	url = {https://www.mdpi.com/2076-3417/9/14/2833},
+	author = {H.I. Hee and Balamurali BT and A. Karunakaran and D. Herremans and O.H. Teoh and K.P. Lee and S.S. Teng and S. Lui and J.M. Chen}
+}
+@conference {2019,
+	title = {Doppler Invariant Demodulation for Shallow Water Acoustic Communications Using Deep Belief Networks},
+	booktitle = {16th IEEE Asia Pacific Wireless Communications Symposium (APWCS)},
+	year = {2019},
+	abstract = {Shallow water environments create a challenging channel for communications. In this paper, we focus on the challenges posed by the frequency-selective signal distortion called the Doppler effect. We explore the design and performance of machine learning (ML) based demodulation methods {\textemdash} (1) Deep Belief Network-feed forward Neural Network (DBN-NN) and (2) Deep Belief Network-Convolutional Neural Network (DBN-CNN) in the physical layer of Shallow Water Acoustic Communication (SWAC). The proposed method comprises of a ML based feature extraction method and classification technique. First, the feature extraction converts the received signals to feature images. Next, the classification model correlates the images to a corresponding binary representative. An analysis of the ML based proposed demodulation shows that despite the presence of instantaneous frequencies, the performance of the algorithm shows an invariance with a small 2dB error margin in terms of bit error rate (BER).},
+	author = {A. Lee-Leon and C. Yuen and D. Herremans}
+}
+@article {2019,
+	title = {The emergence of deep learning: new opportunities for music and audio technologies},
+	journal = {Neural Computing and Applications},
+	year = {2019},
+	type = {Editorial},
+	doi = {https://doi.org/10.1007/s00521-019-04166-0},
+	url = {https://rdcu.be/bumod},
+	author = {D. Herremans and C.-H. Chuan}
+}
+@conference {2019,
+	title = {A Hybrid Fuzzy Logic-Neural Network Approach For Multi-path Separation Of Underwater Acoustic Signals},
+	booktitle = {89th IEEE Vehicular Technology Conference},
+	year = {2019},
+	month = {04/2019},
+	address = {Kuala Lumpur, Malaysia},
+	abstract = {Abstract{\textemdash}Underwater acoustic channels are generally recognized as one of the most difficult communication media in use today. One of the most important constraints of underwater communications is the acoustic propagation of the signals. The aim of a multi-path separator is to extract individual correlated signals from their mixtures. We present an algorithm, Tag Receiver, that is similar to the RAKE receiver, but interpreted from the neural network viewpoint. First, the received signal is split into frames. Next, the frames are {\textquotedblleft}tagged{\textquotedblright} with a predicted number of multi-path in the framed segment via fuzzy logic and feature extraction. Finally, the frame and {\textquotedblleft}tag{\textquotedblright} number are inputted into a neural network, which separates the signals. The analysis of the proposed algorithm shows an improvement from the conventional RAKE receiver in terms of BER.},
+	doi = {10.1109/VTCSpring.2019.8746614},
+	url = {https://ieeexplore.ieee.org/abstract/document/8746614},
+	author = {A. Lee-Leon and C. Yuen and D. Herremans}
+}
+@inbook {2019,
+	title = {The impact of musical structure on enjoyment and absorptive listening states in trance music},
+	booktitle = {Music and Consciousness 2 - Worlds, Practices, Modalities},
+	year = {2019},
+	publisher = {Oxford University Press},
+	organization = {Oxford University Press},
+	edition = {Editors: Ruth Herbert, David Clarke, and Eric Clarke},
+	address = {Oxfort, UK},
+	abstract = {https://books.google.com.sg/books?id=DCOQDwAAQBAJ\&pg=PA254\&lpg=PA254\&dq=The+impact+of+musical+structure+on+enjoyment+and+absorptive+listening+states+in+trance+music\&source=bl\&ots=FsWlNXsys-\&sig=ACfU3U0K6dFJD7zbC917zG6HRFXLxVSdvQ\&hl=en\&sa=X\&ved=2ahUKEwjd05e7jdXkAhU_4nMBHe7bBQgQ6AEwBnoECAkQAQ$\#$v=onepage\&q=The\%20impact\%20of\%20musical\%20structure\%20on\%20enjoyment\%20and\%20absorptive\%20listening\%20states\%20in\%20trance\%20music\&f=false},
+	issn = {9780198804352},
+	url = {https://global.oup.com/academic/product/music-and-consciousness-2-9780198804352?cc=us\&lang=en\&$\#$},
+	author = {K. Agres and L. Bigo and D. Herremans}
+}
+@conference {2019,
+	title = {Latent space representation for multi-target speaker detection and identification with a sparse dataset using Triplet neural networks},
+	booktitle = {IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2019)},
+	year = {2019},
+	month = {12/2019},
+	publisher = {IEEE},
+	organization = {IEEE},
+	address = {Sentosa, Singapore},
+	author = {K.W. Cheuk and Balamurali BT and G. Roig and D. Herremans}
+}
+@conference {2019,
+	title = {Learning Disentangled Representations of Timbre and Pitch for Musical Instrument Sounds Using Gaussian Mixture Variational Autoencoders},
+	booktitle = {ISMIR},
+	year = {2019},
+	publisher = {ISMIR},
+	organization = {ISMIR},
+	address = {Delft, The Netherlands},
+	url = {https://arxiv.org/abs/1906.08152},
+	author = {Y.J. Luo and K. Agres and D. Herremans}
+}
+@article {122,
+	title = {Machine Learning Research that Matters for Music  Creation: A Case Study},
+	journal = {Journal of New Music Research},
+	volume = {48},
+	year = {2019},
+	pages = { 36-55},
+	abstract = {Research applying machine learning to music modeling and generation typically proposes model architectures, training methods and datasets, and gauges system performance using quantitative measures like sequence likelihoods and/or qualitative listening tests. Rarely does such work explicitly question and analyse its usefulness for and impact on real-world practitioners, and then build on those outcomes to inform the development and application of machine learning. This article attempts to do these things for machine learning applied to music creation. Together with practitioners, we develop and use several applications of machine learning for music creation, and present a public concert of the results. We reflect on the entire experience to arrive at several ways of advancing these and similar applications of machine learning to music creation.},
+	doi = {10.1080/09298215.2018.1515233},
+	author = {B. Sturm and O. Ben-Tal and U. Monaghan and N. Collins and D. Herremans and E. Chew and G. Hadjeres and E. Deruty and F. Pachet}
+}
+@conference {2019,
+	title = {Midi Miner {\textendash} A Python library for tonal tension and track classification},
+	booktitle = {ISMIR - Late Breaking Demo},
+	year = {2019},
+	month = {10/2019},
+	address = {Delft, The Netherlands},
+	author = {Rui Guo and Dorien Herremans and Thor Magnusson}
+}
+@conference {2019,
+	title = {Multimodal Deep Models for Predicting Affective Responses Evoked by Movies},
+	booktitle = {The 2nd International Workshop on Computer Vision for Physiological Measurement as part of ICCV. Seoul, South Korea. 2019},
+	year = {2019},
+	month = {10/2019},
+	address = {Seoul, South Korea},
+	abstract = {The goal of this study is to develop and analyze multimodal models for predicting experienced affective responses of viewers watching movie clips. We develop hybrid multimodal prediction models based on both the video and audio of the clips.  For the video content, we hypothesize that both image content and motion are crucial features for evoked emotion prediction. To capture such information, we extract features from  RGB frames and optical flow using pre-trained neural networks. For the audio model, we compute an enhanced set of low-level descriptors including intensity, loudness, cepstrum, linear predictor coefficients, pitch and voice quality. Both visual and audio features are then concatenated to create audio-visual features, which are used to predict the evoked emotion. To classify the movie clips into the corresponding affective response categories, we propose two approaches based on deep neural network models. The first one is based on fully connected layers without memory on the time component, the second incorporates the sequential dependency with a long short-term memory recurrent neural network (LSTM). We perform a thorough analysis of the importance of each feature set. Our experiments reveal that in our set-up, predicting emotions at each time step independently gives slightly better accuracy performance than with the LSTM. Interestingly, we also observe that the optical flow is more informative than the RGB in videos, and overall, models using audio features are more accurate than those based on video features when making the final prediction of evoked emotions. },
+	author = {T. Ha Thi Phuong and D. Herremans and G. Roig}
+}
+@conference {2019,
+	title = {nnAudio: A PyTorch Audio Processing Tool Using 1D Convolution neural networks},
+	booktitle = {ISMIR - Late Breaking Demo},
+	year = {2019},
+	month = {10/2019},
+	address = {Delft, The Netherlands},
+	author = {K.W. Cheuk and K. Agres and D. Herremans}
+}
+@conference {2019,
+	title = {A novel music-based game with motion capture to support cognitive and motor function in the elderly},
+	booktitle = {IEEE Conference on Games},
+	year = {2019},
+	publisher = {IEEE },
+	organization = {IEEE },
+	address = {London, UK},
+	abstract = {This paper presents a novel game prototype that uses music and motion detection as preventive medicine for the elderly.
+Given the aging populations around the globe, and the limited resources and staff able to care for these populations, eHealth solutions are becoming increasingly important, if not crucial, additions to modern healthcare and preventive medicine. Furthermore, because compliance rates for performing physical exercises are often quite low in the elderly, systems able to motivate and engage this population are a necessity. Our prototype uses music not only to engage listeners, but also to leverage the efficacy of music to improve mental and physical wellness. The game is based on a memory task to stimulate cognitive function, and requires users to perform physical gestures to mimic the playing of different musical instruments. To this end, the Microsoft Kinect sensor is used together with a newly developed gesture detection module in order to process users{\textquoteright} gestures. The resulting prototype system supports both cognitive functioning and physical strengthening in the elderly. },
+	author = {K. Agres and S. Lui and D. Herremans}
+}
+@conference {2019,
+	title = {Towards emotion based music generation: A tonal tension model based on the spiral array},
+	booktitle = {Proceedings of Cognitive Science (CogSci)},
+	year = {2019},
+	publisher = {CogSci},
+	organization = {CogSci},
+	address = {Montreal, Canada},
+	author = {D. Herremans and E. Chew}
+}
+@article {2019,
+	title = {Towards robust audio spoofing detection: a detailed comparison of traditional and learned features},
+	journal = {IEEE Access},
+	volume = {7},
+	year = {2019},
+	pages = {84229 - 84241},
+	doi = {10.1109/ACCESS.2019.2923806},
+	url = {https://arxiv.org/abs/1905.12439},
+	author = {Balamurali BT and K.W.E. Lin and S. Lui and J.M. Chen and D. Herremans}
+}
+@article {129,
+	title = {Blacklisted speaker identification using triplet neural networks},
+	year = {2018},
+	url = {http://mce.csail.mit.edu/pdfs/SUTD_description.pdf},
+	author = {K.W. Cheuk and Balamurali BT and G. Roig and D. Herremans}
+}
+@article {132,
+	title = {From Context to Concept: Exploring Semantic Relationships in Music with Word2Vec},
+	journal = {Neural Computing and Applications},
+	year = {2018},
+	keywords = {music, word2vec},
+	doi = {10.1007/s00521-018-3923-1},
+	url = {http://link.springer.com/article/10.1007/s00521-018-3923-1},
+	author = {C.-H. Chuan and K. Agres and D. Herremans}
+}
+@article {119,
+	title = {Minimally Simple Binaural Room Modelling Using a Single Feedback Delay Network},
+	journal = {Journal of the Audio Engineering Society},
+	volume = {66},
+	year = {2018},
+	month = {10/2018},
+	pages = {791-807},
+	abstract = {The most efficient binaural acoustic modeling systems use a multi-tap delay to generate accurately modeled early reflections, combined with a feedback delay network that produces generic late reverberation. We present a method of binaural acoustic simulation that uses one feedback delay network to simultaneously model both first-order reflections and late reverberation. The advantages are simplicity and efficiency. We compare the proposed method against the existing method of modeling binaural early reflections using a multi-tap delay line. Measurements of ISO standard evaluators including interaural correlation coefficient, decay time, clarity, definition, and center time, indicate that the proposed method achieves comparable level of accuracy as less-efficient existing methods. This method is implemented as an iOS application, and is able to auralize input signal directly without convolution and update in real time.},
+	doi = {https://doi.org/10.17743/jaes.2018.0045},
+	author = {N. Agus and H. Anderson and J.M. Chen and S. Lui and D. Herremans}
+}
+@conference {104,
+	title = {Modeling temporal tonal relations in polyphonic music through deep networks with a novel image-based representation},
+	booktitle = {The Thirty-Second AAAI Conference on Artificial Intelligence},
+	year = {2018},
+	month = {02/2018},
+	publisher = {AAAI},
+	organization = {AAAI},
+	address = {New Orleans, US},
+	abstract = {We propose an end-to-end approach for modeling polyphonic music with a novel graphical representation, based on music theory, in a deep neural network. Despite the success of deep learning in various applications, it remains a challenge to incorporate existing domain knowledge in a network without affecting its training routines. In this paper we present a novel approach for predictive music modeling and music generation that incorporates domain knowledge in its representation. In this work, music is transformed into a 2D representation, inspired by tonnetz from music theory, which graphically encodes musical relationships between pitches. This representation is incorporated in a deep network structure consisting of multilayered convolutional neural networks (CNN, for learning an efficient abstract encoding of the representation) and recurrent neural networks with long short-term memory cells (LSTM, for capturing temporal dependencies in music sequences). We empirically evaluate the nature and the effectiveness of the network by using a dataset of classical music from various composers. We investigate the effect of parameters including the number of convolution feature maps, pooling strategies, and three configurations of the network: LSTM without CNN, LSTM with CNN (pre-trained vs. not pre-trained). Visualizations of the feature maps and filters in the CNN are explored, and a comparison is made between the proposed tonnetz-inspired representation and pianoroll, a commonly used representation of music in computational systems. Experimental results show that the tonnetz representation produces musical sequences that are more tonally stable and contain more patterns than sequences generated by pianoroll-based models, a finding that is directly useful for tackling current challenges in music and AI such as smart music generation.},
+	author = {C.-H. Chuan and D. Herremans}
+}
+@article {128,
+	title = {A Novel Interface for the Graphical Analysis of Music Practice Behaviours},
+	journal = {Frontiers in Psychology - Human-Media Interaction},
+	volume = {9},
+	year = {2018},
+	month = {11/2018},
+	chapter = {2292},
+	doi = {10.3389/fpsyg.2018.02292},
+	url = {http://journal.frontiersin.org/article/10.3389/fpsyg.2018.02292/full},
+	author = {J. Sokolovskis and D. Herremans and E. Chew}
+}
+@article {116,
+	title = {O.R. and music generation},
+	volume = {45},
+	year = {2018},
+	edition = {February},
+	url = {https://www.informs.org/ORMS-Today/Public-Articles/February-Volume-45-Number-1/O.R.-and-music-generation},
+	author = {D. Herremans and E. Chew}
+}
+@article {117,
+	title = {Perceptual evaluation of measures of spectral variance},
+	journal = {Journal of the Acoustical Society of America},
+	volume = {143},
+	year = {2018},
+	pages = {3300{\textendash}3311},
+	abstract = {In many applications, it is desirable to achieve a signal that is as close as possible to ideal white noise. One example is in the design of an artificial reverberator, whereby there is a need for its lossless prototype output from an impulse input to be perceptually white as much as possible. The Ljung-Box test, the Drouiche test, and the Wiener Entropy{\textemdash}also called the Spectral Flatness Measure{\textemdash}are three well-known methods for quantifying the similarity of a given signal to ideal
+white noise. In this paper, listening tests are conducted to measure the Just Noticeable Difference (JND) on the perception of white noise, which is the JND between ideal Gaussian white noise and noise with a specified deviation from the flat spectrum. This paper reports the JND values using one of these measures of whiteness, which is the Ljung-Box test. This paper finds considerable disagreement between the Ljung-Box test and the other two methods and shows that none of the methods is a significantly better predictor of listeners{\textquoteright} perception of whiteness. This suggests a need for a whiteness test that is more closely correlated to human perception.},
+	doi = {10.1121/1.5040484},
+	url = {https://asa.scitation.org/doi/10.1121/1.5040484},
+	author = {N. Agus and H. Anderson and J.M. Chen and S. Lui and D. Herremans}
+}
+@mastersthesis {2018,
+	title = {Real-Time Binaural Auralization},
+	volume = {PhD},
+	year = {2018},
+	school = {Singapore University of Technology and Design},
+	type = {PhD},
+	address = {Singapore},
+	author = {N. Agus}
+}
+@article {134,
+	title = {Singing Voice Separation Using a Deep Convolutional Neural Network Trained by Ideal Binary Mask and Cross Entropy},
+	journal = {Neural Computing and Applications},
+	year = {2018},
+	abstract = {Separating a singing voice from its music accompaniment remains an important challenge in the field of music information retrieval. We present a unique neural network approach inspired by a technique that has revolutionized the field of vision: pixel-wise image classification, which we combine with cross entropy loss and pretraining of the CNN as an autoencoder on singing voice spectrograms. The pixel-wise classification technique directly estimates the sound source label for each time-frequency (T-F) bin in our spectrogram image, thus eliminating common pre-and postprocessing tasks. The proposed network is trained by using the Ideal Binary Mask (IBM) as the target output label. The IBM identifies the dominant sound source in each T-F bin of the magnitude spectrogram of a mixture signal, by considering each T-F bin as a pixel with a multi-label (for each sound source). Cross entropy is used as the training objective, so as to minimize the average probability error between the target and predicted label for each pixel. By treating the singing voice separation problem as a pixel-wise classification task, we additionally eliminate one of the commonly used, yet not easy to comprehend, postprocessing steps: the Wiener filter postprocessing. The proposed CNN outperforms the first runner up in the Music Information Retrieval Evaluation eXchange (MIREX) 2016 and the winner of MIREX 2014 with a gain of 2.2702 \~{} 5.9563 dB global normalized source to distortion ratio (GNSDR) when applied to the iKala dataset. An experiment with the DSD100 dataset on the full-tracks song evaluation task also shows that our model is able to compete with cutting-edge singing voice separation systems which use multichannel modeling, data augmentation, and model blending.},
+	doi = {10.1007/s00521-018-3933-z},
+	url = {https://rdcu.be/bdoTY},
+	author = {K.W.E. Lin and Balamurali BT and E. Koh and S. Lui and D. Herremans}
+}
+@conference {120,
+	title = {The Structure of Chord Progressions Influences Listeners{\textquoteright} Enjoyment and Absorptive States in EDM},
+	booktitle = {15th International Conference on Music Perception and Cognition},
+	year = {2018},
+	month = {07/2018},
+	address = {Sydney, Australia},
+	author = {K. Agres and D. Herremans}
+}
+@article {93,
+	title = {A Functional Taxonomy of Music Generation Systems},
+	journal = {ACM Computing Surveys},
+	volume = {50},
+	year = {2017},
+	pages = {30},
+	chapter = {69:1},
+	abstract = {Digital advances have transformed the face of automatic music generation since its beginnings at the dawn of computing. Despite the many breakthroughs, issues such as the musical tasks targeted by different machines and the degree to which they succeed remain open questions. We present a functional taxonomy for music generation systems with reference to existing systems. The taxonomy organizes systems according to the purposes for which they were designed. It also reveals the inter-relatedness amongst the systems. This design-centered approach contrasts with predominant methods-based surveys and facilitates the identification of grand challenges to set the stage for new breakthroughs.},
+	doi = {10.1145/3108242},
+	url = {https://dl.acm.org/citation.cfm?id=3108242},
+	author = {D. Herremans and C.-H. Chuan and E. Chew}
+}
+@article {97,
+	title = {Generating guitar solos by integer programming},
+	journal = {Journal of the Operational Research Society},
+	year = {2017},
+	pages = {971-985},
+	doi = {https://doi.org/10.1080/01605682.2017.1390528},
+	url = {http://www.tandfonline.com/eprint/Prks6BcYNEivw87vSu86/full},
+	author = {Cunha, N. and Subramanian A. and Herremans, D}
+}
+@article {77,
+	title = {Harmonic Structure Predicts the Enjoyment of  Uplifting Trance Music},
+	journal = {Frontiers in Psychology, Cognitive Science},
+	volume = {7},
+	year = {2017},
+	url = {http://journal.frontiersin.org/article/10.3389/fpsyg.2016.01999/full?\&utm_source=Email_to_authors_\&utm_medium=Email\&utm_content=T1_11.5e1_author\&utm_campaign=Email_publication\&field=\&journalName=Frontiers_in_Psychology\&id=230461},
+	author = {K. Agres and D. Herremans and L. Bigo and D. Conklin}
+}
+@proceedings {98,
+	title = {Hit Song Prediction Based on Early Adopter Data and Audio Features},
+	year = {2017},
+	month = {10/2017},
+	address = {Suzhou, China},
+	author = {D. Herremans and T. Bergmans}
+}
+@proceedings {86,
+	title = {IMMA-Emo: A Multimodal Interface for Visualising Score- and Audio-synchronised Emotion Annotations},
+	year = {2017},
+	month = {08/2017},
+	address = {London, UK},
+	author = {D. Herremans and S. Yang and C.-H. Chuan and M. Barthet and E. Chew}
+}
+@proceedings {84,
+	title = {Modeling Musical Context with Word2vec},
+	volume = {1},
+	year = {2017},
+	month = {05/2017},
+	pages = {11-18},
+	address = {Anchorage, US},
+	abstract = {We present a semantic vector space model for capturing complex polyphonic musical context. A word2vec model based on a skip-gram representation with negative sampling was used to model slices of music from a dataset of Beethoven{\textquoteright}s piano sonatas. A visualization of the reduced vector space using t-distributed stochastic neighbor embedding shows that the resulting embedded vector space captures tonal relationships, even without any explicit information about the musical contents of the slices. Secondly, an excerpt of the Moonlight Sonata from Beethoven was altered by replacing slices based on context similarity. The resulting music shows
+that the selected slice based on similar word2vec context also has a relatively short tonal distance from the original slice.},
+	keywords = {music, music context, neural networks, semantic vector space, word2vec},
+	doi = {10.13140/RG.2.2.22227.99364/1},
+	url = {dorienherremans.com/dlm2017},
+	author = {D. Herremans and C.-H. Chuan}
+}
+@article {94,
+	title = {MorpheuS: generating structured music with constrained patterns and tension},
+	journal = {IEEE Transactions on Affective Computing},
+	volume = {PP (In Press)},
+	year = {2017},
+	doi = {10.1109/TAFFC.2017.2737984},
+	author = {D. Herremans and E. Chew}
+}
+@conference {78,
+	title = {A multi-modal platform for semantic music analysis: visualizing audio- and score-based tension},
+	booktitle = {11th International Conference  on Semantic Computing IEEE ICSC 2017},
+	year = {2017},
+	author = {D. Herremans and C.-H. Chuan}
+}
+@proceedings {99,
+	title = {Music and Motion-Detection: A Game Prototype for Rehabilitation and Strengthening in the Elderly},
+	year = {2017},
+	month = {11/2017},
+	address = {Singapore},
+	author = {K. Agres and D. Herremans}
+}
+@article {43,
+	title = {A variable neighborhood search algorithm to generate piano fingerings for polyphonic sheet music},
+	journal = {International Transactions in Operational Research, Special Issue on Variable Neighbourhood Search},
+	volume = {24},
+	year = {2017},
+	month = {05/2017},
+	pages = {509{\textendash}535},
+	abstract = {A piano fingering indicates which finger should play each note in a piece. Such a guideline is very helpful for both amateur and experienced players in order to play a piece fluently. In this paper, we propose a variable neighborhood search algorithm to generate piano fingerings for complex polyphonic music, a frequently encountered case that was ignored in previous research. The algorithm takes into account the biomechanical properties of the pianist{\textquoteright}s hand in order to generate a fingering that is user-specific and as easy to play as possible. An extensive statistical analysis was carried out in order to tune the parameters of the algorithm and evaluate its performance. The results of computational experiments show that the algorithm generates good fingerings that are very similar to those published in sheet music books.},
+	doi = {10.1111/itor.12211},
+	url = {http://onlinelibrary.wiley.com/doi/10.1111/itor.12211/full},
+	author = {M. Balliauw and D. Herremans and Palhazi Cuervo, D. and K. S{\"o}rensen}
+}
+@proceedings {100,
+	title = {Visualizing the evolution of alternative hit charts},
+	year = {2017},
+	month = {10/2017},
+	address = {Suzhou, China},
+	author = {D. Herremans and W. Lauwers}
+}
+@proceedings {67,
+	title = {The Effect of Repetitive Structure on Enjoyment in Uplifting Trance Music},
+	year = {2016},
+	month = {07/2016},
+	pages = {280-282},
+	address = {San Francisco},
+	isbn = {1-876346-65-5 },
+	author = {K. Agres and L. Bigo and D. Herremans and D. Conklin}
+}
+@conference {65,
+	title = {MorpheuS: Automatic music generation with recurrent pattern constraints and tension profiles},
+	booktitle = {IEEE TENCON},
+	number = {ISSN 2043-0167},
+	year = {2016},
+	month = {11/2016},
+	publisher = {IEEE},
+	organization = {IEEE},
+	type = {technical report},
+	address = {Singapore},
+	issn = {EECSRR{\textendash}16-02},
+	author = {D. Herremans and E. Chew}
+}
+@proceedings {57,
+	title = {MorpheuS: constraining structure in automatic music generation},
+	year = {2016},
+	publisher = {Leibniz Centre for Informatik},
+	address = {Dagstuhl, Germany},
+	url = {http://drops.dagstuhl.de/opus/volltexte/2016/6141/pdf/dagrep_v006_i002_p147_s16092.pdf$\#$page=22},
+	author = {D. Herremans and E. Chew}
+}
+@proceedings {48,
+	title = {Music generation with structural constraints: an operations research approach},
+	year = {2016},
+	month = {01/27/2016},
+	pages = {37-39},
+	address = {Louvain-La-Neuve, Belgium},
+	author = {D. Herremans and E. Chew}
+}
+@proceedings {53,
+	title = {Tension ribbons: Quantifying and visualising tonal tension},
+	volume = {2},
+	year = {2016},
+	month = {05/2016},
+	pages = {8-18},
+	address = {Cambridge, UK},
+	isbn = {978-0-9931461-1-4},
+	author = {D. Herremans and E. Chew}
+}
+@proceedings {66,
+	title = {Uma abordagem baseada em programa{\c c}{\~a}o linear inteira para a gera{\c c}{\~a}o de solos de guitarra},
+	year = {2016},
+	month = {09/2016},
+	address = {Vit{\'o}ria, Brasil},
+	author = {Cunha, N. and Subramanian A. and D. Herremans}
+}
+@article {29,
+	title = {Classification and generation of composer-specific music using global feature models and variable neighborhood search},
+	journal = {Computer Music Journal},
+	volume = {39},
+	year = {2015},
+	pages = {91},
+	chapter = {71},
+	author = {D. Herremans and K. S{\"o}rensen and David Martens}
+}
+@article {79,
+	title = {Compose = compute},
+	journal = {4OR},
+	volume = {13},
+	year = {2015},
+	pages = {335{\textendash}336},
+	issn = {1614-2411},
+	doi = {10.1007/s10288-015-0282-y},
+	url = {http://dx.doi.org/10.1007/s10288-015-0282-y},
+	author = {Herremans, Dorien}
+}
+@inbook {42,
+	title = {Composer Classification Models for Music-Theory Building},
+	booktitle = {Computational Music Analysis},
+	year = {2015},
+	publisher = {Springer},
+	organization = {Springer},
+	issn = {978-3-319-25929-1 (Print) 978-3-319-25931-4 (Online)},
+	doi = {0.1007/978-3-319-25931-4},
+	url = {http://link.springer.com/book/10.1007/978-3-319-25931-4},
+	author = {D. Herremans and David Martens and K. S{\"o}rensen and D. Meredith}
+}
+@conference {82,
+	title = {The effect of repetitive structure on enjoyment and altered states in uplifting trance music},
+	booktitle = {2nd International Conference on Music and Consciousness (MUSCON 2), Brighton},
+	year = {2015},
+	author = {Agres, K and Bigo, L and Herremans, D and Conklin, D}
+}
+@inbook {35,
+	title = {Generating Fingerings for Polyphonic Piano Music with a Tabu Search Algorithm},
+	booktitle = {Mathematics and Computation in Music},
+	series = {Lecture Notes in Computer Science},
+	volume = {9110},
+	year = {2015},
+	pages = {149-160},
+	publisher = {Springer International Publishing},
+	organization = {Springer International Publishing},
+	keywords = {Combinatorial optimisation, Metaheuristics, OR in Music, Piano fingering, Tabu search},
+	isbn = {978-3-319-20602-8},
+	doi = {10.1007/978-3-319-20603-5_15},
+	url = {http://dx.doi.org/10.1007/978-3-319-20603-5_15},
+	author = {M. Balliauw and D. Herremans and Palhazi Cuervo, D. and K. S{\"o}rensen},
+	editor = {Collins, Tom and Meredith, David and Volk, Anja}
+}
+@proceedings {30,
+	title = {Generating music with an optimization algorithm using a Markov based objective function},
+	year = {2015},
+	author = {D. Herremans and S. Weisser and K. S{\"o}rensen and D. Conklin}
+}
+@article {31,
+	title = {Generating structured music for bagana using quality metrics based on Markov models},
+	journal = {Expert Systems With Applications},
+	volume = {42 (21)},
+	year = {2015},
+	pages = {424{\textendash}7435},
+	author = {D. Herremans and S. Weisser and K. S{\"o}rensen and D. Conklin}
+}
+@book {5,
+	title = {Compose=Compute - Computer Generation And Classification Of Music Through Operations Research Methods},
+	series = {PhD Thesis, University of Antwerp},
+	year = {2014},
+	pages = {250},
+	publisher = {Universitas},
+	organization = {Universitas},
+	address = {Antwerp},
+	abstract = {Download at http://dorienherremans.com/sites/default/files/thesis_digital_cover.pdf},
+	isbn = {9789089941145},
+	author = {D. Herremans}
+}
+@article {herremans2014dance,
+	title = {Dance hit song prediction},
+	journal = {Journal of New music Research},
+	volume = {43},
+	year = {2014},
+	month = {10/09/14},
+	pages = {302},
+	publisher = {University of Antwerp, Faculty of Applied Economics},
+	type = {Special Issue on Music and Machine Learning},
+	chapter = {291},
+	abstract = {<p>Record companies invest billions of dollars in new talent around the globe each year. Gaining insight into what actually makes a hit song would provide tremendous benefits for the music industry. In this research we tackle this question by focussing on the dance hit song classification problem. A database of dance hit songs from 1985 until 2013 is built, including basic musical features, as well as more advanced features that capture a temporal aspect. A number of di erent classifiers are used to build and test dance hit prediction models. The resulting best model has a good performance when predicting whether a song is a top 10 dance hit versus a lower listed position.</p>},
+	url = {http://ideas.repec.org/p/ant/wpaper/2014003.html},
+	author = {D. Herremans and David Martens and K. S{\"o}rensen}
+}
+@proceedings {245,
+	title = {First species counterpoint generation with VNS and vertical viewpoints},
+	year = {2014},
+	author = {D. Herremans and K. S{\"o}rensen and D. Conklin}
+}
+@article {243,
+	title = {Generating structured music using quality metrics based on Markov models},
+	number = {2014019},
+	year = {2014},
+	institution = {University of Antwerp},
+	type = {Technical Report 2014:019- UA, Faculty of Applied Economics},
+	address = {Antwerp},
+	url = {https://ideas.repec.org/p/ant/wpaper/2014019.html},
+	author = {D. Herremans and S. Weisser and K. S{\"o}rensen and D. Conklin}
+}
+@article {RePEc:ant:wpaper:2014001,
+	title = {Looking into the minds of Bach, Haydn and Beethoven: Classification and generation of composer-specific music},
+	number = {2014001},
+	year = {2014},
+	institution = {University of Antwerp, Faculty of Applied Economics},
+	type = {Technical Report 2014:001- UA, Faculty of Applied Economics},
+	abstract = {In this paper a number of musical features are extracted from a large music database, which are consequently used to build three composer classification models. The first two models, an if-then ruleset and a decision tree, result in an understanding of the style differences between Bach, Haydn and Beethoven. The third model, a logistic regression model, gives the probability that a piece is composed by a certain composer. This model is integrated in the objective function of a previously developed variable neighborhood search algorithm that can generate counterpoint. The result is a system that can generate an endless stream of counterpoint music with composer-specific characteristics that sounds pleasing to the ear. This system is implemented as an Android app called FuX that can be installed on any Android phone or tablet.},
+	keywords = {Classification, Computer Aided Composition, Metaheuristics, Variable Neighborhood Search (VNS)},
+	url = {http://ideas.repec.org/p/ant/wpaper/2014001.html},
+	author = {D. Herremans and David Martens and K. S{\"o}rensen}
+}
+@conference {255,
+	title = {Markov Based Quality Metrics For Generating Structured Music With Optimization Techniques},
+	booktitle = {Digital Music Research Network (DMNR+9)},
+	year = {2014},
+	month = {16/12/2014},
+	author = {D. Herremans and S. Weisser and K. S{\"o}rensen and D. Conklin}
+}
+@conference {244,
+	title = {Sampling the extrema from statistical models of music with variable neighbourhood search},
+	booktitle = {ICMC/SMC},
+	year = {2014},
+	publisher = {ICMC/SMC},
+	organization = {ICMC/SMC},
+	address = {Athens, Greece},
+	author = {D. Herremans and K. S{\"o}rensen and D. Conklin}
+}
+@article {Herremans2013,
+	title = {Composing Fifth Species Counterpoint Music With A Variable Neighborhood Search Algorithm},
+	journal = {Expert Systems with Applications},
+	volume = {40},
+	year = {2013},
+	month = {11/2013},
+	chapter = {6427{\textendash}6437},
+	issn = {0957-4174},
+	doi = {10.1016/j.eswa.2013.05.071},
+	url = {http://www.sciencedirect.com/science/article/pii/S0957417413003692},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@proceedings {173,
+	title = {Dance Hit Song Science},
+	year = {2013},
+	edition = {6th},
+	address = {Prague},
+	abstract = {<p>With annual investments of several billions of dollars worldwide, record companies can benefit tremendously by gaining insight into what actually makes a hit song. This question is tackled in this research by focussing on the dance hit song problem prediction problem. A database of dance hit songs from 1985 until 2013 is built, including basic musical features, as well as more advanced features that capture a temporal aspect. Different classifiers are used to build and test dance hit prediction models. The resulting model has a good performance when predicting whether a song is a {\textquoteleft}{\textquoteleft}top 10\&$\#$39;\&$\#$39; dance hit versus a lower listed position.</p>},
+	author = {D. Herremans and David Martens and K. S{\"o}rensen}
+}
+@proceedings {247,
+	title = {First species counterpoint generation with VNS and vertical viewpoints},
+	year = {2013},
+	author = {D. Herremans and K. S{\"o}rensen and D. Conklin}
+}
+@conference {antor13,
+	title = {FuX, an Android app that generates counterpoint},
+	booktitle = {IEEE Symposium on Computational Intelligence for Creativity and Affective Computing (CICAC)},
+	year = {2013},
+	month = {04/2013},
+	pages = {48-55},
+	doi = {10.1109/CICAC.2013.6595220},
+	url = {http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=\&arnumber=6595220\&queryText\%3Dfux+an+android+app},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@proceedings {246,
+	title = {Composing counterpoint musical scores with variable neighborhood search},
+	year = {2012},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@article {RePEc:ant:wpaper:2012020,
+	title = {Composing Fifth Species Counterpoint Music With Variable Neighborhood Search},
+	number = {2012020},
+	year = {2012},
+	institution = {University of Antwerp, Faculty of Applied Economics},
+	type = {Technical Report 2012:020- UA, Faculty of Applied Economics},
+	abstract = {In this paper, a variable neighborhood search (VNS) algorithm is developed and analyzed that can generate fth species counterpoint fragments. The existing species counterpoint rules are quanti ed and form the basis of the objective function used by the algorithm. The VNS developed in this research is a local search metaheuristic that starts from a randomly generated fragment and gradually improves this solution by changing one or two notes at a time. An in-depth statistical analysis reveals the signi cance as well as the optimal settings of the parameters of the VNS. The algorithm has been implemented in a user-friendly software environment called Optimuse. Optimuse allows a user to input basic characteristics such as length, key and mode. Based on this input, a fth species counterpoint fragment is generated that can be edited and played back immediately. This work is the expansion of a previous paper by the authors in which rst species counterpoint music is composed by a similar VNS algorithm.},
+	url = {http://ideas.repec.org/p/ant/wpaper/2012020.html},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@article {herremans2012,
+	title = {Composing first species counterpoint musical scores with a variable neighbourhood search algorithm},
+	journal = {Journal of Mathematics and the Arts},
+	volume = {6},
+	year = {2012},
+	pages = {169 - 189},
+	doi = {10.1080/17513472.2012.738554},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@article {99,
+	title = {A Variable Neighborhood Search Algorithm for Composing First Species Counterpoint Musical Fragments},
+	volume = {2011017},
+	number = {Technical Report 2011:017- UA, Faculty of Applied Economics},
+	year = {2011},
+	month = {October},
+	type = {Working paper, University of Antwerp, Faculty of Applied Economics},
+	abstract = {In this paper a variable neighbourhood search (VNS) algorithm is developed that can generate musical fragments of arbitrary length consisting of a cantus firmus and a first species counterpoint melody. The objective function of the algorithm is based on a quantification of existing counterpoint rules. The VNS algorithm developed in this paper is a local search algorithm that starts from a randomly generated melody and improves it by changing one or two notes at a time. A thorough parametric analysis of the VNS reveals the significance of the algorithm{\textquoteright}s parameters on the quality of the composed fragment, as well as their optimal settings. The VNS algorithm has been implemented in a user-friendly software environment for composition, called Optimuse. Optimuse allows a user to specify a number of characteristics such as length, key, and mode. Based on this information, Optimuse {\textquotedblleft}composes{\textquotedblright} both a cantus firmus and a first species counterpoint melody. Alternatively, the user may specify a cantus firmus, and let Optimuse compose only an accompanying first species counterpoint melody.},
+	issn = {Technical Report 2011:017- UA, Faculty of Applied Economics},
+	url = {http://ideas.repec.org/p/ant/wpaper/2011017.html},
+	author = {D. Herremans and K. S{\"o}rensen}
+}
+@book {herremans2010drupal,
+	title = {Drupal 6: Ultimate Community Site Guide},
+	year = {2010},
+	publisher = {Sun Flare Ltd},
+	organization = {Sun Flare Ltd},
+	author = {D. Herremans}
+}
+@mastersthesis {49,
+	title = {Tabu Search voor de optimalisatie van muzikale fragmenten},
+	volume = {MSc Business Engineer Management Information Systems},
+	year = {2005},
+	school = {Unversity of Antwerp},
+	type = {MSc},
+	address = {Antwerp},
+	author = {D. Herremans}
+}
