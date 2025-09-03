@@ -41,11 +41,12 @@ Please apply to the [SUTD PhD portal](https://www.sutd.edu.sg/admissions/graduat
 Thai students are encouraged to apply via the HRH-SUTD Scholarship for Academic (due March) as part of H.R.H Princess Maha Chakri Sirindhorn's Initiatives, Thailand. National Science and Technology Development Agency (NSTDA)
 
 International (non-ASEAN) students will ALSO need to submit an application for funding and will be processed in the next cycle for Jan 2025 admission:
-- Please submit in the [SUTD portal](https://www.sutd.edu.sg/admissions/graduate/phd/), AND apply for funding, either at:
 
-[AI.SG](https://aisingapore.org/research/phd-fellowship-programme/)'s prestigious fellowship
-[SINGA International graduate programme](https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa) - International candidates (excl. India and China)
-[Marie-Curie international fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/funding)
+Please submit in the [SUTD portal](https://www.sutd.edu.sg/admissions/graduate/phd/), AND apply for funding, either at:
+
+- [AI.SG](https://aisingapore.org/research/phd-fellowship-programme/)'s prestigious fellowship
+- [SINGA International graduate programme](https://www.a-star.edu.sg/Scholarships/for-graduate-studies/singapore-international-graduate-award-singa) - International candidates (excl. India and China)
+- [Marie-Curie international fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/funding)
 
 Our team looks forward to receiving your application!
 
