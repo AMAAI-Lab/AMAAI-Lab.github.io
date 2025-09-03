@@ -14,11 +14,10 @@ Our research spans creative AI, music information retrieval, multimodal learning
 
 ---
 
-## Text-to-Music Generation
+## Text-to-Music Generation ![]({{ site.url }}{{ site.baseurl }}/images/mustango.jpg){: style="width: 500px; float: right; margin: 0px 10px""}
 We develop controllable generative models, such as **Mustango**, that transform natural language prompts into music.  
 Our work enables fine-grained control over attributes like genre, mood, and instrumentation.
 
-![]({{ site.url }}{{ site.baseurl }}/images/mustango.jpg){: style="width: 500px"}
 *Figure: The Mustango text-to-music generation framework.*
 
 ---
