@@ -11,7 +11,6 @@ permalink: /research/
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 40px;
   flex-wrap: wrap;
 }
 
