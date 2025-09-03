@@ -109,16 +109,15 @@ Our research spans creative AI, music information retrieval, multimodal learning
 <div class="research-section">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg" alt="Mustango Framework" class="research-image"/>
   <div class="research-content">
-    <p>
-      We developed <strong>Mustango</strong>, a <em>music-domain-knowledge-inspired</em> text-to-music system based on diffusion models.  
-      Unlike prior systems that rely only on general text prompts, Mustango enables <strong>controllable music generation</strong> with rich captions that specify <strong>chords, beats, tempo, and key</strong>.
-    </p>
-    <div class="research-links">
-      <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">🔗 Code on GitHub</a>
-      <a href="https://arxiv.org/abs/2311.08355" target="_blank">🔗 Paper on arXiv</a>
-    </div>
+We developed <strong>Mustango</strong>, a <em>music-domain-knowledge-inspired</em> text-to-music system based on diffusion models. Unlike prior systems that rely only on general text prompts, Mustango enables <strong>controllable music generation</strong> with rich captions that specify <strong>chords, beats, tempo, and key</strong>.
+
+<div class="research-links">
+<a href="https://github.com/AMAAI-Lab/mustango" target="_blank">🔗 Code on GitHub</a>
+<a href="https://arxiv.org/abs/2311.08355" target="_blank">🔗 Paper on arXiv</a>
+</div>
   </div>
 </div>
+
 
 ---
 
