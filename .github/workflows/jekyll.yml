@@ -2,7 +2,7 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: ["main"]   # change if your site branch is different (e.g. master)
+    branches: ["gh-pages"]
 
 jobs:
   build:
@@ -28,3 +28,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages   # same branch you're editing
