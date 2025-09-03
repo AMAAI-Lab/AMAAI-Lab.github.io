@@ -33,19 +33,16 @@ permalink: /research/
 }
 
 .research-links a {
-  display: inline-block;
   margin-right: 15px;
   margin-bottom: 10px;
   padding: 8px 16px;
-  background-color: #007bff;
-  color: white;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .research-links a:hover {
-  background-color: #0056b3;
+  background-color: #e2f0ff;
 }
 
 /* Mobile responsiveness */
@@ -65,8 +62,6 @@ permalink: /research/
   }
   
   .research-links a {
-    display: block;
-    text-align: center;
     margin-bottom: 10px;
     margin-right: 0;
   }
