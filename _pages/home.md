@@ -8,7 +8,7 @@ permalink: /
 
 We are a dynamic research group at the [Singapore University of Technology and Design](http://sutd.edu.sg/). We research emerging AI technologies for music and audio.
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
