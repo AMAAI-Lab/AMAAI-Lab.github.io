@@ -288,4 +288,10 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% endif %}
 
 ## Selected SUTD UROP student collaborators
+<ul>
+{% for member in site.data.team_collab %}
+<li>{{ member.name }}</li>
+{% endfor %}
+</ul>
+
 
