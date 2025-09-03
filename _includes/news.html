@@ -3,7 +3,7 @@
   <div style="font-size: 0.9em; line-height: 1.4;">
     <ul style="padding-left: 20px; margin-bottom: 0;">
       {% for article in site.data.news limit:9 %}
-        <li>
+        <li style="margin-bottom: 5px;">
           <strong>{{ article.date }}</strong> — {{ article.headline }}
         </li>
       {% endfor %}
