@@ -7,26 +7,27 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     steps:
       - uses: actions/checkout@v4
-
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.2'     # stable for Jekyll 4+
-          bundler-cache: true
-          bundler: '2.4.15'         # <-- force Bundler 2
-
-      - name: Install dependencies
-        run: bundle install
-
+          ruby-version: '3.0'        # Change from 3.1.2 to 3.0 for better compatibility
+          bundler-cache: false       # Disable cache temporarily to avoid lock file issues
+          
+      - name: Clean and install dependencies
+        run: |
+          rm -f Gemfile.lock         # Remove old lock file
+          bundle install
+          
       - name: Build site
         run: bundle exec jekyll build
-
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages   # same branch you're editing
+          publish_branch: gh-pages
