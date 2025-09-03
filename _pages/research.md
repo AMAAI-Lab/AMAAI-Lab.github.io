@@ -13,10 +13,9 @@ We design systems that can **understand, generate, and interact with music**, co
 Our research spans creative AI, music information retrieval, multimodal learning, and ethical AI in music.
 
 ### Text-to-Music Generation
-<div class="mustango-section">
+<div class="mustango-section" style="display: flex; align-items: flex-start; gap: 20px;">
   <div class="mustango-image">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg"
-         alt="Mustango Framework" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg" alt="Mustango Framework" />
   </div>
   <div class="mustango-text">
     <p>
