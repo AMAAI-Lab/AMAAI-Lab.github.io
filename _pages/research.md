@@ -20,16 +20,26 @@ Our research spans creative AI, music information retrieval, multimodal learning
   <p>
    We developed <b>Mustango</b>, a <i>music-domain-knowledge-inspired</i> text-to-music system based on diffusion models.  
    Unlike prior systems that rely only on general text prompts, Mustango enables <b>controllable music generation</b> with rich captions that specify <b>chords, beats, tempo, and key</b>.
-    <br><br>
-    🔗 <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">Code on GitHub</a>
-    🔗 <a href="https://arxiv.org/abs/2311.08355" target="_blank">Paper on arXiv</a>  
+   <br><br>
+   🔗 <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">Code on GitHub</a>
+   🔗 <a href="https://arxiv.org/abs/2311.08355" target="_blank">Paper on arXiv</a>  
   </p>
 </div>
 
 ---
 
-### Video-to-Music and Multimodal Generation
-Music often coexists with video and text. We build models like **Video2Music** and **MuVi**, which generate or analyze music conditioned on visual and semantic cues.
+### Video-to-Music Generation
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+ <img src="{{ site.url }}{{ site.baseurl }}/images/video2music.png" alt="Video2music Framework" width="500"/>
+  <p>
+   Music often coexists with video and other modalities, yet most generative AI models cannot create music that <i>matches</i> a given video.  
+   To address this, we developed <b>Video2Music</b>, a generative framework that produces music conditioned on <b>visual and semantic cues</b>.
+  </p>
+  <br><br>
+   🔗 <a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">Code on GitHub</a>
+   🔗 <a href="https://arxiv.org/abs/2311.00968" target="_blank">Paper on arXiv</a>  
+  </p>
+</div>
 
 ---
 
