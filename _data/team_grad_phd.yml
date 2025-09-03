@@ -4,6 +4,7 @@
 
 - name: Joel Ong
   photo: joel.png
+  homepage: https://github.com/joelowj
   bio: "Joel’s research interests include Structured Prediction, Unsupervised and Generative Modelling in Deep Learning. Currently, he is working on applying such learning techniques to solve fundamental issues in Asset Management such as Portfolio Construction, Bet Sizing, Explainable AI, and Robust Out-of-Distribution ML."
 
 - name: Abigail Leon
@@ -20,4 +21,5 @@
 
 - name: Cheuk Kin Wai (Raven)
   photo: raven.png
+  homepage: https://u3500684.wixsite.com/cheukkinwai
   bio: "Kin Wai Cheuk is a Ph.D candidate at Singapore University of Technology and Design, under the supervision of Professor Dorien Herremans and Dr. Kat Agres. He received both his Bachler of Science in Physics (Minor in Music) and Master of Philosophy in Mechanical Engineering in The University of Hong Kong. His research interest is neural network based music composition."
