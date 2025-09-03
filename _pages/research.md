@@ -117,15 +117,16 @@ We developed <strong>Mustango</strong>, a <em>music-domain-knowledge-inspired</e
 ---
 
 ### Video-to-Music Generation
-<div style="display: flex; align-items: flex-start; gap: 20px;">
- <img src="{{ site.url }}{{ site.baseurl }}/images/video2music.png" alt="Video2music Framework" width="500"/>
-  <p>
-   Music often coexists with video and other modalities, yet most generative AI models cannot create music that <i>matches</i> a given video.  
-   To address this, we developed <b>Video2Music</b>, a generative framework that produces music conditioned on <b>visual and semantic cues</b>.
-  <br><br>
-   🔗 <a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">Code on GitHub</a>
-   🔗 <a href="https://arxiv.org/abs/2311.00968" target="_blank">Paper on arXiv</a>  
-  </p>
+<div class="research-section">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/video2music.png" alt="Video2music Framework" class="research-image"/>
+  <div class="research-content">
+Music often coexists with video and other modalities, yet most generative AI models cannot create music that <em>matches</em> a given video. To address this, we developed <strong>Video2Music</strong>, a generative framework that produces music conditioned on <strong>visual and semantic cues</strong>.
+
+<div class="research-links">
+<a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">🔗 Code on GitHub</a>
+<a href="https://arxiv.org/abs/2311.00968" target="_blank">🔗 Paper on arXiv</a>
+</div>
+  </div>
 </div>
 
 ---
