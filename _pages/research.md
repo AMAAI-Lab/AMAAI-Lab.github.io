@@ -29,40 +29,6 @@ Our research spans creative AI, music information retrieval, multimodal learning
   </div>
 </div>
 
-<style>
-.mustango-section {
-  display: flex;
-  flex-direction: column;   /* default: stacked */
-  gap: 20px;
-  align-items: center;
-}
-
-.mustango-image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.mustango-text {
-  max-width: 800px;
-}
-
-/* On larger screens, switch to side-by-side */
-@media (min-width: 768px) {
-  .mustango-section {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .mustango-image, .mustango-text {
-    flex: 1;
-  }
-  .mustango-image {
-    max-width: 500px;
-  }
-}
-</style>
-
 ---
 
 ### Video-to-Music Generation
