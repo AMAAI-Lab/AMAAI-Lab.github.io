@@ -1,0 +1,23 @@
+- name: Natalie Angus
+  photo: natalie.png
+  bio: "Natalie got her PhD at the Singapore University of Technology and Design (SUTD) in 2018. She graduated from SUTD in 2015 and received her B. Eng in Information Systems (Robotics). Her research interest includes psyhoacoustics, audio information retrieval, and room acoustic simulations. She also enjoys teaching undergraduate courses involving machine learning algorithms and audio signal processing. Her work focused on developing new and fast geometrical acoustic algorithms for binaural room simulations. In particular, methods that minimise computational cost while maintaining perceptual plausibility. Suitable areas for application include music and film production, virtual reality, and gaming. Natalie is currently a Lecturer at SUTD."
+
+- name: Joel Ong
+  photo: joel.png
+  bio: "Joel’s research interests include Structured Prediction, Unsupervised and Generative Modelling in Deep Learning. Currently, he is working on applying such learning techniques to solve fundamental issues in Asset Management such as Portfolio Construction, Bet Sizing, Explainable AI, and Robust Out-of-Distribution ML."
+
+- name: Abigail Leon
+  photo: placeholder.png
+  bio: "Abigail Lee-Leon graduated as a PhD student at Singapore University of Technology and Design (SUTD) in 2020, under the supervision of Associate Professor Yuen Chau and Assistant Professor Dorien Herremans. She received his Bachelor of Engineering in SUTD, majoring in Engineering Product Development (EPD) in 2016. Her research interest lies in the area of machine learning and how machine learning can be applied to solve problems in the field of underwater communications."
+
+- name: Quang-Hieu Pham
+  photo: hieu.png
+  bio: "Successfully defended his PhD on 'Data-driven 3D Scene Understanding', supervised by Prof. Dorien Herremans and co-supervised by Prof. Gemma Roig and Prof. Sai-Kit Yeung in 2020."
+
+- name: Thao Phuang
+  photo: thao.png
+  bio: "Ha Thi Phuong Thao is a final-year PhD student in the Information Systems Technology and Design (ISTD) pillar at SUTD. Her research interests are computer vision, affective computing, and multimodal representation learning. Her work is supported by the SUTD PhD President's Graduate Fellowship."
+
+- name: Cheuk Kin Wai (Raven)
+  photo: raven.png
+  bio: "Kin Wai Cheuk is a Ph.D candidate at Singapore University of Technology and Design, under the supervision of Professor Dorien Herremans and Dr. Kat Agres. He received both his Bachler of Science in Physics (Minor in Music) and Master of Philosophy in Mechanical Engineering in The University of Hong Kong. His research interest is neural network based music composition."
