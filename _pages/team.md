@@ -24,10 +24,10 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
-  <h4>
+  <h4 style="display: inline-flex; align-items: center; gap: 6px;">
   {{ member.name }}
   {% if member.homepage %}
-    <a href="{{ member.homepage }}" target="_blank" style="margin-left:8px;">
+    <a href="{{ member.homepage }}" target="_blank" style="color: inherit; text-decoration: none;">
       <i class="fa fa-link"></i>
     </a>
   {% endif %}
