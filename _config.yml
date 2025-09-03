@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   SUTD's lab on AI for Music and Audio (AMAAI), headed by Prof. Dorien Herremans
 baseurl: ""
 url: ""
-theme: minima 
+# theme: minima 
 
 plugins:
   - jekyll-scholar
