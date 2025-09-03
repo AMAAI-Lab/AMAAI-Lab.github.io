@@ -34,7 +34,6 @@ Our research spans creative AI, music information retrieval, multimodal learning
   <p>
    Music often coexists with video and other modalities, yet most generative AI models cannot create music that <i>matches</i> a given video.  
    To address this, we developed <b>Video2Music</b>, a generative framework that produces music conditioned on <b>visual and semantic cues</b>.
-  </p>
   <br><br>
    🔗 <a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">Code on GitHub</a>
    🔗 <a href="https://arxiv.org/abs/2311.00968" target="_blank">Paper on arXiv</a>  
