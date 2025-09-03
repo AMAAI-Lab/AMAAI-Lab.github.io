@@ -4,6 +4,7 @@
 
 - name: Tongyu Lu
   photo: tongyu.png
+  homepage: https://lucainiaoge.github.io/
   bio: "Tongyu Lu is a Ph.D student at Singapore University of Technology and Design. His current Ph.D research topic mainly covers text-to-audio generative models, audio codecs (encoder-decoders), symbolic music processing and generation, and music information retrieval tasks like automatic music transcription. He is also an amateur composer mainly producing jazz and chamber music"
   
 - name: Sithumi Wickramasinghe
