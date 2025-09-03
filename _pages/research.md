@@ -99,7 +99,7 @@ Our research spans creative AI, music information retrieval, multimodal learning
 
 ---
 
-## Text-to-Music Generation
+### Text-to-Music Generation
 
 <div class="research-section">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg" alt="Mustango Framework" class="research-image"/>
