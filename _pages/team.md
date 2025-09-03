@@ -16,7 +16,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_pi %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -45,7 +45,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -54,7 +54,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_postdoc %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -75,7 +75,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -86,7 +86,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_phd %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -107,7 +107,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -116,7 +116,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_msc %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -137,7 +137,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -146,7 +146,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_ra %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -167,7 +167,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -178,7 +178,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_grad_phd %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -199,7 +199,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -208,7 +208,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_former_member %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -229,7 +229,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -238,7 +238,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_grad_msc %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -259,7 +259,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
@@ -268,7 +268,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 {% assign number_printed = 0 %}
 {% for member in site.data.team_former_intern %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -289,7 +289,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
 {% endif %}
