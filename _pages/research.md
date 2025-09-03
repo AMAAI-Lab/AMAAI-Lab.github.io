@@ -92,9 +92,7 @@ permalink: /research/
 
 # Research
 
-At the **Audio, Music, and AI (AMAAI) Lab** at SUTD, our mission is to advance artificial intelligence for music and audio.  
-We design systems that can **understand, generate, and interact with music**, combining deep learning, signal processing, and music theory.  
-Our research spans creative AI, music information retrieval, multimodal learning, and ethical AI in music.
+At the **Audio, Music, and AI (AMAAI) Lab** at SUTD, our mission is to advance artificial intelligence for music and audio. We design systems that can **understand, generate, and interact with music**, combining deep learning, signal processing, and music theory. Our research spans creative AI, music information retrieval, multimodal learning, and ethical AI in music.
 
 ---
 
