@@ -104,14 +104,12 @@ Our research spans creative AI, music information retrieval, multimodal learning
   <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg" alt="Mustango Framework" class="research-image"/>
   <div class="research-content">
 We developed <strong>Mustango</strong>, a <em>music-domain-knowledge-inspired</em> text-to-music system based on diffusion models. Unlike prior systems that rely only on general text prompts, Mustango enables <strong>controllable music generation</strong> with rich captions that specify <strong>chords, beats, tempo, and key</strong>.
-
-<div class="research-links">
-<a href="https://github.com/AMAAI-Lab/mustango" target="_blank">🔗 Code on GitHub</a>
-<a href="https://arxiv.org/abs/2311.08355" target="_blank">🔗 Paper on arXiv</a>
-</div>
+    <div class="research-links">
+    <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">🔗 Code on GitHub</a>
+    <a href="https://arxiv.org/abs/2311.08355" target="_blank">🔗 Paper on arXiv</a>
+    </div>
   </div>
 </div>
-
 
 ---
 
@@ -120,19 +118,26 @@ We developed <strong>Mustango</strong>, a <em>music-domain-knowledge-inspired</e
   <img src="{{ site.url }}{{ site.baseurl }}/images/video2music.png" alt="Video2music Framework" class="research-image"/>
   <div class="research-content">
 Music often coexists with video and other modalities, yet most generative AI models cannot create music that <em>matches</em> a given video. To address this, we developed <strong>Video2Music</strong>, a generative framework that produces music conditioned on <strong>visual and semantic cues</strong>.
-
-<div class="research-links">
-<a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">🔗 Code on GitHub</a>
-<a href="https://arxiv.org/abs/2311.00968" target="_blank">🔗 Paper on arXiv</a>
-</div>
+    <div class="research-links">
+    <a href="https://github.com/AMAAI-Lab/Video2Music" target="_blank">🔗 Code on GitHub</a>
+    <a href="https://arxiv.org/abs/2311.00968" target="_blank">🔗 Paper on arXiv</a>
+    </div>
   </div>
 </div>
 
 ---
 
 ### Music Emotion Recognition (MER)
-We explore how music evokes emotions by developing multitask learning frameworks that combine **deep embeddings** with **music-theory-informed features** (e.g., chords and key signatures).  
-This research enables richer emotion-aware music recommendation and generation.
+<div class="research-section">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/music2emo.png" alt="Music2Emo Framework" class="research-image"/>
+  <div class="research-content">
+We study how music evokes emotions by unifying categorical (e.g., happy, sad) and dimensional (e.g., valence–arousal) models. Our framework, released as <strong>Music2Emo</strong>, integrates deep embeddings with music-theory-informed features (e.g., chords, key) and leverages multitask learning to improve generalization across datasets. This work enables richer emotion-aware music recommendation and generation.
+    <div class="research-links">
+    <a href="https://github.com/AMAAI-Lab/Music2Emotion" target="_blank">🔗 Code on GitHub</a>
+    <a href="https://arxiv.org/abs/2502.03979" target="_blank">🔗 Paper on arXiv</a>
+    </div>
+  </div>
+</div>
 
 ---
 
