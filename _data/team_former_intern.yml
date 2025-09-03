@@ -1,13 +1,16 @@
 - name: Rui Guo
   photo: rui.png
+  homepage: https://www.linkedin.com/in/ruiguo0225/
   bio: "Rui Guo is a music PhD student from university of Sussex, UK. His research focuses on music generation using deep learning. During his visit to the AMAAI lab he was working on developing a generation model with tension. He likes to play piano in his free time."
 
 - name: Peilun Dai
   photo: peilundai.png
+  homepage: https://peilundai.com/
   bio: "Peilun is a Ph.D. student in computer science at Boston University, supervised by Prof Peter Chin. He obtained his bachelor's degree in electrical and electronic engineering from Nanyang Technological University, Singapore, working with Prof WANG Gang (now at Alibaba) for his final year project, and master's degree in brain and cognitive sciences from MIT, supervised by Prof Ed Boyden. He is interested in time-series signal processing, machine learning, deep learning and their applications to affective computing. During his time at SUTD, he has been working on emotion recognition for music using deep learning models."
 
 - name: Lizzie Wilson
   photo: lizzie.png
+  homepage: https://lwlsn.github.io/
   bio: "Lizzie Wilson was a visiting PhD student as part of the Centre for Digital Music and Media & Arts Technology programme at Queen Mary University of London. Her research looks at interactive systems for human-machine collaboration with a particular focus on affective computing strategies and the role of affective response in music generation and computational creativity algorithms."
 
 - name: Markus Ang Sheng
