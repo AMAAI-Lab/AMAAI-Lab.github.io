@@ -14,8 +14,9 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.1.2'   # use a stable 3.1.x version
           bundler-cache: true
+          bundler-version: '2.4.13'  # pin a compatible Bundler
 
       - name: Install dependencies
         run: bundle install
