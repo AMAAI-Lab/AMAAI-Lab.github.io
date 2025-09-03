@@ -14,7 +14,7 @@ Our research spans creative AI, music information retrieval, multimodal learning
 
 ---
 
-## Text-to-Music Generation 
+### Text-to-Music Generation 
 ![]({{ site.url }}{{ site.baseurl }}/images/mustango.jpg){: style="width: 500px; float: left; margin: 0px 10px""}
 We develop controllable generative models, such as **Mustango**, that transform natural language prompts into music.  
 Our work enables fine-grained control over attributes like genre, mood, and instrumentation.
@@ -23,34 +23,34 @@ Our work enables fine-grained control over attributes like genre, mood, and inst
 
 ---
 
-## Video-to-Music and Multimodal Generation
+### Video-to-Music and Multimodal Generation
 Music often coexists with video and text. We build models like **Video2Music** and **MuVi**, which generate or analyze music conditioned on visual and semantic cues.
 
 ---
 
-## Music Emotion Recognition (MER)
+### Music Emotion Recognition (MER)
 We explore how music evokes emotions by developing multitask learning frameworks that combine **deep embeddings** with **music-theory-informed features** (e.g., chords and key signatures).  
 This research enables richer emotion-aware music recommendation and generation.
 
 ---
 
-## Automatic Music Transcription and Analysis
+### Automatic Music Transcription and Analysis
 Through models such as **DiffRoll** and **nnAudio**, we push the limits of deep learning for transcription and symbolic analysis, including chord recognition, onset detection, and alignment between audio and score.
 
 ---
 
-## Creative AI and Plagiarism Detection
+### Creative AI and Plagiarism Detection
 With generative AI raising originality concerns, we design systems to detect similarity in **melody, harmony, timbre, and lyrics**.  
 Our work supports both creative exploration and intellectual property protection.
 
 ---
 
-## Foundational Music Models
+### Foundational Music Models
 We build large-scale **joint audio–text embedding models** and **foundational music models** that power downstream tasks such as retrieval, captioning, recommendation, and adaptive generation.
 
 ---
 
-## Open-Source Tools and Datasets
+### Open-Source Tools and Datasets
 We actively contribute to the community with open-source projects such as **Mustango, Video2Music, Music FaderNets, DiffRoll, and MidiCaps**.  
 These resources promote reproducibility and fuel innovation in music AI.
 
