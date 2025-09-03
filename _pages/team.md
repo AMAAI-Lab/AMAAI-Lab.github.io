@@ -165,7 +165,9 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 </div>
 {% endif %}
 
-## Former members (research staff)
+
+
+## Graduated PhD students
 {% assign number_printed = 0 %}
 {% for member in site.data.team_grad_phd %}
 
@@ -195,8 +197,8 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 </div>
 {% endif %}
 
+## Former members (research staff)
 
-## Graduated PhD students
 ## Graduated Masters in Engineering students
 ## Former interns / visiting PhD students
 ## Selected SUTD UROP student collaborators
