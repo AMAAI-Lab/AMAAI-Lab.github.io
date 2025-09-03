@@ -13,21 +13,18 @@ permalink: /vacancies
 **The Music, Audio, and AI Lab (AMAAI) at SUTD invites applications for a PhD position in the exciting and rapidly evolving field of music and audio artificial intelligence.**
 
 The AMAAI lab, led by Prof. Dorien Herremans, is engaged in cutting-edge research at the intersection of music, audio, and artificial intelligence. We are based in tropical Singapore, a hub for AI research and startups, but also a great base to explore South East Asia, where English is the first language. Our PhD students and PostDoc researchers work on projects that explore areas such as:
-
-<ul>
-  <li>Generative Music AI: we recently developed Mustango text-to-music, as well as a range of other controllable generative midi models.</li>
-  <li>Music Information Retrieval: emotion prediction models, hit prediction, similarity detection, etc.</li>
-  <li>AI Music Production</li>
-  <li>Affective Computing for Music</li>
-</ul>
+- Generative Music AI: we recently developed Mustango text-to-music, as well as a range of other controllable generative midi models.
+- Music Information Retrieval: emotion prediction models, hit prediction, similarity detection, etc.
+- AI Music Production.
+- Affective Computing for Music.
 
 The ideal candidate will possess:
-- A strong academic background in computer science, electrical engineering, music information retrieval, or a related field.</li>
-- A demonstrated passion for music and a keen interest in artificial intelligence.</li>
-- Excellent programming skills and experience with relevant machine learning libraries (PyTorch etc).</li>
-- The ability to work independently while also thriving in a collaborative research environment.</li>
-- Strong communication and writing skills.</li>
-- The ability to focus and persevere/problem solve for a task</li>
+- A strong academic background in computer science, electrical engineering, music information retrieval, or a related field.
+- A demonstrated passion for music and a keen interest in artificial intelligence.
+- Excellent programming skills and experience with relevant machine learning libraries (PyTorch etc).
+- The ability to work independently while also thriving in a collaborative research environment.
+- Strong communication and writing skills.
+- The ability to focus and persevere/problem solve for a task.
 
 **To Apply:**
 Please apply to the [SUTD PhD portal](https://www.sutd.edu.sg/admissions/graduate/phd/) AND send me an email with your application number.
