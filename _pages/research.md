@@ -12,19 +12,56 @@ At the **Audio, Music, and AI (AMAAI) Lab** at SUTD, our mission is to advance a
 We design systems that can **understand, generate, and interact with music**, combining deep learning, signal processing, and music theory.  
 Our research spans creative AI, music information retrieval, multimodal learning, and ethical AI in music.
 
----
-
 ### Text-to-Music Generation
-<div style="display: flex; align-items: flex-start; gap: 20px;">
- <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg" alt="Mustango Framework" width="500"/>
-  <p>
-   We developed <b>Mustango</b>, a <i>music-domain-knowledge-inspired</i> text-to-music system based on diffusion models.  
-   Unlike prior systems that rely only on general text prompts, Mustango enables <b>controllable music generation</b> with rich captions that specify <b>chords, beats, tempo, and key</b>.
-   <br><br>
-   🔗 <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">Code on GitHub</a>
-   🔗 <a href="https://arxiv.org/abs/2311.08355" target="_blank">Paper on arXiv</a>  
-  </p>
+<div class="mustango-section">
+  <div class="mustango-image">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/mustango.jpg"
+         alt="Mustango Framework" />
+  </div>
+  <div class="mustango-text">
+    <p>
+      We developed <b>Mustango</b>, a <i>music-domain-knowledge-inspired</i> text-to-music system based on diffusion models.  
+      Unlike prior systems that rely only on general text prompts, Mustango enables <b>controllable music generation</b> with rich captions that specify <b>chords, beats, tempo, and key</b>.
+      <br><br>
+      🔗 <a href="https://github.com/AMAAI-Lab/mustango" target="_blank">Code on GitHub</a>  
+      🔗 <a href="https://arxiv.org/abs/2311.08355" target="_blank">Paper on arXiv</a>  
+    </p>
+  </div>
 </div>
+
+<style>
+.mustango-section {
+  display: flex;
+  flex-direction: column;   /* default: stacked */
+  gap: 20px;
+  align-items: center;
+}
+
+.mustango-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.mustango-text {
+  max-width: 800px;
+}
+
+/* On larger screens, switch to side-by-side */
+@media (min-width: 768px) {
+  .mustango-section {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .mustango-image, .mustango-text {
+    flex: 1;
+  }
+  .mustango-image {
+    max-width: 500px;
+  }
+}
+</style>
 
 ---
 
