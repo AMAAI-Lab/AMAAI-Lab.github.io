@@ -129,7 +129,7 @@ Music often coexists with video and other modalities, yet most generative AI mod
 
 ### Music Emotion Recognition (MER)
 <div class="research-section">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/music2emo.png" alt="Music2Emo Framework" class="research-image"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/music2emo.jpg" alt="Music2Emo Framework" class="research-image"/>
   <div class="research-content">
 We study how music evokes emotions by unifying categorical (e.g., happy, sad) and dimensional (e.g., valence–arousal) models. Our framework, released as <strong>Music2Emo</strong>, integrates deep embeddings with music-theory-informed features (e.g., chords, key) and leverages multitask learning to improve generalization across datasets. This work enables richer emotion-aware music recommendation and generation.
     <div class="research-links">
