@@ -1,5 +1,5 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "AMAAI Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
@@ -8,35 +8,47 @@ permalink: /vacancies
 
 # Open positions
 
-**Note: We currently don't have funding for additional PhD and postdoc positions. We can only welcome you if you have a fellowship. I'd be happy to support you after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)).**
+### PhD positions
+
+**The Music, Audio, and AI Lab (AMAAI) at SUTD invites applications for a PhD position in the exciting and rapidly evolving field of music and audio artificial intelligence.**
+
+The AMAAI lab, led by Prof. Dorien Herremans, is engaged in cutting-edge research at the intersection of music, audio, and artificial intelligence. We are based in tropical Singapore, a hub for AI research and startups, but also a great base to explore South East Asia, where English is the first language. Our PhD students and PostDoc researchers work on projects that explore areas such as:
+
+<ul>
+  <li>Generative Music AI: we recently developed Mustango text-to-music, as well as a range of other controllable generative midi models.</li>
+  <li>Music Information Retrieval: emotion prediction models, hit prediction, similarity detection, etc.</li>
+  <li>AI Music Production</li>
+  <li>Affective Computing for Music</li>
+</ul>
+
+The ideal candidate will possess:
+
+<ul>
+  <li>A strong academic background in computer science, electrical engineering, music information retrieval, or a related field.</li>
+  <li>A demonstrated passion for music and a keen interest in artificial intelligence.</li>
+  <li>Excellent programming skills and experience with relevant machine learning libraries (PyTorch etc).</li>
+  <li>The ability to work independently while also thriving in a collaborative research environment.</li>
+  <li>Strong communication and writing skills.</li>
+  <li>The ability to focus and persevere/problem solve for a task</li>
+</ul>
+
+**To Apply:**
+Please apply to the SUTD PhD portal AND send me an email with your application number.
+
+**Deadlines:**
+- We have funded positions for Singaporean and ASEAN (Thailand, etc.) students, deadline is 30 September. (Applying earlier is better though.)
+- Applications are on a 6 month cycle.
+- Singaporeans/PR with strong ties to industry may also check out the IPP program.
+- Singaporeans/PR may also apply to ASTAR for a better scholarship.
+
+Thai students are encouraged to apply via the HRH-SUTD Scholarship for Academic (due March) as part of H.R.H Princess Maha Chakri Sirindhorn's Initiatives, Thailand. National Science and Technology Development Agency (NSTDA)
+
+International (non-ASEAN) students will ALSO need to submit an application for funding and will be processed in the next cycle for Jan 2025 admission:
+- Please submit in the [SUTD portal](https://www.sutd.edu.sg/admissions/graduate/phd/), AND apply for funding, either at:
+
+AI.SG's prestigious fellowship
+SINGA International graduate programme - International candidates (excl. India and China)
+Marie-Curie international fellowships
+Our team looks forward to receiving your application!
 
 
-
-
-We are always looking for new group members with passion, talent, and grit!
-
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
-
-### Current open positions
-
-You find the current job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
-
-It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-
-
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
-
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
-
-
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
