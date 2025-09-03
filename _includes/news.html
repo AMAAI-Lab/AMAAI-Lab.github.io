@@ -1,12 +1,14 @@
-
 <div class="well">
-<h4>News</h4>
+  <h4>News</h4>
+  <ul style="padding-left: 20px;">
+    {% for article in site.data.news limit:9 %}
+      <li>
+        <strong>{{ article.date }}</strong> — {{ article.headline }}
+      </li>
+    {% endfor %}
+  </ul>
 
-{% for article in site.data.news limit:9 %}
-{{ article.date }}
-<p>{{ article.headline }}</p>
-{% endfor %}
+  <h6><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h6>
+</div>
 
-<h6><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h6>
 
-    </div>
