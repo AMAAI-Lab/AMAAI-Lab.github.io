@@ -30,7 +30,7 @@ Our PhD students and PostDoc researchers work on projects that explore areas suc
 
  **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-
+<br><br>
 
 <!--
 
