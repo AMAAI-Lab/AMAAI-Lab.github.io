@@ -5,7 +5,6 @@
   {% capture bib_year %}{% bibliography --query @*[year={{ year }}] %}{% endcapture %}
   {% assign bib_trimmed = bib_year | strip %}
   {% unless bib_trimmed == "" %}
-### {{ year }}
 {{ bib_year }}
   {% endunless %}
 {% endfor %}
