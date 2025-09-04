@@ -1,21 +1,14 @@
 
-{% assign pubs2025 = site.bibliography | where:"year","2025" %}
-{% if pubs2025.size > 0 %}
+
 ### 2025
 {% bibliography --query @*[year=2025] %}
-{% endif %}
 
-{% assign pubs2024 = site.bibliography | where:"year","2024" %}
-{% if pubs2024.size > 0 %}
 ### 2024
 {% bibliography --query @*[year=2024] %}
-{% endif %}
 
-{% assign pubs2023 = site.bibliography | where:"year","2023" %}
-{% if pubs2023.size > 0 %}
 ### 2023
 {% bibliography --query @*[year=2023] %}
-{% endif %}
+
 
 
 
