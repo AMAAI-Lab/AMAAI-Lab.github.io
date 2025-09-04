@@ -1,23 +1,24 @@
-{% bibliography %}
-{% assign groups = bibliography | reverse %}
 
-{% for group in groups %}
-  <h3>{{ group.name }}</h3>
-  <ul>
-    {% for entry in group.items %}
-      <li>
-        {{ entry.author }} ({{ entry.year }}).
-        <em>{{ entry.title }}</em>.
-        {% if entry.journal %}
-          {{ entry.journal }}
-        {% elsif entry.booktitle %}
-          {{ entry.booktitle }}
-        {% elsif entry.publisher %}
-          {{ entry.publisher }}
-        {% endif %}
-        {% if entry.url %} <a href="{{ entry.url }}" target="_blank">[Link]</a>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+{% assign pubs2025 = site.bibliography | where:"year","2025" %}
+{% if pubs2025.size > 0 %}
+### 2025
+{% bibliography --query @*[year=2025] %}
+{% endif %}
+
+{% assign pubs2024 = site.bibliography | where:"year","2024" %}
+{% if pubs2024.size > 0 %}
+### 2024
+{% bibliography --query @*[year=2024] %}
+{% endif %}
+
+{% assign pubs2023 = site.bibliography | where:"year","2023" %}
+{% if pubs2023.size > 0 %}
+### 2023
+{% bibliography --query @*[year=2023] %}
+{% endif %}
+
+
+
+
+
 
