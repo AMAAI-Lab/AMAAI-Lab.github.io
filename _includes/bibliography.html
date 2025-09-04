@@ -1,43 +1,20 @@
-{% assign pubs = site.bibliography | sort: "year" | reverse %}
+{% assign pubs = site.scholar.bibliography | sort: "year" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
 
+<h2>Publications</h2>
+
 {% for y in years %}
-  <h3 style="margin-top: 1.5em; font-weight: bold;">{{ y }}</h3>
-  <ul style="list-style-type: none; padding-left: 0;">
+  <h3>{{ y }}</h3>
+  <ul>
     {% for entry in pubs %}
       {% if entry.year == y %}
-        <li style="margin-bottom: 10px;">
-          <!-- Authors -->
-          {{ entry.author }}. 
-
-          <!-- Year -->
-          ({{ entry.year }}). 
-
-          <!-- Title -->
-          <em>{{ entry.title }}</em>. 
-
-          <!-- Venue -->
-          {% if entry.journal %}
-            {{ entry.journal }}
-          {% elsif entry.booktitle %}
-            {{ entry.booktitle }}
-          {% elsif entry.publisher %}
-            {{ entry.publisher }}
-          {% endif %}
-
-          <!-- Links -->
-          {% if entry.url %}
-            <a href="{{ entry.url }}" target="_blank">[PDF]</a>
-          {% endif %}
-          {% if entry.doi %}
-            <a href="https://doi.org/{{ entry.doi }}" target="_blank">[DOI]</a>
-          {% endif %}
-          {% if entry.eprint %}
-            <a href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank">[arXiv]</a>
-          {% endif %}
+        <li>
+          {{ entry.author }} ({{ entry.year }}).
+          <em>{{ entry.title }}</em>.
+          {% if entry.journal %} {{ entry.journal }}{% endif %}
+          {% if entry.url %} <a href="{{ entry.url }}">[link]</a>{% endif %}
         </li>
       {% endif %}
     {% endfor %}
   </ul>
 {% endfor %}
-
