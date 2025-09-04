@@ -1,5 +1,5 @@
 {% bibliography --group_by year %}
-{% for group in bibliography %}
+{% for group in bibliography reversed %}
   <h3 style="margin-top: 1.5em; font-weight: bold;">
     {{ group.name }}
   </h3>
@@ -39,3 +39,5 @@
     {% endfor %}
   </ul>
 {% endfor %}
+
+
