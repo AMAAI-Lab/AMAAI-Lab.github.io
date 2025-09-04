@@ -1,5 +1,7 @@
-{% assign groups = site.bibliography | group_by: "year" | sort: "name" | reverse %}
-{% for group in groups %}
+
+{% bibliography --group_by year --sort_by year --order reverse %}
+
+{% for group in bibliography %}
   <h3 style="margin-top: 1.5em; font-weight: bold;">
     {{ group.name }}
   </h3>
@@ -7,8 +9,16 @@
     {% for entry in group.items %}
       <li style="margin-bottom: 10px;">
         [{{ forloop.index }}] 
-        {{ entry.author }}. ({{ entry.year }}). 
+        <!-- Authors -->
+        {{ entry.author }}. 
+
+        <!-- Year -->
+        ({{ entry.year }}). 
+
+        <!-- Title -->
         <em>{{ entry.title }}</em>. 
+
+        <!-- Venue -->
         {% if entry.journal %}
           {{ entry.journal }}
         {% elsif entry.booktitle %}
@@ -16,9 +26,17 @@
         {% elsif entry.publisher %}
           {{ entry.publisher }}
         {% endif %}
-        {% if entry.url %}<a href="{{ entry.url }}" target="_blank">[PDF]</a>{% endif %}
-        {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" target="_blank">[DOI]</a>{% endif %}
-        {% if entry.eprint %}<a href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank">[arXiv]</a>{% endif %}
+
+        <!-- Links -->
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank">[PDF]</a>
+        {% endif %}
+        {% if entry.doi %}
+          <a href="https://doi.org/{{ entry.doi }}" target="_blank">[DOI]</a>
+        {% endif %}
+        {% if entry.eprint %}
+          <a href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank">[arXiv]</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
