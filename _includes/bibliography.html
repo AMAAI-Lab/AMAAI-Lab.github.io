@@ -1,20 +1,20 @@
-{% assign pubs = site.scholar.bibliography | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq %}
-
-<h2>Publications</h2>
-
-{% for y in years %}
-  <h3>{{ y }}</h3>
+{% for group in bibliography %}
+  <h3>{{ group.name }}</h3>
   <ul>
-    {% for entry in pubs %}
-      {% if entry.year == y %}
-        <li>
-          {{ entry.author }} ({{ entry.year }}).
-          <em>{{ entry.title }}</em>.
-          {% if entry.journal %} {{ entry.journal }}{% endif %}
-          {% if entry.url %} <a href="{{ entry.url }}">[link]</a>{% endif %}
-        </li>
-      {% endif %}
+    {% for entry in group.items %}
+      <li>
+        {{ entry.author }} ({{ entry.year }}).
+        <em>{{ entry.title }}</em>.
+        {% if entry.journal %}
+          {{ entry.journal }}
+        {% elsif entry.booktitle %}
+          {{ entry.booktitle }}
+        {% elsif entry.publisher %}
+          {{ entry.publisher }}
+        {% endif %}
+        {% if entry.url %} <a href="{{ entry.url }}" target="_blank">[Link]</a>{% endif %}
+      </li>
     {% endfor %}
   </ul>
 {% endfor %}
+
