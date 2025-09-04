@@ -6,5 +6,8 @@ sitemap: false
 permalink: /publications/
 ---
 
-{% include bibliography.html %}
+
+{% bibliography --group_by year --order descending %}
+
+
 
