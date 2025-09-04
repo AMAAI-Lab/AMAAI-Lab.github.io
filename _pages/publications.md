@@ -1,5 +1,5 @@
 ---
-title: "AMAAI Lab - Publications"
+title: "Publications"
 layout: page
 excerpt: "AMAAI Lab -- Publications."
 sitemap: false
