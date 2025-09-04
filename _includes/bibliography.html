@@ -1,7 +1,6 @@
+{% assign groups = bibliography | reverse %}
 
-{% bibliography --group_by year --sort_by year --order descending %}
-
-{% for group in bibliography %}
+{% for group in groups %}
   <h3>{{ group.name }}</h3>
   <ul>
     {% for entry in group.items %}
