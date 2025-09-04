@@ -6,4 +6,7 @@ sitemap: false
 permalink: /publications/
 ---
 
-{% bibliography %}
+# Publications
+
+{% include bibliography.html %}
+
