@@ -2630,4 +2630,33 @@ pubtit { font-weight: bold; }
 /* On larger screens, switch to side-by-side */
 @media (min-width: 768px) { .mustango-section { flex-direction: row; align-items: flex-start; } .mustango-image, .mustango-text { flex: 1; } .mustango-image { max-width: 500px; } }
 
+/* Bibliography container */
+.bibliography { margin: 2em 0; }
+
+/* Individual bibliography entries */
+.bibliography li { margin-bottom: 1.5em; padding: 1em; border-left: 3px solid #007acc; background-color: #f8f9fa; list-style: none; position: relative; }
+
+/* Entry content */
+.bibliography .entry { line-height: 1.6; }
+
+/* Author names */
+.bibliography .author { font-weight: 600; color: #2c3e50; }
+
+/* Paper titles */
+.bibliography .title { font-size: 1.1em; font-weight: 500; color: #34495e; margin: 0.5em 0; }
+
+/* Journal/Conference names */
+.bibliography .venue { font-style: italic; color: #7f8c8d; }
+
+/* Year styling */
+.bibliography .year { font-weight: bold; color: #e74c3c; }
+
+/* Links */
+.bibliography a { color: #007acc; text-decoration: none; margin-right: 1em; padding: 0.2em 0.5em; border-radius: 3px; background-color: #e3f2fd; font-size: 0.9em; }
+
+.bibliography a:hover { background-color: #007acc; color: white; }
+
+/* Responsive design */
+@media (max-width: 768px) { .bibliography li { padding: 0.8em; margin-bottom: 1em; } }
+
 /*# sourceMappingURL=main.css.map */
