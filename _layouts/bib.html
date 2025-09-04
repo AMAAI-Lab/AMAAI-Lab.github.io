@@ -1,0 +1,65 @@
+---
+---
+<div class="publication-item">
+  <div class="pub-row">
+    <div class="pub-main">
+      <div class="pub-title">
+        {% if entry.title %}
+          {{ entry.title }}
+        {% endif %}
+      </div>
+      
+      <div class="pub-authors">
+        {% if entry.author %}
+          {{ entry.author }}
+        {% endif %}
+      </div>
+      
+      <div class="pub-venue">
+        {% if entry.journal %}
+          <em>{{ entry.journal }}</em>
+        {% elsif entry.booktitle %}
+          <em>{{ entry.booktitle }}</em>
+        {% endif %}
+        
+        {% if entry.volume %}
+          , vol. {{ entry.volume }}
+        {% endif %}
+        
+        {% if entry.number %}
+          ({{ entry.number }})
+        {% endif %}
+        
+        {% if entry.pages %}
+          , pp. {{ entry.pages }}
+        {% endif %}
+        
+        {% if entry.year %}
+          , <strong>{{ entry.year }}</strong>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="pub-links">
+      {% if entry.url %}
+        <a href="{{ entry.url }}" class="pub-btn">Paper</a>
+      {% endif %}
+      
+      {% if entry.pdf %}
+        <a href="{{ entry.pdf }}" class="pub-btn">PDF</a>
+      {% endif %}
+      
+      {% if entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}" class="pub-btn">DOI</a>
+      {% endif %}
+      
+      {% if entry.arxiv %}
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="pub-btn">arXiv</a>
+      {% endif %}
+      
+      {% if entry.code %}
+        <a href="{{ entry.code }}" class="pub-btn">Code</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
