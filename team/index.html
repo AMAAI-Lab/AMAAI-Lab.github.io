@@ -57,11 +57,26 @@
 
 <hr />
 
+<style>
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* keeps aspect ratio, crops if needed */
+  }
+
+  @media (max-width: 768px) { /* for tablets/phones */
+    .profile-pic {
+      width: 250px;
+      height: 250px;
+    }
+  }
+</style>
+
 <h2 id="principal-investigator">Principal Investigator</h2>
 <div class="row">
 
   <div class="col-sm-12 clearfix">
-    <p><img src="/images/teampic/dorien.png" class="img-responsive" width="15%" style="float: left; min-width: 30%;" /></p>
+    <p><img src="/images/teampic/dorien.png" class="img-responsive profile-pic" style="float: left;" /></p>
     <h4 style="display: inline-flex; align-items: center; gap: 6px;">
     Prof. Dorien Herremans
   <br />
