@@ -60,6 +60,7 @@
 }
 @conference {2025,
 	title = {Leveraging LLM Embeddings for Cross Dataset Label Alignment and Zero Shot Music Emotion Prediction},
+	booktitle = {arXiv preprint},
 	year = {2025},
 	abstract = {In this work, we present a novel method for music emotion recognition that leverages Large Language Model (LLM) embeddings for label alignment across multiple datasets and zero-shot prediction on novel categories. First, we compute LLM embeddings for emotion labels and apply non-parametric clustering to group similar labels, across multiple datasets containing disjoint labels. We use these cluster centers to map music features (MERT) to the LLM embedding space. To further enhance the model, we introduce an alignment regularization that enables dissociation of MERT embeddings from different clusters. This further enhances the model{\textquoteright}s ability to better adaptation to unseen datasets. We demonstrate the effectiveness of our approach by performing zero-shot inference on a new dataset, showcasing its ability to generalize to unseen labels without additional training.},
 	url = {https://arxiv.org/abs/2410.11522},
@@ -67,7 +68,7 @@
 }
 @article {2025,
 	title = {LLMs Can{\textquoteright}t Handle Peer Pressure: Crumbling under Multi-Agent Social Interactions},
-	journal = {arXiv:2508.18321},
+	journal = {arXiv preprint},
 	year = {2025},
 	abstract = {Large language models (LLMs) are increasingly deployed in multi-agent systems (MAS) as components of collaborative intelligence, where peer interactions dynamically shape individual decision-making. Although prior work has focused on conformity bias, we extend the analysis to examine how LLMs form trust from previous impressions, resist misinformation, and integrate peer input during interaction, key factors for achieving collective intelligence under complex social dynamics. We present KAIROS, a benchmark simulating quiz contests with peer agents of varying reliability, offering fine-grained control over conditions such as expert-novice roles, noisy crowds, and adversarial peers. LLMs receive both historical interactions and current peer responses, allowing systematic investigation into how trust, peer action, and self-confidence influence decisions. As for mitigation strategies, we evaluate prompting, supervised fine-tuning, and reinforcement learning, Group Relative Policy Optimisation (GRPO), across multiple models. Our results reveal that GRPO with multi-agent context combined with outcome-based rewards and unconstrained reasoning achieves the best overall performance, but also decreases the robustness to social influence compared to Base models. The code and datasets are available at: https://github.com/declare-lab/KAIROS},
 	url = {https://arxiv.org/abs/2508.18321},
@@ -75,7 +76,7 @@
 }
 @article {2025,
 	title = {MelodySim: Measuring Melody-aware Music Similarity for Plagiarism Detection},
-	journal = {arXiv:2505.20979},
+	journal = {arXiv preprint},
 	year = {2025},
 	abstract = {We propose MelodySim, a melody-aware music similarity model and dataset for plagiarism detection. First, we introduce a novel method to construct a dataset with focus on melodic similarity. By augmenting Slakh2100; an existing MIDI dataset, we generate variations of each piece while preserving the melody through modifications such as note splitting, arpeggiation, minor track dropout (excluding bass), and re-instrumentation. A user study confirms that positive pairs indeed contain similar melodies, with other musical tracks significantly changed. Second, we develop a segment-wise melodic-similarity detection model that uses a MERT encoder and applies a triplet neural network to capture melodic similarity. The resultant decision matrix highlights where plagiarism might occur. Our model achieves high accuracy on the MelodySim test set.},
 	url = {https://arxiv.org/abs/2505.20979},
@@ -101,13 +102,15 @@
 }
 @conference {2025,
 	title = {Prevailing Research Areas for Music AI in the Era of Foundation Models},
+	booktitle = {arXiv preprint},
 	year = {2025},
 	abstract = {In tandem with the recent advancements in foundation model research, there has been a surge of generative music AI applications within the past few years. As the idea of AI-generated or AI-augmented music becomes more mainstream, many researchers in the music AI community may be wondering what avenues of research are left. With regards to music generative models, we outline the current areas of research with significant room for exploration. Firstly, we pose the question of foundational representation of these generative models and investigate approaches towards explainability. Next, we discuss the current state of music datasets and their limitations. We then overview different generative models, forms of evaluating these models, and their computational constraints/limitations. Subsequently, we highlight applications of these generative models towards extensions to multiple modalities and integration with artists{\textquoteright} workflow as well as music education systems. Finally, we survey the potential copyright implications of generative music and discuss strategies for protecting the rights of musicians. While it is not meant to be exhaustive, our survey calls to attention a variety of research directions enabled by music foundation models.},
 	url = {https://arxiv.org/abs/2409.09378},
 	author = {M. Wei and M. Modrzejewski and A. Sivaraman and D. Herremans}
 }
 @article {2025,
-	title = { Royalties in the age of AI: paying artists for AI-generated songs},
+	title = {Royalties in the age of AI: paying artists for AI-generated songs},
+	journal = {WIPO magazine},
 	year = {2025},
 	abstract = {The AI music industry is growing, raising questions around how to protect and pay artists whose work is used to train generative AI models. Are the answers in the models themselves?},
 	url = {https://www.wipo.int/web/wipo-magazine/articles/royalties-in-the-age-of-ai-paying-artists-for-ai-generated-songs-73739},
@@ -115,7 +118,7 @@
 }
 @article {2025,
 	title = {SonicMaster: Towards Controllable All-in-One Music Restoration and Mastering},
-	journal = {arXiv:2508.03448},
+	journal = {arXiv preprint},
 	year = {2025},
 	abstract = {usic recordings often suffer from audio quality issues such as excessive reverberation, distortion, clipping, tonal imbalances, and a narrowed stereo image, especially when created in non-professional settings without specialized equipment or expertise. These problems are typically corrected using separate specialized tools and manual adjustments. In this paper, we introduce SonicMaster, the first unified generative model for music restoration and mastering that addresses a broad spectrum of audio artifacts with text-based control. SonicMaster is conditioned on natural language instructions to apply targeted enhancements, or can operate in an automatic mode for general restoration. To train this model, we construct the SonicMaster dataset, a large dataset of paired degraded and high-quality tracks by simulating common degradation types with nineteen degradation functions belonging to five enhancements groups: equalization, dynamics, reverb, amplitude, and stereo. Our approach leverages a flow-matching generative training paradigm to learn an audio transformation that maps degraded inputs to their cleaned, mastered versions guided by text prompts. Objective audio quality metrics demonstrate that SonicMaster significantly improves sound quality across all artifact categories. Furthermore, subjective listening tests confirm that listeners prefer SonicMaster{\textquoteright}s enhanced outputs over the original degraded audio, highlighting the effectiveness of our unified approach.},
 	url = {https://arxiv.org/abs/2508.03448},
@@ -140,7 +143,7 @@
 }
 @article {2025,
 	title = {Text2midi-InferAlign: Improving Symbolic Music Generation with Inference-Time Alignment},
-	journal = {arXiv:2505.12669},
+	journal = {arXiv preprint},
 	year = {2025},
 	abstract = {We present Text2midi-InferAlign, a novel technique for improving symbolic music generation at inference time. Our method leverages text-to-audio alignment and music structural alignment rewards during inference to encourage the generated music to be consistent with the input caption. Specifically, we introduce two objectives scores: a text-audio consistency score that measures rhythmic alignment between the generated music and the original text caption, and a harmonic consistency score that penalizes generated music containing notes inconsistent with the key. By optimizing these alignment-based objectives during the generation process, our model produces symbolic music that is more closely tied to the input captions, thereby improving the overall quality and coherence of the generated compositions. Our approach can extend any existing autoregressive model without requiring further training or fine-tuning. We evaluate our work on top of Text2midi - an existing text-to-midi generation model, demonstrating significant improvements in both objective and subjective evaluation metrics.},
 	url = {https://arxiv.org/abs/2505.12669},
@@ -159,6 +162,7 @@
 }
 @conference {2025,
 	title = {Towards Unified Music Emotion Recognition across Dimensional and Categorical Models},
+	booktitle = {arXiv preprint},
 	year = {2025},
 	url = {https://arxiv.org/abs/2502.03979},
 	author = {J. Kang and D. Herremans}
@@ -181,7 +185,7 @@
 }
 @article {2024,
 	title = {BandControlNet: Parallel Transformers-based Steerable Popular Music Generation with Fine-Grained Spatiotemporal Features},
-	journal = {arXiv:2407.10462},
+	journal = {arXiv preprint},
 	year = {2024},
 	abstract = {Controllable music generation promotes the interaction between humans and composition systems by projecting the users{\textquoteright} intent on their desired music. The challenge of introducing controllability is an increasingly important issue in the symbolic music generation field. When building controllable generative popular multi-instrument music systems, two main challenges typically present themselves, namely weak controllability and poor music quality. To address these issues, we first propose spatiotemporal features as powerful and fine-grained controls to enhance the controllability of the generative model. In addition, an efficient music representation called REMI_Track is designed to convert multitrack music into multiple parallel music sequences and shorten the sequence length of each track with Byte Pair Encoding (BPE) techniques. Subsequently, we release BandControlNet, a conditional model based on parallel Transformers, to tackle the multiple music sequences and generate high-quality music samples that are conditioned to the given spatiotemporal control features. More concretely, the two specially designed modules of BandControlNet, namely structure-enhanced self-attention (SE-SA) and Cross-Track Transformer (CTT), are utilized to strengthen the resulting musical structure and inter-track harmony modeling respectively. Experimental results tested on two popular music datasets of different lengths demonstrate that the proposed BandControlNet outperforms other conditional music generation models on most objective metrics in terms of fidelity and inference speed and shows great robustness in generating long music samples. The subjective evaluations show BandControlNet trained on short datasets can generate music with comparable quality to state-of-the-art models, while outperforming them significantly using longer datasets.},
 	url = {https://arxiv.org/abs/2407.10462},
@@ -210,7 +214,7 @@ Code and speech samples are publicly available (https://hoglord.github.io/DART/)
 }
 @article {2024,
 	title = {DeepUnifiedMom: Unified Time-series Momentum Portfolio Construction via Multi-Task Learning with Multi-Gate Mixture of Experts},
-	journal = {arXiv:2406.08742},
+	journal = {arXiv preprint},
 	year = {2024},
 	abstract = {This paper introduces DeepUnifiedMom, a deep learning framework that enhances portfolio management through a multi-task learning approach and a multi-gate mixture of experts. The essence of DeepUnifiedMom lies in its ability to create unified momentum portfolios that incorporate the dynamics of time series momentum across a spectrum of time frames, a feature often missing in traditional momentum strategies. Our comprehensive backtesting, encompassing diverse asset classes such as equity indexes, fixed income, foreign exchange, and commodities, demonstrates that DeepUnifiedMom consistently outperforms benchmark models, even after factoring in transaction costs. This superior performance underscores DeepUnifiedMom{\textquoteright}s capability to capture the full spectrum of momentum opportunities within financial markets. The findings highlight DeepUnifiedMom as an effective tool for practitioners looking to exploit the entire range of momentum opportunities. It offers a compelling solution for improving risk-adjusted returns and is a valuable strategy for navigating the complexities of portfolio management.},
 	url = {https://arxiv.org/abs/2406.08742},
@@ -227,6 +231,7 @@ We thus present DisfluencySpeech, a studio-quality labeled English speech datase
 }
 @article {2024,
 	title = {Gamification and skills tree},
+	journal = {Trends and Foresight Report on Cyber-Physical Learning},
 	year = {2024},
 	url = {https://sutd.edu.sg/SUTD/media/SUTD/SUTD-campusX_CPL-Foresight-Report.pdf},
 	author = {D. Chow and D. Herremans}
@@ -321,7 +326,7 @@ Source code and demonstration are available <a href="https://sony.github.io/Diff
 }
 @conference {2023,
 	title = {Learning accent representation with multi-level VAE towards controllable speech synthesis},
-	booktitle = { IEEE Spoken Language Technology (SLT) Workshop},
+	booktitle = {IEEE Spoken Language Technology (SLT) Workshop},
 	year = {2023},
 	publisher = {IEEE},
 	organization = {IEEE},
@@ -415,6 +420,7 @@ Dataset available at: https://zenodo.org/record/7011072$\#$.YzpFoqTmgzZ},
 	year = {2022},
 	publisher = {Arxiv},
 	organization = {Arxiv},
+	booktitle = {arXiv preprint},
 	abstract = {In this paper, we introduce Jointist, an instrument-aware multi-instrument framework that is capable of transcribing, recognizing, and separating multiple musical instruments from an audio clip. Jointist consists of the instrument recognition module that conditions the other modules: the transcription module that outputs instrument-specific piano rolls, and the source separation module that utilizes instrument information and transcription results.
 The instrument conditioning is designed for an explicit multi-instrument functionality while the connection between the transcription and source separation modules is for better transcription performance. Our challenging problem formulation makes the model highly useful in the real world given that modern popular music typically consists of multiple instruments. However, its novelty necessitates a new perspective on how to evaluate such a model. During the experiment, we assess the model from various aspects, providing a new evaluation perspective for multi-instrument transcription. We also argue that transcription models can be utilized as a preprocessing module for other music analysis tasks. In the experiment on several downstream tasks, the symbolic representation provided by our transcription model turned out to be helpful to spectrograms in solving downbeat detection, chord recognition, and key estimation.},
 	doi = {https://doi.org/10.48550/arXiv.2206.10805},
@@ -436,7 +442,7 @@ The instrument conditioning is designed for an explicit multi-instrument functio
 }
 @article {2022,
 	title = {Predicting emotion from music videos: exploring the relative contribution of visual and auditory information to affective responses},
-	journal = {Arxiv preprint},
+	journal = {arXiv preprint},
 	year = {2022},
 	abstract = {Although media content is increasingly produced, distributed, and consumed in multiple combinations of modalities, how individual modalities contribute to the perceived emotion of a media item remains poorly understood. In this paper we present MusicVideos (MuVi), a novel dataset for affective multimedia content analysis to study how the auditory and visual modalities contribute to the perceived emotion of media. The data were collected by presenting music videos to participants in three conditions: music, visual, and audiovisual. Participants annotated the music videos for valence and arousal over time, as well as the overall emotion conveyed. We present detailed descriptive statistics for key measures in the dataset and the results of feature importance analyses for each condition. Finally, we propose a novel transfer learning architecture to train Predictive models Augmented with Isolated modality Ratings (PAIR) and demonstrate the potential of isolated modality ratings for enhancing multimodal emotion recognition. Our results suggest that perceptions of arousal are influenced primarily by auditory information, while perceptions of valence are more subjective and can be influenced by both visual and auditory information. The dataset is made publicly available.},
 	url = {https://arxiv.org/abs/2202.10453},
@@ -456,7 +462,7 @@ The instrument conditioning is designed for an explicit multi-instrument functio
 }
 @conference {2022,
 	title = {Understanding Audio Features via Trainable Basis Functions},
-	booktitle = {Arxiv preprint},
+	booktitle = {arXiv preprint},
 	year = {2022},
 	abstract = {In this paper we explore the possibility of maximizing the information represented in spectrograms by making the spectrogram basis functions trainable. We experiment with two different tasks, namely keyword spotting (KWS) and automatic speech recognition (ASR). For most neural network models, the architecture and hyperparameters are typically fine-tuned and optimized in experiments. Input features, however, are often treated as fixed. In the case of audio, signals can be mainly expressed in two main ways: raw waveforms (time-domain) or spectrograms (time-frequency-domain). In addition, different spectrogram types are often used and tailored to fit different applications. In our experiments, we allow for this tailoring directly as part of the network.
 Our experimental results show that using trainable basis functions can boost the accuracy of Keyword Spotting (KWS) by 14.2 percentage points, and lower the Phone Error Rate (PER) by 9.5 percentage points. Although models using trainable basis functions become less effective as the model complexity increases, the trained filter shapes could still provide us with insights on which frequency bins are important for that specific task. From our experiments, we can conclude that trainable basis functions are a useful tool to boost the performance when the model complexity is limited.},
@@ -639,8 +645,9 @@ In this thesis, a series of topics on data-driven 3D scene understanding is disc
 	abstract = {In this paper we present a new dataset, with musical excepts from the three main ethnic groups in Singapore: Chinese, Malay and Indian (both Hindi and Tamil). We use this new dataset to train different classification models to distinguish the origin of the music in terms of these ethnic groups. The classification models were optimized by exploring the use of different musical features as the input. Both high level features, i.e., musically meaningful features, as well as low level features, i.e., spectrogram based features, were extracted from the audio files so as to optimize the performance of the different classification models.},
 	author = {F. Nahar and K. Agres and Balamurali BT and D. Herremans}
 }
-@proceedings {2020,
+@article {2020,
 	title = {Generative Modelling for Controllable Audio Synthesis of Expressive Piano Performance},
+	journal={arXiv preprint},
 	year = {2020},
 	month = {07/2020},
 	publisher = {arXiv:2006.09833},
@@ -862,6 +869,7 @@ Given the aging populations around the globe, and the limited resources and staf
 }
 @article {129,
 	title = {Blacklisted speaker identification using triplet neural networks},
+	journal = {MCE2018 competition},
 	year = {2018},
 	url = {http://mce.csail.mit.edu/pdfs/SUTD_description.pdf},
 	author = {K.W. Cheuk and Balamurali BT and G. Roig and D. Herremans}
@@ -910,6 +918,7 @@ Given the aging populations around the globe, and the limited resources and staf
 }
 @article {116,
 	title = {O.R. and music generation},
+	journal = {OR/MS Today},
 	volume = {45},
 	year = {2018},
 	edition = {February},
@@ -985,6 +994,7 @@ white noise. In this paper, listening tests are conducted to measure the Just No
 }
 @proceedings {98,
 	title = {Hit Song Prediction Based on Early Adopter Data and Audio Features},
+	booktitle = {ISMIR},
 	year = {2017},
 	month = {10/2017},
 	address = {Suzhou, China},
@@ -992,6 +1002,7 @@ white noise. In this paper, listening tests are conducted to measure the Just No
 }
 @proceedings {86,
 	title = {IMMA-Emo: A Multimodal Interface for Visualising Score- and Audio-synchronised Emotion Annotations},
+	booktitle = {Audio Mostly},
 	year = {2017},
 	month = {08/2017},
 	address = {London, UK},
@@ -999,6 +1010,7 @@ white noise. In this paper, listening tests are conducted to measure the Just No
 }
 @proceedings {84,
 	title = {Modeling Musical Context with Word2vec},
+	booktitle = {First International Workshop On Deep Learning and Music},
 	volume = {1},
 	year = {2017},
 	month = {05/2017},
@@ -1027,6 +1039,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {99,
 	title = {Music and Motion-Detection: A Game Prototype for Rehabilitation and Strengthening in the Elderly},
+	booktitle = {IEEE International Conference on Orange Technologies (ICOT)},
 	year = {2017},
 	month = {11/2017},
 	address = {Singapore},
@@ -1046,6 +1059,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {100,
 	title = {Visualizing the evolution of alternative hit charts},
+	booktitle = {ISMIR},
 	year = {2017},
 	month = {10/2017},
 	address = {Suzhou, China},
@@ -1053,6 +1067,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {67,
 	title = {The Effect of Repetitive Structure on Enjoyment in Uplifting Trance Music},
+	booktitle = {14th International Conference for Music Perception and Cognition (ICMPC)},
 	year = {2016},
 	month = {07/2016},
 	pages = {280-282},
@@ -1075,6 +1090,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {57,
 	title = {MorpheuS: constraining structure in automatic music generation},
+	booktitle = {Dagstuhl seminar on Computational Music Structure Analysis},
 	year = {2016},
 	publisher = {Leibniz Centre for Informatik},
 	address = {Dagstuhl, Germany},
@@ -1083,6 +1099,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {48,
 	title = {Music generation with structural constraints: an operations research approach},
+	booktitle = {30th Annual Conference of the Belgian Operational Research (OR) Society (ORBEL30)},
 	year = {2016},
 	month = {01/27/2016},
 	pages = {37-39},
@@ -1091,6 +1108,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {53,
 	title = {Tension ribbons: Quantifying and visualising tonal tension},
+	booktitle = {Second International Conference on Technologies for Music Notation and Representation (TENOR)},
 	volume = {2},
 	year = {2016},
 	month = {05/2016},
@@ -1101,6 +1119,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {66,
 	title = {Uma abordagem baseada em programa{\c c}{\~a}o linear inteira para a gera{\c c}{\~a}o de solos de guitarra},
+	booktitle = {XLVIII Simpósio Brasileiro de Pesquisa Operacional (SBPO)},
 	year = {2016},
 	month = {09/2016},
 	address = {Vit{\'o}ria, Brasil},
@@ -1161,6 +1180,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {30,
 	title = {Generating music with an optimization algorithm using a Markov based objective function},
+	booktitle = {ORBEL29, Belgian Conference on Operations Research},
 	year = {2015},
 	author = {D. Herremans and S. Weisser and K. S{\"o}rensen and D. Conklin}
 }
@@ -1200,11 +1220,13 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {245,
 	title = {First species counterpoint generation with VNS and vertical viewpoints},
+	booktitle = {ORBEL28},
 	year = {2014},
 	author = {D. Herremans and K. S{\"o}rensen and D. Conklin}
 }
 @article {243,
 	title = {Generating structured music using quality metrics based on Markov models},
+	journal = {Technical Report, University of Antwerp},
 	number = {2014019},
 	year = {2014},
 	institution = {University of Antwerp},
@@ -1215,6 +1237,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @article {RePEc:ant:wpaper:2014001,
 	title = {Looking into the minds of Bach, Haydn and Beethoven: Classification and generation of composer-specific music},
+	journal = {Technical Report, University of Antwerp},
 	number = {2014001},
 	year = {2014},
 	institution = {University of Antwerp, Faculty of Applied Economics},
@@ -1254,6 +1277,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {173,
 	title = {Dance Hit Song Science},
+	booktitle = {International Workshop on Music and Machine Learning},
 	year = {2013},
 	edition = {6th},
 	address = {Prague},
@@ -1262,6 +1286,7 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {247,
 	title = {First species counterpoint generation with VNS and vertical viewpoints},
+	booktitle = {Digital Music Research Network (DMNR+8)},
 	year = {2013},
 	author = {D. Herremans and K. S{\"o}rensen and D. Conklin}
 }
@@ -1277,11 +1302,13 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @proceedings {246,
 	title = {Composing counterpoint musical scores with variable neighborhood search},
+	booktitle = {ORBEL26},
 	year = {2012},
 	author = {D. Herremans and K. S{\"o}rensen}
 }
 @article {RePEc:ant:wpaper:2012020,
 	title = {Composing Fifth Species Counterpoint Music With Variable Neighborhood Search},
+	journal = {Technical Report, University of Antwerp},
 	number = {2012020},
 	year = {2012},
 	institution = {University of Antwerp, Faculty of Applied Economics},
@@ -1301,8 +1328,8 @@ that the selected slice based on similar word2vec context also has a relatively 
 }
 @article {99,
 	title = {A Variable Neighborhood Search Algorithm for Composing First Species Counterpoint Musical Fragments},
+	journal = {Technical Report, University of Antwerp},
 	volume = {2011017},
-	number = {Technical Report 2011:017- UA, Faculty of Applied Economics},
 	year = {2011},
 	month = {October},
 	type = {Working paper, University of Antwerp, Faculty of Applied Economics},
