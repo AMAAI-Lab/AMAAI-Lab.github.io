@@ -12,16 +12,11 @@ permalink: /team/
 
 Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows](#postdoctoral-fellows), [PhD students](#phd-students), [MSc students](#msc-students), [Research Assistants](#research-assistants).
 
+---
+
 ## Principal Investigator
-{% assign number_printed = 0 %}
-{% for member in site.data.team_pi %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_pi %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -32,34 +27,17 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
       </a>
     {% endif %}
   </h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
+  <i>{{ member.info }}</i>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
+
+---
 
 ## Postdoctoral fellows
-{% assign number_printed = 0 %}
-{% for member in site.data.team_postdoc %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_postdoc %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -71,34 +49,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
-
+---
 
 ## PhD students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_phd %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_phd %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -110,32 +69,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
+
+---
 
 ## MSc students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_msc %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_msc %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -147,32 +89,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
+
+---
 
 ## Research Assistants
-{% assign number_printed = 0 %}
-{% for member in site.data.team_ra %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_ra %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -184,34 +109,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
-
+---
 
 ## Graduated PhD students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_grad_phd %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_grad_phd %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -223,32 +129,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
+
+---
 
 ## Former members (research staff)
-{% assign number_printed = 0 %}
-{% for member in site.data.team_former_member %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_former_member %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -260,32 +149,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
+
+---
 
 ## Graduated Masters in Engineering students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_grad_msc %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_grad_msc %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -297,23 +169,13 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
-## Former interns / visiting PhD students :)
+---
+
+## Former interns / visiting PhD students
 <div class="row">
 {% for member in site.data.team_former_intern %}
 <div class="col-sm-12 clearfix">
@@ -330,6 +192,8 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 </div>
 {% endfor %}
 </div>
+
+---
 
 ## Selected SUTD UROP student collaborators
 <ul>
