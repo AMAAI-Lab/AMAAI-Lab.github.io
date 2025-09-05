@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-layout: textlay
+layout: publay
 excerpt: "AMAAI Lab -- Publications."
 sitemap: false
 permalink: /publications/
