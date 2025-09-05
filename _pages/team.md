@@ -18,7 +18,7 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 <div class="row">
 {% for member in site.data.team_pi %}
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left; min-width: 30%;" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
     {{ member.name }}
     {% if member.homepage %}
