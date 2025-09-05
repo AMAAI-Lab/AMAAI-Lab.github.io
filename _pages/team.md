@@ -14,11 +14,29 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 ---
 
+<style>
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* keeps aspect ratio, crops if needed */
+  }
+
+  @media (max-width: 768px) { /* for tablets/phones */
+    .profile-pic {
+      width: 250px;
+      height: 250px;
+    }
+  }
+</style>
+
+
 ## Principal Investigator
 <div class="row">
 {% for member in site.data.team_pi %}
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left; min-width: 30%;" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+     class="img-responsive profile-pic"
+     style="float: left;" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
     {{ member.name }}
     {% if member.homepage %}
