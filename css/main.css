@@ -2630,8 +2630,6 @@ pubtit { font-weight: bold; }
 /* On larger screens, switch to side-by-side */
 @media (min-width: 768px) { .mustango-section { flex-direction: row; align-items: flex-start; } .mustango-image, .mustango-text { flex: 1; } .mustango-image { max-width: 500px; } }
 
-.publication-item { margin-bottom: 2em; padding: 1.5em; border: 1px solid #e1e5e9; border-radius: 8px; background: #ffffff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-
 .pub-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 1em; }
 
 .pub-main { flex: 1; }
@@ -2650,5 +2648,9 @@ pubtit { font-weight: bold; }
 
 /* Mobile responsive */
 @media (max-width: 768px) { .pub-row { flex-direction: column; } .pub-links { flex-direction: row; flex-wrap: wrap; } .pub-btn { flex: 1; min-width: 80px; } }
+
+.bibliography { display: grid; gap: 1.5em; margin: 2em 0; }
+
+.bibliography li { background: white; border-radius: 12px; padding: 1.5em; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); border: 1px solid #f0f0f0; list-style: none; transition: transform 0.2s ease, box-shadow 0.2s ease; }
 
 /*# sourceMappingURL=main.css.map */
