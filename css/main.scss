@@ -208,7 +208,7 @@ firstp {
 .bibliography {
   display: grid;
   gap: 1.5em;
-  margin: 2em 0;
+  padding-inline-start: 0px;
 }
 
 .bibliography li {
@@ -216,11 +216,12 @@ firstp {
   border-radius: 12px;
   padding: 1.5em;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  border: 1px solid #f0f0f0;
+  border: 1px solid #eeeeee;
   list-style: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+// margin: 2em 0;
 // .bibliography li:hover {
 //   transform: translateY(-2px);
 //   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
