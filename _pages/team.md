@@ -16,15 +16,15 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 
 <style>
   .profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     object-fit: cover; /* keeps aspect ratio, crops if needed */
   }
 
   @media (max-width: 768px) { /* for tablets/phones */
     .profile-pic {
-      width: 250px;
-      height: 250px;
+      width: 125px;
+      height: 125px;
     }
   }
 </style>
