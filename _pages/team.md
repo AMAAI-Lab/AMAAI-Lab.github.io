@@ -313,16 +313,9 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
 </div>
 {% endif %}
 
-## Former interns / visiting PhD students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_former_intern %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
+## Former interns / visiting PhD students :)
 <div class="row">
-{% endif %}
-
+{% for member in site.data.team_former_intern %}
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <h4 style="display: inline-flex; align-items: center; gap: 6px;">
@@ -334,21 +327,9 @@ Jump to [Principal Investigator](#principal-investigator), [Postdoctoral fellows
     {% endif %}
   </h4>
   <p>{{ member.bio }}</p>
-  
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
 
 ## Selected SUTD UROP student collaborators
 <ul>
