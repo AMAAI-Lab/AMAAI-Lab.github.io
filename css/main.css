@@ -2589,6 +2589,8 @@ body { padding-top: 70px; }
 
 figcaption { text-align: right; margin-top: -20px; margin-bottom: 20px; }
 
+#pub { background-color: #fafafa; }
+
 /* Top navigation bar */
 p.byline { text-align: center; font-size: 18px; line-height: 36px; margin-top: -24px; margin-bottom: 48px; }
 
