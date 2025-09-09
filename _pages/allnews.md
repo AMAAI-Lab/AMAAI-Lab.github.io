@@ -20,3 +20,5 @@ permalink: /allnews.html
   </li>
 {% endfor %}
 </ul>
+
+<br><br>
