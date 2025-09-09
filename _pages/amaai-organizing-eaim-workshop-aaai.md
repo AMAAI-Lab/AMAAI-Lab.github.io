@@ -8,7 +8,7 @@ permalink: /amaai-organizing-eaim-workshop-aaai.html
 
 # AMAAI is organizing EAIM workshop at AAAI
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/newspic/team_amaai.jpg"></img>
+<img src="{{ site.url }}{{ site.baseurl }}/images/newspic/eaim_0.jpeg"></img>
 
 Together with the **Centre for Digital Music (C4DM) at QMUL**, the **AMAAI Lab** is organizing the **First Workshop on Emerging AI Technologies for Music (EAIM 2026)** as part of the **AAAI Conference 2026** in Singapore.
 
