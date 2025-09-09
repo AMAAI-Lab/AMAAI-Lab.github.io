@@ -1,5 +1,5 @@
 - date: 9 Sept 2025
-  headline: "AMAAI is organizing EAIM workshop at AAAI"
+  headline: "<a href="{{ site.url }}{{ site.baseurl }}/amaai-organizing-eaim-workshop-aaai.html">AMAAI is organizing EAIM workshop at AAAI</a>"
 
 - date: 3 Sept 2025
   headline: "Welcome Zhuoqun!"
