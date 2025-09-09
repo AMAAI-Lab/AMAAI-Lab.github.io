@@ -11,7 +11,12 @@ permalink: /allnews.html
 <ul>
 {% for article in site.data.news %}
   <li>
-    <strong>{{ article.date }}</strong> — {{ article.headline }}
+    <strong>{{ article.date }}</strong> — 
+    {% if article.link %}
+      <a href="{{ article.link }}">{{ article.headline }}</a>
+    {% else %}
+      {{ article.headline }}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
