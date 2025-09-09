@@ -63,3 +63,5 @@ This year, we particularly value submissions that emphasize:
 ---
 
 ✨ We look forward to inspiring discussions and collaborations in Singapore!
+
+<br><br>
