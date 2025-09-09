@@ -1,3 +1,11 @@
+---
+title: "AMAAI is organizing EAIM workshop at AAAI"
+layout: textlay
+excerpt: "AMAAI Lab at Singapore University of Technology and Design."
+sitemap: false
+permalink: /amaai-organizing-eaim-workshop-aaai.html
+---
+
 # AMAAI is organizing EAIM workshop at AAAI
 
 *Posted by Dorien on Tuesday, 9 September 2025*
